@@ -1,4 +1,4 @@
-# Project proposal —— Salary predictor for technicians
+# Project proposal —— Salary predictor for technicians in US and Canada
 
 ### Aim
 
