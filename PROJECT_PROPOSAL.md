@@ -16,9 +16,9 @@ The research question is:
 > To predict the expected salary of a programmer either in US or Canada.
 
 This topic is a predictive question, also extending to following sub-questions:
-    1. Which features have significantly statistical effect on the response (inference)
-    2. If the model is robust (model estimation, a predictive problem)
-    3. The confidence interval of predictions (predictive)
+1. Which features have significantly statistical effect on the response (inference)
+2. If the model is robust (model estimation, a predictive problem)
+3. The confidence interval of predictions (predictive)
 
 ### Exploratory data analysis
 
