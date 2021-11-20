@@ -1,7 +1,7 @@
 # Code of Conduct
 
 ### Our intention
-Add later when the project proposal is done.
+This project aims at helping programmers, both graduates and experienced ones, match their salary expections. We as contributors and maintainers pledge to making participation in our project and our community with a more equal working environment for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
 ### Our standards
 Every contributor has the right to have their identity respected. This project is dedicated to providing a positive experience for everyone, regardless of age, gender identity and expression, sexual orientation, disability, physical appearance, body size, ethnicity, nationality, race, or religion (or lack thereof), education, or socio-economic status.
