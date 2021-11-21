@@ -22,7 +22,7 @@ This topic is a predictive question, also extending to following sub-questions:
 
 ### Exploratory data analysis
 
-Based on the data corresponding to the five features in the survey, we can see the most frequently used languages in developer's work are JavaScript, HTML/CSS, SQL, Python and Bash/Shell. And the five most frequent coding experience years of those developers who took the survey are 10,20,15,8,6 years respectively.  
+Based on the data corresponding to the five features in the survey, we can see the most frequently used languages in developer's work are JavaScript, HTML/CSS, SQL, Python and Bash/Shell. And the five most frequent coding experience years of those developers who took the survey are 10,5,6,8,4 years respectively.  
 
 ### Results sharing
 
