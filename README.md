@@ -20,7 +20,7 @@ suggested way to download data:
 5. Save the data in the folder **./data/raw** under this project
 6. Run the following command at the terminal from the root directory of this project:
 ```
-python src/download_data.py --url=https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2020.zip --out_dir=data/raw
+python src/download_data.py --url=https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2019.zip --out_dir=data/raw
 ```
 
 ### Modelling
