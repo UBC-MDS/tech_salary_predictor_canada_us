@@ -31,8 +31,8 @@ The research question is:
 > To predict the expected salary of a tech employee in US or Canada.
 
 This topic is a predictive question, also extending to following sub-questions:
-1. Which features have significantly statistical effect on the response (inference)
-2. If the model is robust (model estimation, a predictive problem)
+1. Which features have significantly statistical effect on the response (inference)?
+2. Whether the model is robust (model estimation, a predictive problem)
 3. The confidence interval of predictions (predictive)
 
 ### Exploratory data analysis
@@ -40,4 +40,4 @@ This topic is a predictive question, also extending to following sub-questions:
 Based on the data corresponding to the five features in the survey, we can see the most frequently used languages in developer's work are JavaScript, HTML/CSS, SQL, Python and Bash/Shell. And the five most frequent coding experience years of those developers who took the survey are 10,5,6,8,4 years respectively.  
 
 ### Results sharing
-Data profiling results can be found [here](https://github.com/UBC-MDS/tech_salary_predictor_canada_us/blob/main/src/EDA1.ipynb), and EDA results on the features of the training data set can found [here]**add later**.
+We have done some exploratory data analysis so far which can be found in the literate document [here](https://github.com/UBC-MDS/tech_salary_predictor_canada_us/blob/main/src/EDA.ipynb).
