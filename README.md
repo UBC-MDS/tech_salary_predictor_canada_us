@@ -14,13 +14,13 @@ suggested way to download data:
 
 1. Clone this Github repository
 2. Go to [Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey)
-3. Copy the link of the csv file, taking 2020 result as an example:
-   https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2020.zip
+3. Copy the link of the csv file, taking 2019 result as an example:
+   https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2019.zip
 4. Use **./src/download_data.py** to download the data set
 5. Save the data in the folder **./data/raw** under this project
 6. Run the following command at the terminal from the root directory of this project:
 ```
-python src/download_data.py --url=https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2020.zip --out_file=data/raw
+python src/download_data.py --url=https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2020.zip --out_dir=data/raw
 ```
 
 ### Modelling
