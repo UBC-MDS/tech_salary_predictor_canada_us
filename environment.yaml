@@ -1,0 +1,31 @@
+name: base
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - conda
+  - python=3.9
+  - python.app
+  - pandas
+  - jupyterlab-lsp
+  - jupyterlab-spellchecker
+  - jupytext
+  - jupyterlab
+  - memory_profiler
+  - jupyter-lsp-python
+  - jupyterlab-git
+  - pyppeteer=0.2.2
+  - scipy
+  - matplotlib
+  - nb_conda_kernels
+  - ipywidgets
+  - altair
+  - networkx
+  - pulp
+  - panel
+  - pandas-profiling
+  - imbalanced-learn
+  - gh
+  - python-chromedriver-binary
+  - altair_saver
+prefix: /Users/hujiwei/opt/miniconda3
