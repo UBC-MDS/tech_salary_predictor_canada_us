@@ -49,7 +49,7 @@ from sklearn.metrics import ConfusionMatrixDisplay
 from scipy.stats import expon, lognorm, loguniform, randint, uniform
 from sklearn.metrics import PrecisionRecallDisplay, RocCurveDisplay
 import altair as alt
-
+from joblib import dump, load
 
 from docopt import docopt
 import zipfile
@@ -93,8 +93,11 @@ def build_model(train_df, out_dire):
     results["Ridge"] = mean_std_cross_val_scores(pipe_ridge, X_train, y_train, cv=5, return_train_score=True)
     results_df = pd.DataFrame(results)
     
-    print(f"Saving data to {out_dir}")
-    results_df.to_csv(out_dir, index=False)
+    # TODO: carry out hyper-parameter tuning
+    
+    
+    print(f"Saving model to {out_dir}")
+    dump(pipe_ridge, f'{out_dir}/ridge_pipe.joblib') 
 
 # Code snippet copied from https://gist.github.com/jlln/338b4b0b55bd6984f883
 def splitDataFrameList(df, target_column, separator):
