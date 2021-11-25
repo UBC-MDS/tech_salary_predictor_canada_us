@@ -15,21 +15,24 @@ library(caret)
 library(docopt)
 
 opt = docopt(doc)
-#getwd()
 
 main <- function(input, out_dir){
   # read data and convert class to factor
   raw_data <- read.csv(input) 
   # Pre Processing steps
   raw_data <- raw_data |> 
-    select(Country, EdLevel, YearsCodePro, LanguageHaveWorkedWith, DevType, ConvertedCompYearly, Employment) |> 
-    filter(Country=="Canada" & Employment == 'Employed full-time') |> 
-    select(-Country) |> 
+    select(Country, EdLevel, YearsCodePro, LanguageHaveWorkedWith, DevType, ConvertedComp, Employment, Student) |> 
+    filter(Country=="Canada" & 
+             Employment == 'Employed full-time' & 
+             Student=='No' & 
+             YearsCodePro != 'Less than 1 year' &
+             YearsCodePro != 'More than 50 years') |> 
+    select(-Country, -Student) |> 
     separate_rows(DevType, sep=";")
   
   raw_data$YearsCodePro <- as.numeric(raw_data$YearsCodePro)
-  quantile <- quantile(raw_data$ConvertedCompYearly, 0.92)
-  raw_data <- raw_data |> filter(ConvertedCompYearly < quantile)
+  quantile <- quantile(raw_data$ConvertedComp, 0.92)
+  raw_data <- raw_data |> filter(ConvertedComp < quantile)
   
   # split into training and test data sets
   sample_size <- floor(0.8*nrow(raw_data))
@@ -44,6 +47,3 @@ main <- function(input, out_dir){
 }
 
 main(opt[["--input"]], opt[["--out_dir"]])
-
-main("data/raw/survey_results_ca_usa.csv",
-    "data/raw/")
