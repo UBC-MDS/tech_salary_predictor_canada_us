@@ -29,4 +29,4 @@ def main(url, out_dir):
         print(req)
 
 if __name__ == "__main__":
-  main(opt["--url"], opt["--out_dir"])
+    main(opt["--url"], opt["--out_dir"])
