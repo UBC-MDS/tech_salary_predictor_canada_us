@@ -21,7 +21,7 @@ main <- function(input, out_dir){
   raw_data <- read.csv(input) 
   # Pre Processing steps
   raw_data <- raw_data |> 
-    select(Country, EdLevel, YearsCodePro, LanguageHaveWorkedWith, DevType, ConvertedComp, Employment, Student) |> 
+    select(Country, EdLevel, YearsCodePro, LanguageWorkedWith, DevType, ConvertedComp, Employment, Student) |> 
     filter(Country=="Canada" & 
              Employment == 'Employed full-time' & 
              Student=='No' & 
@@ -31,7 +31,7 @@ main <- function(input, out_dir){
     separate_rows(DevType, sep=";")
   
   raw_data$YearsCodePro <- as.numeric(raw_data$YearsCodePro)
-  quantile <- quantile(raw_data$ConvertedComp, 0.92)
+  quantile <- quantile(raw_data$ConvertedComp, 0.92, na.rm=TRUE)
   raw_data <- raw_data |> filter(ConvertedComp < quantile)
   
   # split into training and test data sets
