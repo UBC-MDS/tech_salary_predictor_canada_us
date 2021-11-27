@@ -10,6 +10,13 @@ The data set used in this project is sourced from the survey, [Stack Overflow An
 
 ### Usage
 
+### Dependencies
+- R version 3.6.1 and R packages:
+  - tidyverse==1.3.1
+  - caret==6.0.90
+  - docopt==0.7.1
+  - testthat=3.0.4
+
 suggested way to download data:
 
 1. Clone this Github repository
