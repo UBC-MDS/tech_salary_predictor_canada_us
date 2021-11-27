@@ -3,12 +3,12 @@
 
 """Builds multiple regression model to predict salary based on features
 
-Usage: src/salary_prediction_model.py --train=<train> --out_dir=<out_dir>
+Usage: src/salary_prediction_model.py --train=<train> --out_dir=<out_dir> --test=<test>
   
 Options:
 --train=<train>     Path (including filename) to training data (which needs to be saved as a csv file)
 --out_dir=<out_dir> Path to directory where the serialized model should be written
-
+[--test=<test>]     Path (including filename) to test data (which needs to be saved as a csv file)
 """
 
 import os
@@ -58,18 +58,23 @@ from io import BytesIO
 
 opt = docopt(__doc__)
 train = "data/preprocessed/training.csv"
+test = "data/preprocessed/test.csv"
 out_dir = "results"
 
-def main(train, out_dir):
+def main(train, out_dir, test=None):
 
 #     try:
         train_df = pd.read_csv(train)
-        build_model(train_df, out_dir)
+        if test:
+            test_df = pd.read_csv(test)
+        else:
+            test_df = None
+        build_model(train_df, out_dir, test_df)
 #     except:
 #         print("A problem ocurred when building the model")
 #         print(e)
 
-def build_model(train_df, out_dir):
+def build_model(train_df, out_dir, test_df=None):
     X_train = train_df.drop(columns=["ConvertedComp"])
     y_train = train_df["ConvertedComp"]
     results = {}
@@ -117,10 +122,25 @@ def build_model(train_df, out_dir):
     plt.ylabel("Score")
     plt.savefig(f"{out_dir}/alpha-tuning.png")
 
-    best_model = random_search.best_estimator_
+    best_model = random_search
 
     print(f"Saving best model to {out_dir}")
     dump(best_model, f'{out_dir}/best_model_pipe.joblib')
+
+    # for test data set
+    if len(test_df) > 0:
+        X_test = test_df.drop(columns=["ConvertedComp"])
+        y_test = test_df["ConvertedComp"]
+        r_test = random_search.score(X_test, y_test)
+        y_predict = random_search.predict(X_test)
+
+        dummy_result = {}
+        dummy_result["r_sq_test"] = r_test
+        dummy_result["predict_y"] = y_predict
+        print(f"Saving test result to {out_dir}")
+        dump(dummy_result, f'{out_dir}/test_result.joblib')
+
+
 
 # Code snippet copied from https://gist.github.com/jlln/338b4b0b55bd6984f883
 def splitDataFrameList(df, target_column, separator):
@@ -173,4 +193,4 @@ def mean_std_cross_val_scores(model, X_train, y_train, **kwargs):
 
 
 if __name__ == "__main__":
-    main(opt["--train"], opt["--out_dir"])
+    main(opt["--train"], opt["--out_dir"], opt["--test"])

@@ -16,11 +16,22 @@ suggested way to download data:
 2. Go to [Stack Overflow Annual Developer Survey](https://insights.stackoverflow.com/survey)
 3. Copy the link of the csv file, taking 2019 result as an example:
    https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2019.zip
-4. Use **./src/download_data.py** to download the data set
-5. Save the data in the folder **./data/raw** under this project
-6. Run the following command at the terminal from the root directory of this project:
+4. Run the following command at the terminal from the root directory of this project:
 ```
+# download data
 python src/download_data.py --url=https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2019.zip --out_dir=data/raw
+
+# pre-process data
+Rscript src/preprocessing.R --input=data/raw/survey_results_public.csv --out_dir=data/processed
+
+# run eda report
+python src/eda.py --train=data/processed/training.csv --out_dir=results/
+
+# modelling
+python src/salary_prediction_model.py --train=data/processed/training.csv --out_dir=results --test=data/processed/test.csv
+
+# render report
+jupyter-book build doc/tech_salary_predictor_report/
 ```
 
 ### Modelling
