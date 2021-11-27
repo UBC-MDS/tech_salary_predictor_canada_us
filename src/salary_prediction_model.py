@@ -69,7 +69,7 @@ def main(train, out_dir):
 #         print("A problem ocurred when building the model")
 #         print(e)
 
-def build_model(train_df, out_dire):
+def build_model(train_df, out_dir):
     X_train = train_df.drop(columns=["ConvertedComp"])
     y_train = train_df["ConvertedComp"]
     results = {}
@@ -87,17 +87,40 @@ def build_model(train_df, out_dire):
     )
 
     pipe = make_pipeline(preprocessor, DummyRegressor())
-    results["Dummy"] = mean_std_cross_val_scores(pipe, X_train, y_train, cv=5, return_train_score=True)
+    results["Dummy"] = mean_std_cross_val_scores(pipe, X_train, y_train, cv=5,
+                                                 return_train_score=True)
 
-    pipe_ridge = make_pipeline(preprocessor, Ridge())
-    results["Ridge"] = mean_std_cross_val_scores(pipe_ridge, X_train, y_train, cv=5, return_train_score=True)
-    results_df = pd.DataFrame(results)
-    
-    # TODO: carry out hyper-parameter tuning
-    
-    
-    print(f"Saving model to {out_dir}")
-    dump(pipe_ridge, f'{out_dir}/ridge_pipe.joblib') 
+    # Carry out hyper-parameter tuning
+    pipe = make_pipeline(preprocessor, Ridge())
+
+    param_grid = {
+        "ridge__alpha": np.logspace(-3, 5)
+    }
+
+    random_search = RandomizedSearchCV(
+        pipe,
+        param_distributions=param_grid,
+        n_jobs=-1,
+        n_iter=50,
+        cv=5,
+        random_state=123,
+        return_train_score=True
+    )
+    random_search.fit(X_train, y_train)
+
+    # Create hyper-parameter tuning plot and save
+    cv_df = pd.DataFrame(random_search.cv_results_)[["param_ridge__alpha", 
+                                                     "mean_test_score", "mean_train_score"]]
+    cv_df.set_index("param_ridge__alpha").plot(logx=True)
+    plt.title('Train score and test score as alpha parameter increases')
+    plt.xlabel("Alpha")
+    plt.ylabel("Score")
+    plt.savefig(f"{out_dir}/alpha-tuning.png")
+
+    best_model = random_search.best_estimator_
+
+    print(f"Saving best model to {out_dir}")
+    dump(best_model, f'{out_dir}/best_model_pipe.joblib')
 
 # Code snippet copied from https://gist.github.com/jlln/338b4b0b55bd6984f883
 def splitDataFrameList(df, target_column, separator):
