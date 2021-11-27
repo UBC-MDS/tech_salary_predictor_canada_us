@@ -57,23 +57,31 @@ import requests
 from io import BytesIO
 
 opt = docopt(__doc__)
-train = "data/preprocessed/training.csv"
-test = "data/preprocessed/test.csv"
+train = "data/processed/training.csv"
+test = "data/processed/test.csv"
 out_dir = "results"
 
 def main(train, out_dir, test=None):
+    train_df = pd.read_csv(train)
+    if test:
+        test_df = pd.read_csv(test)
+    else:
+        test_df = None
+    build_model(train_df, out_dir, test_df)
 
-#     try:
-        train_df = pd.read_csv(train)
-        if test:
-            test_df = pd.read_csv(test)
-        else:
-            test_df = None
-        build_model(train_df, out_dir, test_df)
-#     except:
-#         print("A problem ocurred when building the model")
-#         print(e)
+"""
+    Build a regression model to predict salaries
 
+    Parameters
+    ----------
+    train_df : dataframe
+       the training set as a dataframe
+    out_dir: str
+        the directory in which the results will be saved
+    test_df: dataframe
+        the testing data that the final selected model will be tested on
+
+"""
 def build_model(train_df, out_dir, test_df=None):
     X_train = train_df.drop(columns=["ConvertedComp"])
     y_train = train_df["ConvertedComp"]
@@ -81,7 +89,6 @@ def build_model(train_df, out_dir, test_df=None):
     numeric_features = ["YearsCodePro"]
     categorical_features = ["DevType", "EdLevel", "LanguageWorkedWith"]
 
-    print("Creating column transformer")
     numeric_transformer = make_pipeline(SimpleImputer(), StandardScaler())
     categorical_transformer = make_pipeline(SimpleImputer(strategy="constant", fill_value="missing"),
                                            OneHotEncoder(sparse=False, handle_unknown="ignore"))
@@ -91,11 +98,8 @@ def build_model(train_df, out_dir, test_df=None):
         (categorical_transformer, categorical_features)
     )
 
-    pipe = make_pipeline(preprocessor, DummyRegressor())
-    results["Dummy"] = mean_std_cross_val_scores(pipe, X_train, y_train, cv=5,
-                                                 return_train_score=True)
-
     # Carry out hyper-parameter tuning
+    print("Carrying out hyper-parameter tuning")
     pipe = make_pipeline(preprocessor, Ridge())
 
     param_grid = {
@@ -140,56 +144,7 @@ def build_model(train_df, out_dir, test_df=None):
         print(f"Saving test result to {out_dir}")
         dump(dummy_result, f'{out_dir}/test_result.joblib')
 
-
-
-# Code snippet copied from https://gist.github.com/jlln/338b4b0b55bd6984f883
-def splitDataFrameList(df, target_column, separator):
-    ''' df = dataframe to split,
-    target_column = the column containing the values to split
-    separator = the symbol used to perform the split
-    returns: a dataframe with each entry for the target column separated, with each element moved into a new row. 
-    The values in the other columns are duplicated across the newly divided rows.
-    '''
-    def splitListToRows(row,row_accumulator, target_column, separator):
-        split_row = row[target_column].split(separator)
-        for s in split_row:
-            new_row = row.to_dict()
-            new_row[target_column] = s
-            row_accumulator.append(new_row)
-    new_rows = []
-    df.apply(splitListToRows,axis=1,args = (new_rows,target_column,separator))
-    new_df = pd.DataFrame(new_rows)
-    return new_df
-
-# Code copied from 573 lecture notes
-def mean_std_cross_val_scores(model, X_train, y_train, **kwargs):
-    """
-    Returns mean and std of cross validation
-
-    Parameters
-    ----------
-    model :
-        scikit-learn model
-    X_train : numpy array or pandas DataFrame
-        X in the training data
-    y_train :
-        y in the training data
-
-    Returns
-    ----------
-        pandas Series with mean scores from cross_validation
-    """
-
-    scores = cross_validate(model, X_train, y_train, **kwargs)
-
-    mean_scores = pd.DataFrame(scores).mean()
-    std_scores = pd.DataFrame(scores).std()
-    out_col = []
-
-    for i in range(len(mean_scores)):
-        out_col.append((f"%0.3f (+/- %0.3f)" % (mean_scores[i], std_scores[i])))
-
-    return pd.Series(data=out_col, index=mean_scores.index)
+    print("Done")
 
 
 if __name__ == "__main__":

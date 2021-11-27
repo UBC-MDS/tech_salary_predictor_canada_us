@@ -1,4 +1,4 @@
-name: base
+name: tech_salary_predictor_env
 channels:
   - conda-forge
   - defaults
@@ -28,4 +28,6 @@ dependencies:
   - gh
   - python-chromedriver-binary
   - altair_saver
+  - docopt
+  - jsonschema=3.2.0
 prefix: /Users/hujiwei/opt/miniconda3
