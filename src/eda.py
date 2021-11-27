@@ -2,7 +2,7 @@
 # date: 2021-11-24
 
 #Usage # create exploratory data analysis figures and write to file 
-#python src/eda.py --train=data/processed/training.csv --out_dir=results
+#python src/eda.py --train=data/processed/training.csv --out_dir=results/
 
 '''Creates eda charts and plots for the pre-processed training data from the Stack Overflow Annual Developer Survey 2019 data (from https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2019.zip).
 Saves the plots as a pdf and png file.
@@ -43,7 +43,7 @@ def main(train, out_dir):
         )
     
      # visualize the annual compensation comparision by different job types  
-    role_df = train_df[train_df["DevType"].str.contains('full-stack|front-end|back-end|desktop|mobile')]
+    role_df = train_df[train_df["DevType"].astype(str).str.contains('full-stack|front-end|back-end|desktop|mobile')]
 
 
     role_plot = alt.Chart(role_df).mark_boxplot().encode(
@@ -93,7 +93,7 @@ def main(train, out_dir):
     # save all the plots in the out_dir
     
     save(edu_plot,out_dir + 'edu_plot.png')
-    save(role_plot,out_dir + 'salary_density_plot.png')
+    save(role_plot,out_dir + 'role_plot.png')
     save(language_plot,out_dir + 'language_plot.png')
     save(code_years_plot ,out_dir + 'code_years_plot .png')
     save(salary_density_plot,out_dir + 'salary_density_plot.png')
@@ -101,4 +101,4 @@ def main(train, out_dir):
 
 
 if __name__ == "__main__":
-    main(opt["--file_path"], opt["--var"])
+    main(opt["--train"], opt["--out_dir"])
