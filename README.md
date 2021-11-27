@@ -22,7 +22,7 @@ suggested way to download data:
 python src/download_data.py --url=https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2019.zip --out_dir=data/raw
 
 # pre-process data
-Rscript src/pre_process_wisc.R --input=data/raw/survey_results_public.csv --out_dir=data/processed
+Rscript src/preprocessing.R --input=data/raw/survey_results_public.csv --out_dir=data/processed
 
 # run eda report
 python src/eda.py --train=data/processed/training.csv --out_dir=results/
