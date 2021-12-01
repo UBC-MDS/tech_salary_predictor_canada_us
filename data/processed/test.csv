@@ -1,0 +1,945 @@
+EdLevel,YearsCodePro,LanguageWorkedWith,DevType,ConvertedComp,Employment
+Some college/university study without earning a degree,20,HTML/CSS;JavaScript;Ruby;SQL;TypeScript,"Developer, front-end",229016,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,Bash/Shell/PowerShell;C++;Erlang;JavaScript;PHP;Python,"Developer, back-end",53437,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",4,Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;Python;R;SQL,"Engineer, data",83972,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",14,C#;HTML/CSS;JavaScript;SQL,"Developer, back-end",68705,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,Go;HTML/CSS;Python,"Developer, game or graphics",68705,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",5,Bash/Shell/PowerShell;C++;C#;HTML/CSS;JavaScript;Python,"Developer, game or graphics",53437,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",12,Bash/Shell/PowerShell;C#;F#;Java;Kotlin;Scala;SQL;TypeScript,"Developer, full-stack",209931,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",18,C;C++;Python;SQL,"Developer, full-stack",76339,Employed full-time
+Some college/university study without earning a degree,18,Bash/Shell/PowerShell;C++;Java;JavaScript;Python;SQL,Data or business analyst,71758,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",7,C#;HTML/CSS;JavaScript;Objective-C;SQL;Swift,Database administrator,53437,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,C#;HTML/CSS;JavaScript;Python;SQL;TypeScript,"Developer, front-end",51147,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,C#;HTML/CSS;JavaScript;Python;SQL;TypeScript,"Developer, mobile",51147,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",13,Python;Other(s):,DevOps specialist,113744,Employed full-time
+Associate degree,17,Assembly;Bash/Shell/PowerShell;C++;C#;JavaScript;Python,"Developer, game or graphics",103057,Employed full-time
+Some college/university study without earning a degree,11,Bash/Shell/PowerShell;C#;F#;HTML/CSS;JavaScript;SQL;VBA,"Developer, back-end",76339,Employed full-time
+Some college/university study without earning a degree,11,Bash/Shell/PowerShell;C#;F#;HTML/CSS;JavaScript;SQL;VBA,System administrator,76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Bash/Shell/PowerShell;HTML/CSS;JavaScript;Python;SQL,"Engineer, site reliability",64888,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,C#;HTML/CSS;Objective-C;Python,"Developer, full-stack",61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,C#;HTML/CSS;Objective-C;Python,"Developer, game or graphics",61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,C#;HTML/CSS;Java;JavaScript,"Developer, full-stack",73285,Employed full-time
+Some college/university study without earning a degree,11,Go;Java;JavaScript;PHP;Ruby,"Developer, back-end",91606,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,C#;PHP;SQL,"Developer, full-stack",53437,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,Python;SQL,"Engineer, data",71376,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,Bash/Shell/PowerShell;HTML/CSS;JavaScript;TypeScript,"Developer, full-stack",39696,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,C#;HTML/CSS;JavaScript;SQL,Designer,40459,Employed full-time
+Associate degree,3,Bash/Shell/PowerShell;C;C++;HTML/CSS;Java,DevOps specialist,54964,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",35,Python;SQL,"Developer, front-end",128249,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",35,Python;SQL,Product manager,128249,Employed full-time
+NA,5,Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;SQL;VBA,Academic researcher,48093,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,Dart;HTML/CSS;PHP;Python,Product manager,53437,Employed full-time
+Associate degree,7,Java;Kotlin;Python;Ruby,"Developer, full-stack",88400,Employed full-time
+NA,6,HTML/CSS;Java;JavaScript;PHP,"Developer, mobile",38150,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,PHP;Python,"Developer, full-stack",51910,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",18,Bash/Shell/PowerShell;HTML/CSS;JavaScript;Python;SQL,Designer,57512,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",25,Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;PHP;Python;SQL,DevOps specialist,73284,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",25,Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;PHP;Python;SQL,"Engineer, site reliability",73284,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",25,Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;PHP;Python;SQL,Product manager,73284,Employed full-time
+NA,5,HTML/CSS;JavaScript;PHP;TypeScript,Designer,61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;SQL,Designer,28650,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;SQL,"Engineer, site reliability",28650,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",2,HTML/CSS;Java;SQL,"Developer, desktop or enterprise applications",54582,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",7,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;Python;R;Scala;SQL,"Engineer, data",122142,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Bash/Shell/PowerShell;HTML/CSS;JavaScript;Ruby;SQL;TypeScript,"Developer, full-stack",68705,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",20,Bash/Shell/PowerShell;Elixir;HTML/CSS;JavaScript;PHP;Python;Ruby;SQL;TypeScript,"Developer, full-stack",99240,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,Bash/Shell/PowerShell;Python;SQL;Other(s):,Designer,67178,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,Bash/Shell/PowerShell;Python;SQL;Other(s):,Scientist,67178,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,C#;SQL;VBA;Other(s):,Database administrator,81682,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",2,Bash/Shell/PowerShell;Python;Other(s):,Data scientist or machine learning specialist,48857,Employed full-time
+Some college/university study without earning a degree,13,Bash/Shell/PowerShell;Elixir;Go;HTML/CSS;JavaScript;PHP;Python;Ruby;SQL,Marketing or sales professional,80155,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",13,HTML/CSS;Java;JavaScript;Scala,"Developer, full-stack",74812,Employed full-time
+NA,8,Bash/Shell/PowerShell;Go;HTML/CSS;SQL,"Developer, embedded applications or devices",85499,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",12,Erlang;HTML/CSS;Java;JavaScript;Python;SQL,"Developer, desktop or enterprise applications",95423,Employed full-time
+Some college/university study without earning a degree,14,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;Python;Ruby;SQL;TypeScript,"Developer, back-end",29316,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",14,JavaScript;PHP;SQL,"Developer, back-end",92370,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,HTML/CSS;JavaScript;PHP;SQL;TypeScript,"Developer, back-end",76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",9,Bash/Shell/PowerShell;Go;HTML/CSS;Java;JavaScript;Kotlin;Objective-C;Ruby,"Developer, back-end",87789,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",20,C++;C#;HTML/CSS;JavaScript;SQL,"Developer, desktop or enterprise applications",95423,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",20,C++;C#;HTML/CSS;JavaScript;SQL,"Developer, full-stack",95423,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Bash/Shell/PowerShell;JavaScript;TypeScript,"Developer, back-end",80155,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,C#;HTML/CSS;Java;JavaScript;Kotlin;Python;Scala;SQL,"Developer, back-end",62979,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,C#;HTML/CSS;Java;JavaScript;Kotlin;Python;Scala;SQL,"Developer, desktop or enterprise applications",62979,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,Bash/Shell/PowerShell;Go;Java;Python,Designer,64735,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,C;C++;C#;HTML/CSS;JavaScript;Python,"Developer, desktop or enterprise applications",56490,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Java;JavaScript,"Developer, full-stack",61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",1,Bash/Shell/PowerShell;C++;HTML/CSS;PHP;SQL,"Developer, embedded applications or devices",36642,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",11,Bash/Shell/PowerShell;C#;Go;HTML/CSS;JavaScript;Ruby;SQL;TypeScript;Other(s):,"Developer, back-end",129775,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,Other(s):,"Developer, full-stack",45803,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,NA,Designer,41986,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Bash/Shell/PowerShell;Go;HTML/CSS;Java;JavaScript;Kotlin;Objective-C;Python;Swift;TypeScript,"Developer, mobile",91606,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",15,Bash/Shell/PowerShell;C;Go;HTML/CSS;Java;JavaScript;PHP;Python;SQL;Swift;Other(s):,"Developer, back-end",45803,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;Python;SQL,"Developer, full-stack",67178,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Bash/Shell/PowerShell;C;C#;HTML/CSS;JavaScript;SQL;TypeScript,"Developer, embedded applications or devices",67178,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",4,Go;HTML/CSS;JavaScript;SQL,System administrator,39696,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",9,Bash/Shell/PowerShell;C;C#;Python;Other(s):,System administrator,114508,Employed full-time
+Associate degree,4,C#;HTML/CSS;JavaScript;PHP;SQL;VBA,"Developer, front-end",27500,Employed full-time
+Associate degree,13,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;Python;SQL,"Developer, front-end",46566,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",20,Python;SQL,Data scientist or machine learning specialist,141226,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",20,Python;SQL,Database administrator,141226,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",20,Python;SQL,Product manager,141226,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",1,Java;Python,"Engineer, data",63361,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Python,"Developer, back-end",83972,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,C#;HTML/CSS;Java;JavaScript;Python;SQL,"Developer, front-end",53437,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;PHP;Python;SQL;Other(s):,"Developer, full-stack",53437,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;PHP;Python;SQL;Other(s):,Engineering manager,53437,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;PHP;Python;SQL;Other(s):,Senior executive/VP,53437,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",30,C;HTML/CSS;Java;JavaScript;PHP;Python;SQL;VBA,Scientist,65651,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",13,Bash/Shell/PowerShell;C;C#;HTML/CSS;JavaScript;Python,"Developer, back-end",95423,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",22,C#;JavaScript;SQL,Designer,83972,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",22,C#;JavaScript;SQL,"Developer, full-stack",83972,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",22,C#;JavaScript;SQL,"Developer, QA or test",83972,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",31,C;C#,"Developer, embedded applications or devices",105347,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",15,C#;HTML/CSS;JavaScript;Python;SQL;TypeScript,"Developer, desktop or enterprise applications",87789,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",15,C#;HTML/CSS;JavaScript;Python;SQL;TypeScript,"Developer, front-end",87789,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,C;C#;Python;Swift,"Developer, embedded applications or devices",64124,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Go;HTML/CSS;Kotlin;Objective-C;Ruby;Swift;TypeScript,"Developer, mobile",175579,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",20,C#;SQL,"Developer, QA or test",129775,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,Bash/Shell/PowerShell;Go;HTML/CSS;Java;JavaScript;Python;Ruby;Scala;SQL,"Developer, back-end",129775,Employed full-time
+Associate degree,12,Assembly;C++,"Developer, embedded applications or devices",83972,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",7,C++;Objective-C;Python,"Developer, embedded applications or devices",76339,Employed full-time
+Some college/university study without earning a degree,4,Assembly;Bash/Shell/PowerShell;C;C++;HTML/CSS;Java;JavaScript;Python;SQL,"Developer, back-end",45803,Employed full-time
+Some college/university study without earning a degree,4,Assembly;Bash/Shell/PowerShell;C;C++;HTML/CSS;Java;JavaScript;Python;SQL,"Developer, front-end",45803,Employed full-time
+Associate degree,2,Bash/Shell/PowerShell;Go;HTML/CSS;JavaScript;SQL,"Developer, front-end",41986,Employed full-time
+Associate degree,2,Bash/Shell/PowerShell;Go;HTML/CSS;JavaScript;SQL,"Developer, full-stack",41986,Employed full-time
+Associate degree,2,Bash/Shell/PowerShell;Go;HTML/CSS;JavaScript;SQL,DevOps specialist,41986,Employed full-time
+Associate degree,2,Bash/Shell/PowerShell;Go;HTML/CSS;JavaScript;SQL,Educator,41986,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,Java;SQL,"Developer, back-end",58781,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",12,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;SQL;VBA,Data or business analyst,61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",12,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;SQL;VBA,"Developer, desktop or enterprise applications",61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",13,Bash/Shell/PowerShell;C++;C#;HTML/CSS;Java;JavaScript;PHP;SQL;TypeScript;VBA,DevOps specialist,54200,Employed full-time
+Some college/university study without earning a degree,10,Bash/Shell/PowerShell;C++;Java;Python,NA,129775,Employed full-time
+"Other doctoral degree (Ph.D, Ed.D., etc.)",19,Bash/Shell/PowerShell;C++;Python,System administrator,64506,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",20,Bash/Shell/PowerShell;Dart;Java;Kotlin;PHP;Python;SQL,"Developer, mobile",68705,Employed full-time
+Some college/university study without earning a degree,4,HTML/CSS;Java;JavaScript;Other(s):,DevOps specialist,83209,Employed full-time
+Some college/university study without earning a degree,6,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;SQL;TypeScript,"Developer, front-end",61071,Employed full-time
+Some college/university study without earning a degree,6,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;SQL;TypeScript,"Developer, full-stack",61071,Employed full-time
+Associate degree,5,HTML/CSS;JavaScript;Ruby;TypeScript;Other(s):,Designer,76339,Employed full-time
+Associate degree,5,HTML/CSS;JavaScript;Ruby;TypeScript;Other(s):,"Developer, front-end",76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",19,Bash/Shell/PowerShell;Java;SQL;Swift,"Developer, full-stack",76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",1,C#;HTML/CSS;JavaScript;SQL,"Developer, full-stack",49620,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,HTML/CSS;JavaScript;PHP;Python,"Developer, back-end",68705,Employed full-time
+Associate degree,2,Bash/Shell/PowerShell;C;C#;HTML/CSS;JavaScript;SQL;TypeScript,DevOps specialist,53437,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;Python,"Developer, full-stack",41986,Employed full-time
+Some college/university study without earning a degree,11,C#;HTML/CSS;SQL,Database administrator,72522,Employed full-time
+Some college/university study without earning a degree,11,C#;HTML/CSS;SQL,"Developer, desktop or enterprise applications",72522,Employed full-time
+Some college/university study without earning a degree,11,C#;HTML/CSS;SQL,System administrator,72522,Employed full-time
+Some college/university study without earning a degree,9,Bash/Shell/PowerShell;Go;Java;Python;SQL,DevOps specialist,73285,Employed full-time
+Some college/university study without earning a degree,9,Bash/Shell/PowerShell;Go;Java;Python;SQL,"Engineer, site reliability",73285,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",24,C;C++;HTML/CSS;Java;JavaScript;Python,"Developer, embedded applications or devices",137409,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;SQL;TypeScript,"Developer, back-end",82446,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;SQL;TypeScript,"Developer, front-end",82446,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;SQL;TypeScript,"Developer, mobile",82446,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,HTML/CSS;JavaScript;PHP;TypeScript,"Developer, front-end",51299,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",30,JavaScript;Python;SQL,Data or business analyst,30535,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",10,C;C++;C#;HTML/CSS;Java;JavaScript;PHP;Python;SQL;TypeScript;VBA,"Developer, full-stack",76339,Employed full-time
+Primary/elementary school,5,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;PHP;SQL;TypeScript,"Developer, full-stack",79392,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,C#;HTML/CSS;JavaScript;SQL;TypeScript,Data or business analyst,57254,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,C#;HTML/CSS;JavaScript;SQL;TypeScript,"Developer, front-end",57254,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",14,Bash/Shell/PowerShell;Dart;Java;Kotlin;Python,"Developer, desktop or enterprise applications",72522,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",14,Bash/Shell/PowerShell;Dart;Java;Kotlin;Python,"Developer, embedded applications or devices",72522,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",14,Bash/Shell/PowerShell;Dart;Java;Kotlin;Python,"Developer, game or graphics",72522,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;SQL,"Developer, full-stack",57254,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",5,HTML/CSS;JavaScript;Ruby;TypeScript,Data or business analyst,64888,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",5,HTML/CSS;JavaScript;Ruby;TypeScript,"Developer, full-stack",64888,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",5,HTML/CSS;JavaScript;Ruby;TypeScript,Student,64888,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",4,PHP;Python;SQL;Other(s):,Data scientist or machine learning specialist,56490,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",4,PHP;Python;SQL;Other(s):,System administrator,56490,Employed full-time
+Some college/university study without earning a degree,12,Bash/Shell/PowerShell;C;HTML/CSS;Java;JavaScript;Python;R;Scala;SQL;TypeScript,"Developer, front-end",83972,Employed full-time
+Associate degree,20,C#;JavaScript;SQL;VBA,"Developer, desktop or enterprise applications",54960,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",21,Assembly;Bash/Shell/PowerShell;C;C++;C#;HTML/CSS;Java;JavaScript;Objective-C;SQL;TypeScript,Academic researcher,91606,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",21,Assembly;Bash/Shell/PowerShell;C;C++;C#;HTML/CSS;Java;JavaScript;Objective-C;SQL;TypeScript,"Developer, embedded applications or devices",91606,Employed full-time
+Associate degree,20,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;Python,"Developer, back-end",68705,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,Bash/Shell/PowerShell;Java;JavaScript;Kotlin;TypeScript,Engineering manager,114508,Employed full-time
+"Other doctoral degree (Ph.D, Ed.D., etc.)",21,Bash/Shell/PowerShell;Clojure;Go;Python;SQL,Scientist,103057,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,HTML/CSS;JavaScript;PHP;SQL,"Developer, full-stack",45803,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",2,Go;JavaScript;Python,Designer,58017,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,C++;C#;HTML/CSS;JavaScript;SQL;TypeScript,"Developer, back-end",56490,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",12,C;C++;HTML/CSS;JavaScript;PHP;Python;Other(s):,"Developer, full-stack",70231,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",15,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;Python;SQL;TypeScript,"Developer, front-end",70231,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",21,HTML/CSS;JavaScript;Objective-C;PHP;SQL;Swift;TypeScript,"Developer, front-end",68705,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",21,HTML/CSS;JavaScript;Objective-C;PHP;SQL;Swift;TypeScript,Educator,68705,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;SQL,"Developer, embedded applications or devices",41986,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;SQL,"Developer, game or graphics",41986,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,HTML/CSS;Java;JavaScript;PHP;TypeScript,"Developer, full-stack",49620,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;SQL;TypeScript,"Developer, back-end",61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;SQL;TypeScript,"Developer, full-stack",61071,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",7,Bash/Shell/PowerShell;Go;Python;Ruby;SQL,System administrator,61071,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",2,C#;JavaScript,"Developer, back-end",61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,HTML/CSS;JavaScript;Python;SQL;Other(s):,NA,76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Bash/Shell/PowerShell;Go;HTML/CSS;JavaScript;Python;SQL,"Developer, front-end",62840,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,Bash/Shell/PowerShell;Go;Java;Python;Rust;SQL,Database administrator,36642,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Java;Kotlin;Scala;SQL,"Developer, mobile",90079,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,Bash/Shell/PowerShell;C;C++;Python;SQL,"Developer, desktop or enterprise applications",68705,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,Bash/Shell/PowerShell;C;C++;Python;SQL,"Developer, front-end",68705,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",2,Bash/Shell/PowerShell;C;C++;Python,"Developer, back-end",39696,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",27,C#;HTML/CSS;JavaScript;SQL,"Developer, full-stack",95423,Employed full-time
+NA,3,Bash/Shell/PowerShell;C#;Elixir;HTML/CSS;JavaScript;SQL;TypeScript,"Developer, desktop or enterprise applications",41223,Employed full-time
+NA,3,Bash/Shell/PowerShell;C#;Elixir;HTML/CSS;JavaScript;SQL;TypeScript,"Developer, mobile",41223,Employed full-time
+Some college/university study without earning a degree,20,Bash/Shell/PowerShell;C++;C#;Python,"Developer, desktop or enterprise applications",64124,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",11,Assembly;C;C++;C#;HTML/CSS;Java;JavaScript;SQL,Data or business analyst,73285,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",11,Assembly;C;C++;C#;HTML/CSS;Java;JavaScript;SQL,Database administrator,73285,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",11,Assembly;C;C++;C#;HTML/CSS;Java;JavaScript;SQL,"Developer, desktop or enterprise applications",73285,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",11,Assembly;C;C++;C#;HTML/CSS;Java;JavaScript;SQL,System administrator,73285,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,HTML/CSS;JavaScript;PHP,"Developer, back-end",62598,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,HTML/CSS;JavaScript;PHP,"Developer, front-end",62598,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,Bash/Shell/PowerShell;Go;HTML/CSS;JavaScript,"Developer, back-end",55345,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,Bash/Shell/PowerShell;C#;SQL,"Developer, front-end",67178,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Java;Python;Scala;SQL,"Engineer, data",103057,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Clojure;HTML/CSS;Java;JavaScript;Objective-C;Python;SQL,"Developer, back-end",76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Clojure;HTML/CSS;Java;JavaScript;Objective-C;Python;SQL,"Developer, front-end",76339,Employed full-time
+Associate degree,2,C;HTML/CSS;Java;JavaScript;Python;SQL;Other(s):,"Developer, QA or test",38169,Employed full-time
+Some college/university study without earning a degree,11,C#;HTML/CSS;JavaScript;SQL,"Developer, full-stack",30535,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",15,Bash/Shell/PowerShell;Go;HTML/CSS;JavaScript;Python,Engineering manager,83972,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",12,Java;JavaScript;Python;TypeScript,"Developer, back-end",83972,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",12,Java;JavaScript;Python;TypeScript,"Developer, front-end",83972,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",12,Java;JavaScript;Python;TypeScript,"Developer, full-stack",83972,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",14,C++;C#;HTML/CSS;JavaScript;Python;SQL;VBA;Other(s):,"Developer, full-stack",56623,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;Python;SQL,"Developer, full-stack",48093,Employed full-time
+Associate degree,1,Assembly;C;C++;C#;HTML/CSS;Java;JavaScript;PHP;Ruby;Other(s):,"Developer, QA or test",33207,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,C#;Java;JavaScript;PHP;Python;SQL;TypeScript,"Developer, full-stack",54200,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",7,Python;SQL,"Engineer, data",110000,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",12,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;Ruby,"Developer, front-end",115,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",12,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;Ruby,"Developer, full-stack",115,Employed full-time
+Associate degree,10,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;SQL,"Developer, full-stack",74048,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",21,Bash/Shell/PowerShell;Erlang;Go;Java;JavaScript;Python,"Developer, desktop or enterprise applications",103057,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",11,Python,Data scientist or machine learning specialist,114508,Employed full-time
+Primary/elementary school,25,Assembly;Bash/Shell/PowerShell;C;C++;C#;JavaScript;Objective-C;PHP;Python;Swift,"Developer, back-end",76339,Employed full-time
+Primary/elementary school,25,Assembly;Bash/Shell/PowerShell;C;C++;C#;JavaScript;Objective-C;PHP;Python;Swift,Engineering manager,76339,Employed full-time
+Associate degree,30,Bash/Shell/PowerShell;R;Rust;Scala,"Developer, full-stack",152677,Employed full-time
+Associate degree,30,Bash/Shell/PowerShell;R;Rust;Scala,Product manager,152677,Employed full-time
+Associate degree,30,Bash/Shell/PowerShell;R;Rust;Scala,Senior executive/VP,152677,Employed full-time
+Associate degree,7,HTML/CSS;Java;JavaScript;SQL;Other(s):,"Developer, back-end",59544,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",25,HTML/CSS;JavaScript;PHP;Python;SQL,"Developer, front-end",68705,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",2,C;C++;HTML/CSS;Java;JavaScript;Python;SQL,Data scientist or machine learning specialist,3250,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,C++;HTML/CSS;JavaScript;SQL,"Developer, front-end",95423,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Bash/Shell/PowerShell;Go;HTML/CSS;Java;JavaScript;Python;Ruby;Rust;SQL;TypeScript;Other(s):,"Developer, front-end",99240,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,C#;Java;JavaScript;SQL,"Developer, front-end",68705,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",31,Assembly;Bash/Shell/PowerShell;C;C++;Java;SQL,"Developer, desktop or enterprise applications",99240,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",8,Java;Python,"Developer, embedded applications or devices",106874,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",23,Bash/Shell/PowerShell;C;C#;Dart;HTML/CSS;Java;JavaScript;Kotlin;PHP;SQL;TypeScript,"Developer, desktop or enterprise applications",141226,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Bash/Shell/PowerShell;HTML/CSS;JavaScript,"Developer, front-end",61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",30,Objective-C;Swift,"Developer, mobile",95423,Employed full-time
+Some college/university study without earning a degree,24,Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;Python;SQL,"Developer, front-end",87789,Employed full-time
+Some college/university study without earning a degree,24,Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;Python;SQL,"Developer, QA or test",87789,Employed full-time
+Some college/university study without earning a degree,24,Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;Python;SQL,Educator,87789,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",11,C++;C#;JavaScript;TypeScript,"Developer, game or graphics",66873,Employed full-time
+Some college/university study without earning a degree,14,Bash/Shell/PowerShell;Go;HTML/CSS;JavaScript;PHP;Ruby;Rust;SQL;Other(s):,Database administrator,41986,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",23,C;C++;HTML/CSS;Swift,"Developer, mobile",76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",11,Bash/Shell/PowerShell;C#;F#;JavaScript;SQL;TypeScript,"Developer, full-stack",87789,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",4,HTML/CSS;Java;JavaScript;PHP;SQL,"Developer, back-end",25644,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",1,Bash/Shell/PowerShell;C;C++;HTML/CSS;JavaScript;TypeScript,"Developer, full-stack",40459,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",7,C#;Go;HTML/CSS;JavaScript;Python;Scala;SQL,"Developer, back-end",76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",7,C#;Go;HTML/CSS;JavaScript;Python;Scala;SQL,"Developer, full-stack",76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,HTML/CSS;JavaScript;PHP;SQL,"Developer, back-end",53437,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",20,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript,"Engineer, site reliability",76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",16,C#;HTML/CSS;Java;JavaScript;SQL;VBA,"Developer, back-end",91606,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,Bash/Shell/PowerShell;Go;JavaScript;PHP;Python;SQL;Other(s):,"Developer, QA or test",39250,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",11,C#;HTML/CSS;JavaScript;PHP,"Developer, full-stack",88553,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,C#;JavaScript;SQL,"Developer, full-stack",87789,Employed full-time
+Associate degree,4,HTML/CSS;JavaScript;PHP;SQL;TypeScript,"Developer, back-end",53437,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",25,Bash/Shell/PowerShell;C;C++;C#;Go;HTML/CSS;Java;JavaScript;Python;Scala;SQL;TypeScript,Database administrator,80155,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",25,Bash/Shell/PowerShell;C;C++;C#;Go;HTML/CSS;Java;JavaScript;Python;Scala;SQL;TypeScript,"Developer, full-stack",80155,Employed full-time
+NA,10,C#;Go;JavaScript;SQL;Other(s):,"Developer, full-stack",28650,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",1,HTML/CSS;Java;JavaScript;Objective-C;Python;Swift;TypeScript,"Developer, full-stack",38169,Employed full-time
+Associate degree,1,Bash/Shell/PowerShell;C++;C#;HTML/CSS;Java;JavaScript;PHP;SQL;TypeScript,"Developer, front-end",36642,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,Bash/Shell/PowerShell;C;C++;C#;JavaScript;SQL,"Developer, back-end",68705,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Bash/Shell/PowerShell;C#;JavaScript,DevOps specialist,57254,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Bash/Shell/PowerShell;C#;JavaScript,Product manager,57254,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,Bash/Shell/PowerShell;C;Go;HTML/CSS;JavaScript;PHP;Python;SQL,DevOps specialist,89316,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,Bash/Shell/PowerShell;C;Go;HTML/CSS;JavaScript;PHP;Python;SQL,System administrator,89316,Employed full-time
+Associate degree,3,Bash/Shell/PowerShell;Go;HTML/CSS;Java;JavaScript;Kotlin;Python;SQL,"Developer, back-end",64124,Employed full-time
+Associate degree,3,Bash/Shell/PowerShell;Go;HTML/CSS;Java;JavaScript;Kotlin;Python;SQL,"Developer, front-end",64124,Employed full-time
+Associate degree,3,Bash/Shell/PowerShell;Go;HTML/CSS;Java;JavaScript;Kotlin;Python;SQL,"Developer, full-stack",64124,Employed full-time
+Associate degree,3,Bash/Shell/PowerShell;Go;HTML/CSS;Java;JavaScript;Kotlin;Python;SQL,DevOps specialist,64124,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",40,Bash/Shell/PowerShell;Python;R;SQL;Other(s):,Academic researcher,76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",40,Bash/Shell/PowerShell;Python;R;SQL;Other(s):,Data or business analyst,76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",40,Bash/Shell/PowerShell;Python;R;SQL;Other(s):,DevOps specialist,76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,Bash/Shell/PowerShell;Elixir;HTML/CSS;JavaScript;Kotlin;Python;TypeScript,"Developer, front-end",70995,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Bash/Shell/PowerShell;Java;JavaScript;SQL;TypeScript;Other(s):,"Developer, front-end",68705,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",22,Bash/Shell/PowerShell;C#;SQL,"Developer, full-stack",164128,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",29,C++;C#;HTML/CSS;Java;JavaScript;Objective-C;SQL;TypeScript,"Developer, back-end",80919,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,Python;TypeScript,"Developer, full-stack",87789,Employed full-time
+Some college/university study without earning a degree,5,HTML/CSS;JavaScript;PHP,"Developer, full-stack",40100,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,C;Python;Ruby;Other(s):,"Developer, back-end",91606,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,Bash/Shell/PowerShell;Java;Python;Ruby;Other(s):,"Developer, back-end",122142,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Bash/Shell/PowerShell;C;Java;PHP;SQL,"Developer, mobile",48093,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Bash/Shell/PowerShell;C;Java;PHP;SQL,"Developer, QA or test",48093,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",6,HTML/CSS;JavaScript;TypeScript,"Developer, front-end",76339,Employed full-time
+Some college/university study without earning a degree,7,HTML/CSS;JavaScript;Objective-C;Python;Swift;TypeScript,Designer,209931,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",9,Bash/Shell/PowerShell;C;Java;Kotlin;Rust;Other(s):,"Developer, mobile",91606,Employed full-time
+Associate degree,10,Bash/Shell/PowerShell;C++;C#;HTML/CSS;Java;JavaScript;PHP;SQL;Other(s):,Educator,42000,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;Python;R;SQL;TypeScript,"Developer, desktop or enterprise applications",60307,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;Python;R;SQL;TypeScript,"Developer, embedded applications or devices",60307,Employed full-time
+"Other doctoral degree (Ph.D, Ed.D., etc.)",2,Bash/Shell/PowerShell;Python;SQL;Other(s):,System administrator,76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",22,HTML/CSS;JavaScript;Python,"Developer, back-end",74430,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",22,HTML/CSS;JavaScript;Python,"Developer, QA or test",74430,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",7,C#;HTML/CSS;JavaScript;SQL,"Developer, full-stack",64888,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",19,Bash/Shell/PowerShell;C;C++;JavaScript,"Developer, back-end",133592,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Go;HTML/CSS;Java;JavaScript;Swift,"Developer, desktop or enterprise applications",45803,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",14,C#;Java;SQL;VBA,Data or business analyst,94660,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",14,C#;Java;SQL;VBA,"Developer, full-stack",94660,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,C#;HTML/CSS;Java;JavaScript;PHP;SQL,"Developer, back-end",46566,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,C#;HTML/CSS;Java;JavaScript;PHP;SQL,"Developer, QA or test",46566,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,C#;HTML/CSS;JavaScript;SQL;TypeScript,"Developer, full-stack",59544,Employed full-time
+Associate degree,10,HTML/CSS;JavaScript;Other(s):,"Developer, full-stack",57254,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Bash/Shell/PowerShell;JavaScript;Ruby,"Developer, back-end",51147,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Bash/Shell/PowerShell;JavaScript;Ruby,"Engineer, site reliability",51147,Employed full-time
+Some college/university study without earning a degree,17,Bash/Shell/PowerShell;Clojure;HTML/CSS;JavaScript;Ruby;SQL;Other(s):,Designer,61071,Employed full-time
+Some college/university study without earning a degree,17,Bash/Shell/PowerShell;Clojure;HTML/CSS;JavaScript;Ruby;SQL;Other(s):,"Developer, full-stack",61071,Employed full-time
+Some college/university study without earning a degree,17,Bash/Shell/PowerShell;Clojure;HTML/CSS;JavaScript;Ruby;SQL;Other(s):,Engineering manager,61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",35,Bash/Shell/PowerShell;Java;JavaScript;Python,Data scientist or machine learning specialist,76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",35,Bash/Shell/PowerShell;Java;JavaScript;Python,Designer,76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",22,C#;HTML/CSS;JavaScript;PHP;SQL,"Developer, back-end",37788,Employed full-time
+Associate degree,1,HTML/CSS;JavaScript;SQL,"Developer, back-end",45803,Employed full-time
+Associate degree,1,HTML/CSS;JavaScript;SQL,"Developer, full-stack",45803,Employed full-time
+I never completed any formal education,1,Bash/Shell/PowerShell;HTML/CSS;JavaScript;Ruby;SQL,"Developer, full-stack",61071,Employed full-time
+NA,16,HTML/CSS;JavaScript;TypeScript,DevOps specialist,82446,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",20,HTML/CSS;JavaScript;PHP;SQL,Designer,83972,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",20,HTML/CSS;JavaScript;PHP;SQL,"Developer, desktop or enterprise applications",83972,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,C#;HTML/CSS;SQL,"Developer, desktop or enterprise applications",57254,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,C#;HTML/CSS;JavaScript;Python,"Developer, back-end",53437,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,C#;HTML/CSS;JavaScript;Python,"Developer, full-stack",53437,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Bash/Shell/PowerShell;C;C++;HTML/CSS;JavaScript;Python;SQL,"Developer, desktop or enterprise applications",61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Bash/Shell/PowerShell;C;C++;HTML/CSS;JavaScript;Python;SQL,"Developer, full-stack",61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",9,C#;HTML/CSS;SQL;Other(s):,"Developer, back-end",50002,Employed full-time
+"Other doctoral degree (Ph.D, Ed.D., etc.)",5,Bash/Shell/PowerShell;HTML/CSS;JavaScript;Python;SQL;TypeScript,"Engineer, data",83972,Employed full-time
+"Professional degree (JD, MD, etc.)",18,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;SQL,"Developer, back-end",68705,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",10,Bash/Shell/PowerShell;HTML/CSS;JavaScript;Python;TypeScript,"Developer, back-end",72522,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",10,Bash/Shell/PowerShell;HTML/CSS;JavaScript;Python;TypeScript,Engineering manager,72522,Employed full-time
+Some college/university study without earning a degree,5,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;Kotlin;Python;SQL;TypeScript,"Developer, front-end",91606,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,Bash/Shell/PowerShell;C#;Go;JavaScript;Python;SQL,"Developer, QA or test",64888,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;Python;SQL;TypeScript,Database administrator,76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;Python;SQL;TypeScript,"Developer, back-end",76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;Python;SQL;TypeScript,"Developer, front-end",76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;Python;SQL;TypeScript,"Developer, QA or test",76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Ruby;TypeScript,"Developer, full-stack",61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Bash/Shell/PowerShell;C;C++;C#;HTML/CSS;Java;JavaScript;Python,"Developer, back-end",94000,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Bash/Shell/PowerShell;C;C++;C#;HTML/CSS;Java;JavaScript;Python,"Developer, desktop or enterprise applications",94000,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Bash/Shell/PowerShell;C;C++;C#;HTML/CSS;Java;JavaScript;Python,"Developer, full-stack",94000,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Bash/Shell/PowerShell;C;C++;C#;HTML/CSS;Java;JavaScript;Python,"Engineer, data",94000,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;Python;R;SQL,Data scientist or machine learning specialist,114508,Employed full-time
+"Professional degree (JD, MD, etc.)",18,C#;SQL,"Developer, back-end",51147,Employed full-time
+"Professional degree (JD, MD, etc.)",18,C#;SQL,"Developer, desktop or enterprise applications",51147,Employed full-time
+"Professional degree (JD, MD, etc.)",18,C#;SQL,Educator,51147,Employed full-time
+"Professional degree (JD, MD, etc.)",18,C#;SQL,"Engineer, site reliability",51147,Employed full-time
+Some college/university study without earning a degree,8,C#;HTML/CSS;Java;JavaScript;SQL;TypeScript;VBA,"Developer, front-end",82198,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Elixir;HTML/CSS;Java;JavaScript;Python;SQL,"Developer, front-end",64888,Employed full-time
+Some college/university study without earning a degree,10,Bash/Shell/PowerShell;C;C#;Go;HTML/CSS;Java;JavaScript;Python;SQL;TypeScript,"Developer, full-stack",49620,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",11,Bash/Shell/PowerShell;C;C++;Java;JavaScript;Kotlin;Python;Ruby,"Developer, embedded applications or devices",129775,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",11,Bash/Shell/PowerShell;C;C++;Java;JavaScript;Kotlin;Python;Ruby,"Developer, full-stack",129775,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",7,Java;Python,"Developer, back-end",114508,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",16,Bash/Shell/PowerShell;C++;C#;Python,DevOps specialist,91606,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",16,Bash/Shell/PowerShell;C++;C#;Python,"Engineer, site reliability",91606,Employed full-time
+Associate degree,4,C#;HTML/CSS;JavaScript;SQL,"Developer, full-stack",57254,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",1,Bash/Shell/PowerShell;C;C++;C#;HTML/CSS;Java;JavaScript;PHP;Python;SQL;TypeScript;VBA,"Developer, embedded applications or devices",41986,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",1,Bash/Shell/PowerShell;C;C++;C#;HTML/CSS;Java;JavaScript;PHP;Python;SQL;TypeScript;VBA,"Developer, front-end",41986,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",7,HTML/CSS;JavaScript;PHP;Ruby,"Developer, front-end",77865,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,C++;C#;Go,"Developer, back-end",61071,Employed full-time
+Primary/elementary school,13,Go;HTML/CSS;JavaScript;PHP;Python;SQL;TypeScript,DevOps specialist,76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,Bash/Shell/PowerShell;HTML/CSS;JavaScript;TypeScript,"Developer, front-end",53437,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,Python,"Developer, embedded applications or devices",83972,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,C++;JavaScript,"Developer, desktop or enterprise applications",45803,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",1,Bash/Shell/PowerShell;C#;Java;JavaScript;PHP;Python;Ruby;SQL;TypeScript,"Developer, mobile",76339,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",7,C;Erlang;F#,"Developer, back-end",80155,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",7,C#;HTML/CSS;JavaScript,"Developer, back-end",56490,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",7,C#;HTML/CSS;JavaScript,"Developer, desktop or enterprise applications",56490,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",7,C#;HTML/CSS;JavaScript,"Developer, full-stack",56490,Employed full-time
+Some college/university study without earning a degree,19,Bash/Shell/PowerShell;Java;Swift,"Developer, mobile",103057,Employed full-time
+Associate degree,9,HTML/CSS;JavaScript;TypeScript,"Developer, front-end",83972,Employed full-time
+Associate degree,2,JavaScript;TypeScript,"Developer, front-end",40459,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,C#;HTML/CSS;Java;JavaScript;PHP;SQL,"Developer, front-end",51910,Employed full-time
+Some college/university study without earning a degree,22,Assembly;Bash/Shell/PowerShell;C#;Go;HTML/CSS;Java;JavaScript;Kotlin;PHP;Python;Ruby;Scala;SQL;VBA,"Developer, desktop or enterprise applications",110691,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",17,HTML/CSS;JavaScript;PHP;Python;TypeScript;Other(s):,"Developer, front-end",83972,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",17,HTML/CSS;JavaScript;PHP;Python;TypeScript;Other(s):,"Developer, full-stack",83972,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",20,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;Python;SQL,"Developer, full-stack",99240,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",2,Bash/Shell/PowerShell;Go;HTML/CSS;JavaScript;PHP;Python,"Developer, full-stack",34352,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",18,Bash/Shell/PowerShell;C#;Java;JavaScript;Python,Educator,106874,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,HTML/CSS;JavaScript;Objective-C;Swift,Designer,95423,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",37,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;SQL,Database administrator,104202,Employed full-time
+Some college/university study without earning a degree,6,Bash/Shell/PowerShell;Go;HTML/CSS;Java;JavaScript;PHP;Python;SQL;TypeScript,Engineering manager,95423,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Assembly;Bash/Shell/PowerShell;C;C++;C#;Go;HTML/CSS;Java;JavaScript;Objective-C;Python;Ruby;SQL;TypeScript,"Developer, back-end",81682,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Assembly;Bash/Shell/PowerShell;C;C++;C#;Go;HTML/CSS;Java;JavaScript;Objective-C;Python;Ruby;SQL;TypeScript,"Developer, desktop or enterprise applications",81682,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Assembly;Bash/Shell/PowerShell;C;C++;C#;Go;HTML/CSS;Java;JavaScript;Objective-C;Python;Ruby;SQL;TypeScript,"Developer, full-stack",81682,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Assembly;Bash/Shell/PowerShell;C;C++;C#;Go;HTML/CSS;Java;JavaScript;Objective-C;Python;Ruby;SQL;TypeScript,Product manager,81682,Employed full-time
+Some college/university study without earning a degree,24,Bash/Shell/PowerShell;HTML/CSS;JavaScript;Python;R;SQL;Other(s):,Data or business analyst,282452,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",1,R,Scientist,47330,Employed full-time
+Some college/university study without earning a degree,18,Bash/Shell/PowerShell;C;C#;HTML/CSS;Java;Kotlin;Python;SQL,"Developer, embedded applications or devices",57254,Employed full-time
+Some college/university study without earning a degree,13,Assembly;C;C#;Java;JavaScript;Kotlin;TypeScript,"Developer, full-stack",133592,Employed full-time
+Some college/university study without earning a degree,13,Assembly;C;C#;Java;JavaScript;Kotlin;TypeScript,Product manager,133592,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;SQL,DevOps specialist,42750,Employed full-time
+Some college/university study without earning a degree,15,C++;C#,"Developer, game or graphics",91606,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Bash/Shell/PowerShell;C;C++;C#;HTML/CSS;JavaScript;Python;SQL,"Developer, QA or test",53437,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",16,Bash/Shell/PowerShell;HTML/CSS;JavaScript;Python,Engineering manager,91606,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",25,C;C++;HTML/CSS;Java;Python,"Developer, back-end",99240,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",2,HTML/CSS;JavaScript;TypeScript,"Developer, front-end",58781,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,C++;C#;HTML/CSS;JavaScript;Python;SQL;TypeScript,"Developer, full-stack",68705,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,C#;JavaScript;SQL,Data scientist or machine learning specialist,55727,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,C#;JavaScript;SQL,"Developer, full-stack",55727,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,C#;JavaScript;SQL,"Developer, mobile",55727,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,C++;C#;F#,"Developer, back-end",71758,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",7,Java;Kotlin,"Developer, mobile",99240,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,Bash/Shell/PowerShell;C#;Dart;HTML/CSS;JavaScript;SQL;TypeScript;VBA,"Developer, desktop or enterprise applications",53437,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,Bash/Shell/PowerShell;C#;Dart;HTML/CSS;JavaScript;SQL;TypeScript;VBA,"Developer, full-stack",53437,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",11,HTML/CSS;Java;JavaScript;PHP;Python;Ruby;Rust;TypeScript,"Developer, back-end",122142,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",11,HTML/CSS;Java;JavaScript;PHP;Python;Ruby;Rust;TypeScript,"Developer, full-stack",122142,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Go;HTML/CSS;Java;JavaScript;PHP;SQL,"Developer, QA or test",61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Go;HTML/CSS;Java;JavaScript;PHP;SQL,System administrator,61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",13,Bash/Shell/PowerShell;C;C#;HTML/CSS;Java;JavaScript;PHP;Rust;SQL;TypeScript;WebAssembly,Database administrator,83972,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",13,Bash/Shell/PowerShell;C;C#;HTML/CSS;Java;JavaScript;PHP;Rust;SQL;TypeScript;WebAssembly,"Developer, desktop or enterprise applications",83972,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",13,Bash/Shell/PowerShell;C;C#;HTML/CSS;Java;JavaScript;PHP;Rust;SQL;TypeScript;WebAssembly,"Developer, QA or test",83972,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",13,Bash/Shell/PowerShell;C;C#;HTML/CSS;Java;JavaScript;PHP;Rust;SQL;TypeScript;WebAssembly,"Engineer, data",83972,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",9,Bash/Shell/PowerShell;C++;Java;JavaScript;Python;Scala;SQL,"Developer, back-end",122142,Employed full-time
+Some college/university study without earning a degree,25,Bash/Shell/PowerShell;JavaScript;Objective-C;Ruby;Swift;TypeScript;Other(s):,Database administrator,91606,Employed full-time
+Some college/university study without earning a degree,25,Bash/Shell/PowerShell;JavaScript;Objective-C;Ruby;Swift;TypeScript;Other(s):,"Developer, mobile",91606,Employed full-time
+Some college/university study without earning a degree,25,Bash/Shell/PowerShell;JavaScript;Objective-C;Ruby;Swift;TypeScript;Other(s):,Product manager,91606,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,Bash/Shell/PowerShell;Go;HTML/CSS;Java;JavaScript;Python;SQL,"Developer, full-stack",91606,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",30,HTML/CSS;Java;JavaScript;Python;SQL,"Developer, back-end",63361,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",20,C#;HTML/CSS;JavaScript;SQL;TypeScript,Designer,40459,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",20,C#;HTML/CSS;JavaScript;SQL;TypeScript,"Developer, back-end",40459,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",20,C#;HTML/CSS;JavaScript;SQL;TypeScript,System administrator,40459,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",18,Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;PHP;Python;SQL;TypeScript;WebAssembly,"Developer, game or graphics",76339,Employed full-time
+Some college/university study without earning a degree,20,Bash/Shell/PowerShell;C;Go;Java;Ruby,"Engineer, site reliability",160311,Employed full-time
+Associate degree,21,Bash/Shell/PowerShell;C;C++;HTML/CSS;JavaScript;PHP;Python;SQL,"Developer, embedded applications or devices",91606,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",30,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;Python;SQL,"Developer, back-end",91606,Employed full-time
+NA,8,C#;HTML/CSS;JavaScript;PHP;Python;SQL,"Developer, full-stack",76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,C#;HTML/CSS;JavaScript;SQL,Database administrator,118325,Employed full-time
+Associate degree,5,Assembly;Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;SQL,"Developer, back-end",40612,Employed full-time
+Associate degree,8,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;Python;TypeScript;Other(s):,DevOps specialist,83209,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",2,C#;HTML/CSS;JavaScript;SQL,Designer,44276,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",19,C++;C#;JavaScript;SQL,"Developer, embedded applications or devices",57254,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",19,C++;C#;JavaScript;SQL,"Developer, full-stack",57254,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,Assembly;Bash/Shell/PowerShell;C;C++;C#;HTML/CSS;Java;JavaScript;Kotlin;PHP;Python;SQL;TypeScript,"Developer, mobile",80155,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Bash/Shell/PowerShell;JavaScript;Python;Swift,"Developer, desktop or enterprise applications",69468,Employed full-time
+"Professional degree (JD, MD, etc.)",31,Bash/Shell/PowerShell;Java;JavaScript;Python;SQL;TypeScript,"Developer, back-end",99240,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",21,Assembly;Bash/Shell/PowerShell;C;C++;C#;Clojure;Elixir;Erlang;Go;HTML/CSS;Java;JavaScript;PHP;Python;Ruby;Scala;SQL;Swift;TypeScript,Data scientist or machine learning specialist,91606,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Bash/Shell/PowerShell;Elixir;HTML/CSS;JavaScript;Python;Ruby;Scala;SQL,"Developer, full-stack",87789,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",11,Bash/Shell/PowerShell;C++;C#;HTML/CSS;Java;JavaScript;TypeScript;Other(s):,"Developer, front-end",100000,Employed full-time
+Some college/university study without earning a degree,11,C#;HTML/CSS;JavaScript;Python;SQL;Other(s):,"Developer, front-end",70231,Employed full-time
+Some college/university study without earning a degree,11,C#;HTML/CSS;JavaScript;Python;SQL;Other(s):,DevOps specialist,70231,Employed full-time
+"Other doctoral degree (Ph.D, Ed.D., etc.)",3,R,Scientist,68705,Employed full-time
+Some college/university study without earning a degree,17,C;HTML/CSS;Java;JavaScript;Kotlin;Rust;Other(s):,"Developer, full-stack",74812,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",9,Bash/Shell/PowerShell;C;C++;HTML/CSS;Python;Rust;SQL,"Developer, desktop or enterprise applications",69468,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",21,C#;Python,Data or business analyst,105347,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",21,C#;Python,"Developer, back-end",105347,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",21,C#;Python,"Developer, front-end",105347,Employed full-time
+NA,1,C#;HTML/CSS;Java;JavaScript;PHP;SQL;Swift;TypeScript,"Developer, front-end",36642,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",3,Bash/Shell/PowerShell;Java;Python,"Developer, back-end",57254,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",12,Bash/Shell/PowerShell;C;C#;Dart;Elixir;Go;HTML/CSS;Java;JavaScript;Kotlin;PHP;Python;R;Ruby;Rust;SQL;Swift;TypeScript;VBA,"Developer, full-stack",0,Employed full-time
+Some college/university study without earning a degree,4,HTML/CSS;JavaScript;Ruby;TypeScript,Engineering manager,68705,Employed full-time
+Associate degree,5,C#;HTML/CSS;Java;JavaScript;PHP;Python;SQL;VBA,"Developer, full-stack",45803,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Bash/Shell/PowerShell;Java;PHP;Scala,"Developer, back-end",61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Bash/Shell/PowerShell;Java;PHP;Scala,"Engineer, data",61071,Employed full-time
+Associate degree,11,C#;HTML/CSS;JavaScript;Python;SQL;TypeScript;VBA,"Developer, game or graphics",76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;PHP;Python;Ruby;SQL;TypeScript,"Developer, front-end",47330,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;PHP;Python;Ruby;SQL;TypeScript,"Developer, full-stack",47330,Employed full-time
+NA,20,C#;Other(s):,"Developer, full-stack",61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",13,Bash/Shell/PowerShell;C++;Clojure;HTML/CSS;Java;JavaScript;Python;Scala;SQL,"Developer, front-end",106874,Employed full-time
+Associate degree,7,C#;Other(s):,"Developer, QA or test",48857,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,Bash/Shell/PowerShell;Elixir;Go;HTML/CSS;JavaScript;SQL;TypeScript,"Developer, full-stack",72522,Employed full-time
+Associate degree,10,C#;HTML/CSS;JavaScript;TypeScript;VBA,"Developer, back-end",41986,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",21,Assembly;C#;HTML/CSS;Python;SQL;Other(s):,Designer,35879,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",12,Bash/Shell/PowerShell;Dart;JavaScript;Python;Swift;TypeScript,"Developer, full-stack",76339,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",12,Bash/Shell/PowerShell;Dart;JavaScript;Python;Swift;TypeScript,"Developer, mobile",76339,Employed full-time
+NA,16,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;SQL;TypeScript,"Developer, back-end",7099,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",12,Bash/Shell/PowerShell;C;C#;HTML/CSS;Java;JavaScript;Ruby;SQL;TypeScript,"Developer, desktop or enterprise applications",72522,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",12,Bash/Shell/PowerShell;C;C#;HTML/CSS;Java;JavaScript;Ruby;SQL;TypeScript,"Developer, front-end",72522,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",12,Bash/Shell/PowerShell;C;C#;HTML/CSS;Java;JavaScript;Ruby;SQL;TypeScript,Engineering manager,72522,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",12,Bash/Shell/PowerShell;C;C#;HTML/CSS;Java;JavaScript;Ruby;SQL;TypeScript,System administrator,72522,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,C#;HTML/CSS;JavaScript;SQL,Database administrator,57254,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,C#;HTML/CSS;JavaScript;SQL,"Developer, front-end",57254,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,C#;HTML/CSS;JavaScript;SQL,"Developer, QA or test",57254,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Bash/Shell/PowerShell;C;C++;C#;Java;JavaScript;Kotlin;SQL;TypeScript,"Developer, desktop or enterprise applications",56490,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Bash/Shell/PowerShell;C;C++;C#;Java;JavaScript;Kotlin;SQL;TypeScript,Product manager,56490,Employed full-time
+I never completed any formal education,12,Bash/Shell/PowerShell;C;C++;C#;HTML/CSS;Java;JavaScript;Objective-C;PHP;Python;Scala;SQL;VBA,Data or business analyst,62598,Employed full-time
+I never completed any formal education,12,Bash/Shell/PowerShell;C;C++;C#;HTML/CSS;Java;JavaScript;Objective-C;PHP;Python;Scala;SQL;VBA,Data scientist or machine learning specialist,62598,Employed full-time
+I never completed any formal education,12,Bash/Shell/PowerShell;C;C++;C#;HTML/CSS;Java;JavaScript;Objective-C;PHP;Python;Scala;SQL;VBA,"Developer, mobile",62598,Employed full-time
+I never completed any formal education,12,Bash/Shell/PowerShell;C;C++;C#;HTML/CSS;Java;JavaScript;Objective-C;PHP;Python;Scala;SQL;VBA,Product manager,62598,Employed full-time
+I never completed any formal education,12,Bash/Shell/PowerShell;C;C++;C#;HTML/CSS;Java;JavaScript;Objective-C;PHP;Python;Scala;SQL;VBA,System administrator,62598,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,C#;Java;Scala,"Developer, game or graphics",76339,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",15,Bash/Shell/PowerShell;Go;Python,"Developer, back-end",83972,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,HTML/CSS;Java;JavaScript;PHP;SQL,"Developer, desktop or enterprise applications",57254,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,HTML/CSS;Java;JavaScript;PHP;SQL,"Developer, embedded applications or devices",57254,Employed full-time
+Some college/university study without earning a degree,2,HTML/CSS;JavaScript;SQL;TypeScript,"Developer, front-end",45803,Employed full-time
+Some college/university study without earning a degree,2,HTML/CSS;JavaScript;SQL;TypeScript,Educator,45803,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",1,Bash/Shell/PowerShell;Go;Java;Python,"Developer, back-end",34352,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,Bash/Shell/PowerShell;C;Go;HTML/CSS;Java;JavaScript;Objective-C;Python;Ruby;TypeScript,DevOps specialist,61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",23,HTML/CSS;JavaScript;Ruby,"Developer, desktop or enterprise applications",151914,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",20,HTML/CSS;Java;JavaScript;SQL,"Developer, full-stack",82446,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",11,C#;JavaScript,Designer,62598,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",5,C;C++;C#;HTML/CSS;Java;JavaScript;PHP;Python;SQL,"Developer, back-end",99240,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;Objective-C;SQL,Designer,45803,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;Objective-C;SQL,"Developer, front-end",45803,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;Objective-C;SQL,"Developer, QA or test",45803,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;Objective-C;SQL,System administrator,45803,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,Bash/Shell/PowerShell;C#;Clojure;Go;HTML/CSS;JavaScript;Python;Rust;TypeScript;WebAssembly;Other(s):,Data or business analyst,54964,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,Bash/Shell/PowerShell;C#;Clojure;Go;HTML/CSS;JavaScript;Python;Rust;TypeScript;WebAssembly;Other(s):,"Developer, full-stack",54964,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",4,Python;SQL,"Engineer, data",110691,Employed full-time
+Associate degree,6,Bash/Shell/PowerShell;Clojure;Go;Java;JavaScript;Python,"Developer, back-end",54200,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",22,NA,"Developer, front-end",99240,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;Python;SQL;TypeScript,"Developer, back-end",106874,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;Python;SQL;TypeScript,"Developer, mobile",106874,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",7,Bash/Shell/PowerShell;C#;TypeScript,"Developer, QA or test",95423,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",7,Bash/Shell/PowerShell;C#;TypeScript,Engineering manager,95423,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,C#,"Developer, back-end",76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Bash/Shell/PowerShell;Go;PHP;SQL,"Developer, back-end",61071,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",25,JavaScript;Python;SQL,"Developer, back-end",99240,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",16,Bash/Shell/PowerShell;C;C++;C#;HTML/CSS;JavaScript,"Developer, full-stack",129775,Employed full-time
+Associate degree,5,HTML/CSS;JavaScript;SQL;TypeScript,"Developer, full-stack",83972,Employed full-time
+Associate degree,5,HTML/CSS;JavaScript;SQL;TypeScript,DevOps specialist,83972,Employed full-time
+Associate degree,5,HTML/CSS;JavaScript;SQL;TypeScript,Engineering manager,83972,Employed full-time
+Some college/university study without earning a degree,14,C#;HTML/CSS;JavaScript;SQL;TypeScript;Other(s):,"Developer, desktop or enterprise applications",72522,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",25,Assembly;Bash/Shell/PowerShell;C;C++;C#;HTML/CSS;Java;Python,"Developer, embedded applications or devices",87789,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",13,HTML/CSS;Java;JavaScript;Python;Rust;Scala;SQL;Swift,Senior executive/VP,152677,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",1,Bash/Shell/PowerShell;C#;JavaScript;Swift,"Developer, back-end",76339,Employed full-time
+NA,9,Rust;SQL;Other(s):,"Developer, desktop or enterprise applications",53338,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",17,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;PHP;SQL,"Developer, front-end",72522,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",28,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;Objective-C;Python;Scala;SQL,Database administrator,103057,Employed full-time
+"Other doctoral degree (Ph.D, Ed.D., etc.)",18,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;Ruby,"Developer, full-stack",122142,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",18,C;C++;C#;JavaScript;Python;Other(s):,"Developer, back-end",68705,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,HTML/CSS;JavaScript;Ruby;SQL,"Developer, full-stack",57407,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,C;C++;C#;Go;HTML/CSS;Java;JavaScript;PHP;Python;SQL,"Developer, full-stack",32062,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,C;C++;C#;Go;HTML/CSS;Java;JavaScript;PHP;Python;SQL,System administrator,32062,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,Kotlin,"Developer, mobile",81682,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",9,Java;Ruby,"Developer, back-end",95423,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",9,Java;Ruby,"Developer, QA or test",95423,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,C#,"Developer, mobile",58017,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",20,Bash/Shell/PowerShell;Go;HTML/CSS;Java;JavaScript;Python;Ruby;SQL;TypeScript,"Developer, embedded applications or devices",76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",20,Bash/Shell/PowerShell;Go;HTML/CSS;Java;JavaScript;Python;Ruby;SQL;TypeScript,DevOps specialist,76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",20,Bash/Shell/PowerShell;Go;HTML/CSS;Java;JavaScript;Python;Ruby;SQL;TypeScript,System administrator,76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Bash/Shell/PowerShell;C++;C#;HTML/CSS;Java;Python;SQL,"Developer, desktop or enterprise applications",37940,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,Bash/Shell/PowerShell;C++;C#;Java;JavaScript;Python,"Developer, embedded applications or devices",99240,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",10,Bash/Shell/PowerShell;Go;Java;PHP;Python;Scala;SQL,"Developer, back-end",99240,Employed full-time
+Associate degree,10,C#;HTML/CSS;Java;JavaScript;Python;SQL,Data scientist or machine learning specialist,75575,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",9,C#;VBA,Data or business analyst,53437,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",9,C#;VBA,Database administrator,53437,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,HTML/CSS;JavaScript;SQL,"Developer, full-stack",45803,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",7,Kotlin,"Developer, desktop or enterprise applications",87789,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",7,Kotlin,"Developer, QA or test",87789,Employed full-time
+Some college/university study without earning a degree,10,C;C++;Go;HTML/CSS;JavaScript;Python;Swift,"Developer, back-end",76339,Employed full-time
+Some college/university study without earning a degree,10,C;C++;Go;HTML/CSS;JavaScript;Python;Swift,"Developer, full-stack",76339,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",7,Bash/Shell/PowerShell;C;C++;HTML/CSS;JavaScript;Python;R;Ruby;SQL;TypeScript,Academic researcher,54200,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",7,Bash/Shell/PowerShell;C;C++;HTML/CSS;JavaScript;Python;R;Ruby;SQL;TypeScript,"Developer, back-end",54200,Employed full-time
+Associate degree,2,Bash/Shell/PowerShell;HTML/CSS;Java;TypeScript,"Developer, full-stack",38169,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Go;HTML/CSS;Java;JavaScript;SQL;TypeScript,"Developer, back-end",64888,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",14,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP,"Developer, front-end",75957,Employed full-time
+NA,22,Bash/Shell/PowerShell;Java;JavaScript;Python;Ruby;TypeScript;Other(s):,"Developer, back-end",93133,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,HTML/CSS;Java;JavaScript;PHP;SQL,"Developer, QA or test",57254,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",5,Bash/Shell/PowerShell;HTML/CSS;Python;R;SQL,Academic researcher,80155,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",10,Bash/Shell/PowerShell;C;C++;C#;HTML/CSS;JavaScript;PHP;Python;SQL,"Developer, back-end",68705,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,Assembly;Python;Rust;Scala;SQL,"Developer, back-end",68705,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",28,SQL;Other(s):,Database administrator,76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",18,Bash/Shell/PowerShell;C#;HTML/CSS;PHP;SQL;TypeScript;VBA,Designer,44276,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",18,Bash/Shell/PowerShell;C#;HTML/CSS;PHP;SQL;TypeScript;VBA,"Developer, desktop or enterprise applications",44276,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",18,Bash/Shell/PowerShell;C#;HTML/CSS;PHP;SQL;TypeScript;VBA,"Developer, front-end",44276,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",18,Bash/Shell/PowerShell;C#;HTML/CSS;PHP;SQL;TypeScript;VBA,"Engineer, site reliability",44276,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",18,Bash/Shell/PowerShell;C#;HTML/CSS;PHP;SQL;TypeScript;VBA,Marketing or sales professional,44276,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;Python;R;SQL;TypeScript,"Developer, back-end",61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,HTML/CSS;JavaScript;PHP;SQL,"Developer, front-end",84736,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",6,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;Python,"Developer, QA or test",73285,Employed full-time
+Some college/university study without earning a degree,4,Bash/Shell/PowerShell;Elixir;HTML/CSS;Java;JavaScript;Python;Ruby;SQL;Swift,"Developer, mobile",91606,Employed full-time
+Some college/university study without earning a degree,4,Bash/Shell/PowerShell;Elixir;HTML/CSS;Java;JavaScript;Python;Ruby;SQL;Swift,"Developer, QA or test",91606,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",36,Bash/Shell/PowerShell;C++;C#;Java;Python;R;SQL,Data or business analyst,93896,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Java;JavaScript;SQL,"Developer, full-stack",76339,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",13,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;Ruby;SQL,"Developer, back-end",68705,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",13,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;Ruby;SQL,"Engineer, site reliability",68705,Employed full-time
+Some college/university study without earning a degree,4,C++;C#;HTML/CSS;JavaScript;PHP;SQL;VBA,Database administrator,31500,Employed full-time
+Some college/university study without earning a degree,4,C++;C#;HTML/CSS;JavaScript;PHP;SQL;VBA,"Developer, full-stack",31500,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",17,C++;Python;Other(s):,"Developer, desktop or enterprise applications",72522,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",23,Bash/Shell/PowerShell;C#;Dart;Java;JavaScript;Ruby;SQL,"Developer, back-end",68705,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",23,Bash/Shell/PowerShell;C#;Dart;Java;JavaScript;Ruby;SQL,"Developer, desktop or enterprise applications",68705,Employed full-time
+Some college/university study without earning a degree,10,Bash/Shell/PowerShell;PHP;SQL,"Developer, back-end",83972,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Bash/Shell/PowerShell;C;C#;HTML/CSS;JavaScript;Python;SQL;TypeScript,"Developer, full-stack",62598,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",1,HTML/CSS;Java;JavaScript;PHP;Python;SQL,"Developer, back-end",53437,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",10,C;Python,Engineering manager,99240,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",9,Java,Designer,72522,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",9,Java,"Developer, back-end",72522,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",5,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;Python;SQL,"Developer, front-end",61071,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",5,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;Python;SQL,"Developer, mobile",61071,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",5,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;Python;SQL,"Developer, QA or test",61071,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",5,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;Python;SQL,"Engineer, data",61071,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",5,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;Python;SQL,"Engineer, site reliability",61071,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",5,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;Python;SQL,System administrator,61071,Employed full-time
+I never completed any formal education,19,HTML/CSS;JavaScript,"Developer, front-end",65651,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",10,C#;HTML/CSS;JavaScript;PHP;TypeScript,"Developer, front-end",91606,Employed full-time
+Some college/university study without earning a degree,18,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;SQL,System administrator,61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",9,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;SQL,"Developer, front-end",99250,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",9,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;SQL,"Developer, full-stack",99250,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",22,Bash/Shell/PowerShell;JavaScript;PHP;SQL;TypeScript,"Developer, back-end",122142,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",22,Bash/Shell/PowerShell;JavaScript;PHP;SQL;TypeScript,Engineering manager,122142,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",22,Bash/Shell/PowerShell;JavaScript;PHP;SQL;TypeScript,Senior executive/VP,122142,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;SQL,DevOps specialist,49620,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,Bash/Shell/PowerShell;C++;C#;Elixir;Erlang;HTML/CSS;Java;JavaScript;Python;SQL,"Developer, desktop or enterprise applications",72522,Employed full-time
+Some college/university study without earning a degree,32,C++;C#;HTML/CSS;JavaScript,"Developer, front-end",110691,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,Bash/Shell/PowerShell;Go;HTML/CSS;JavaScript;Python;SQL,"Developer, full-stack",105347,Employed full-time
+"Other doctoral degree (Ph.D, Ed.D., etc.)",10,Python;Other(s):,Scientist,64888,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,Bash/Shell/PowerShell;HTML/CSS;JavaScript;Python;Ruby;TypeScript,"Developer, full-stack",99240,Employed full-time
+NA,1,HTML/CSS;JavaScript;SQL,"Developer, full-stack",37406,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Bash/Shell/PowerShell;C;C++;C#;HTML/CSS;JavaScript,"Developer, embedded applications or devices",44276,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Bash/Shell/PowerShell;C;C++;C#;HTML/CSS;JavaScript,"Developer, full-stack",44276,Employed full-time
+Some college/university study without earning a degree,7,Bash/Shell/PowerShell;C;C++;C#;Clojure;HTML/CSS;Java;JavaScript;Python;Scala;SQL;VBA,Data or business analyst,61071,Employed full-time
+Some college/university study without earning a degree,7,Bash/Shell/PowerShell;C;C++;C#;Clojure;HTML/CSS;Java;JavaScript;Python;Scala;SQL;VBA,"Developer, front-end",61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",22,Assembly;Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;PHP;SQL;VBA;Other(s):,Database administrator,61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",22,Assembly;Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;PHP;SQL;VBA;Other(s):,"Developer, desktop or enterprise applications",61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,HTML/CSS;Java;JavaScript;Python;Other(s):,Designer,54964,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,HTML/CSS;Java;JavaScript;Python;Other(s):,"Developer, QA or test",54964,Employed full-time
+"Other doctoral degree (Ph.D, Ed.D., etc.)",20,Bash/Shell/PowerShell;R;SQL,Product manager,93896,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",7,PHP,"Developer, back-end",57254,Employed full-time
+Associate degree,1,HTML/CSS;JavaScript;PHP;Python,"Developer, front-end",36642,Employed full-time
+NA,2,Bash/Shell/PowerShell;HTML/CSS;JavaScript;SQL;TypeScript;VBA,Designer,53437,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;Python;SQL,"Developer, back-end",38169,Employed full-time
+Some college/university study without earning a degree,3,HTML/CSS;JavaScript;PHP;SQL,"Developer, back-end",51910,Employed full-time
+Some college/university study without earning a degree,3,HTML/CSS;JavaScript;PHP;SQL,"Developer, front-end",51910,Employed full-time
+Some college/university study without earning a degree,3,HTML/CSS;JavaScript;PHP;SQL,"Developer, QA or test",51910,Employed full-time
+Some college/university study without earning a degree,6,Bash/Shell/PowerShell;Elixir;Go,"Developer, back-end",76339,Employed full-time
+Some college/university study without earning a degree,6,Bash/Shell/PowerShell;Elixir;Go,DevOps specialist,76339,Employed full-time
+Some college/university study without earning a degree,15,C++;HTML/CSS;Java;JavaScript;PHP;Python;SQL,"Developer, back-end",77102,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",24,C#;JavaScript;Python;SQL;TypeScript,"Developer, back-end",95423,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",7,C#;SQL;Swift;TypeScript,"Developer, desktop or enterprise applications",77865,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",7,C#;SQL;Swift;TypeScript,"Developer, full-stack",77865,Employed full-time
+Associate degree,6,HTML/CSS;Java;JavaScript;PHP;SQL;Other(s):,"Developer, full-stack",68705,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Go;HTML/CSS;Java;JavaScript;Kotlin;SQL;TypeScript,Scientist,76339,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",7,Bash/Shell/PowerShell;C;Go;HTML/CSS;Java;JavaScript;Objective-C;PHP;Python;SQL;Swift;TypeScript;Other(s):,Database administrator,57254,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",7,Bash/Shell/PowerShell;C;Go;HTML/CSS;Java;JavaScript;Objective-C;PHP;Python;SQL;Swift;TypeScript;Other(s):,"Developer, back-end",57254,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",7,Bash/Shell/PowerShell;C;Go;HTML/CSS;Java;JavaScript;Objective-C;PHP;Python;SQL;Swift;TypeScript;Other(s):,"Developer, game or graphics",57254,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",7,Bash/Shell/PowerShell;C;Go;HTML/CSS;Java;JavaScript;Objective-C;PHP;Python;SQL;Swift;TypeScript;Other(s):,System administrator,57254,Employed full-time
+Associate degree,5,C#;Java,"Developer, game or graphics",55345,Employed full-time
+Some college/university study without earning a degree,7,C#;HTML/CSS;JavaScript;SQL,"Developer, embedded applications or devices",48857,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,Bash/Shell/PowerShell;Java;SQL,"Developer, back-end",76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,HTML/CSS;Java;JavaScript;SQL;TypeScript,"Developer, desktop or enterprise applications",1908,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,C;C++;C#;Go;HTML/CSS;Java;JavaScript;Kotlin;PHP;Python;Ruby;SQL;TypeScript;VBA,DevOps specialist,53437,Employed full-time
+Associate degree,3,HTML/CSS;Java;JavaScript;PHP;Python;SQL,"Developer, QA or test",34734,Employed full-time
+Associate degree,3,HTML/CSS;Java;JavaScript;PHP;Python;SQL,DevOps specialist,34734,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;SQL;Swift,"Developer, back-end",53437,Employed full-time
+"Other doctoral degree (Ph.D, Ed.D., etc.)",19,Assembly;Bash/Shell/PowerShell;C;C++,NA,72522,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Go;HTML/CSS;Python;TypeScript,"Developer, front-end",51147,Employed full-time
+Some college/university study without earning a degree,12,C#;HTML/CSS;JavaScript;SQL,"Developer, front-end",65424,Employed full-time
+Some college/university study without earning a degree,12,C#;HTML/CSS;JavaScript;SQL,"Developer, full-stack",65424,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",4,HTML/CSS;JavaScript;Python;SQL,System administrator,76339,Employed full-time
+Associate degree,7,HTML/CSS;Python,"Developer, back-end",64888,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",9,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;Ruby,"Developer, full-stack",61071,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",20,HTML/CSS;JavaScript;Python,NA,42750,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",13,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;Ruby;SQL,Data or business analyst,41986,Employed full-time
+NA,4,HTML/CSS;JavaScript;PHP;SQL,"Developer, front-end",49620,Employed full-time
+"Other doctoral degree (Ph.D, Ed.D., etc.)",5,Bash/Shell/PowerShell;C++;HTML/CSS;Python;R;Scala;SQL,Data scientist or machine learning specialist,129775,Employed full-time
+Associate degree,3,Bash/Shell/PowerShell;C#;Java;Python;SQL;VBA,"Developer, back-end",76339,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",7,Java;JavaScript;Kotlin;SQL;Swift,"Developer, back-end",49620,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,C#;Elixir;HTML/CSS;JavaScript;TypeScript,"Developer, desktop or enterprise applications",41986,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,HTML/CSS;Java;JavaScript;Python,"Developer, full-stack",51147,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,Bash/Shell/PowerShell;C;C++;C#;HTML/CSS;Java;JavaScript;PHP;Python;SQL;TypeScript,"Developer, full-stack",53437,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",8,HTML/CSS;JavaScript;PHP;Ruby;SQL,"Developer, back-end",76339,Employed full-time
+Associate degree,12,C#;JavaScript;SQL;TypeScript,"Developer, front-end",122142,Employed full-time
+Associate degree,12,C#;JavaScript;SQL;TypeScript,DevOps specialist,122142,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",16,C#;HTML/CSS;Java;JavaScript;TypeScript,"Developer, full-stack",78629,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,C;C++;Go,"Developer, embedded applications or devices",99240,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",19,Bash/Shell/PowerShell;C;C++;HTML/CSS;Java;JavaScript;PHP;Python;Ruby,"Developer, full-stack",76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",7,Bash/Shell/PowerShell;C++;JavaScript;Python;Ruby;Scala,"Engineer, site reliability",61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",7,Bash/Shell/PowerShell;C++;JavaScript;Python;Ruby;Scala,System administrator,61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",1,Bash/Shell/PowerShell;HTML/CSS;JavaScript;Python;Ruby,"Developer, full-stack",41986,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",1,Bash/Shell/PowerShell;HTML/CSS;JavaScript;Python;Ruby,System administrator,41986,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;PHP;Python;SQL,"Developer, full-stack",34352,Employed full-time
+NA,6,HTML/CSS;JavaScript;Ruby;SQL,"Developer, full-stack",48093,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",7,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;Python;Ruby,"Developer, front-end",91606,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",22,Bash/Shell/PowerShell;C#;Go;HTML/CSS;JavaScript;Python;SQL,Engineering manager,80155,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",22,Bash/Shell/PowerShell;C#;Go;HTML/CSS;JavaScript;Python;SQL,Product manager,80155,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,Bash/Shell/PowerShell;C#;JavaScript;Python;SQL,Data scientist or machine learning specialist,61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,Bash/Shell/PowerShell;C#;JavaScript;Python;SQL,"Developer, back-end",61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",18,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;Python,DevOps specialist,87789,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",18,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;Python,Educator,87789,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",30,C#;Java;SQL,"Developer, back-end",106874,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",30,C#;Java;SQL,"Developer, full-stack",106874,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;Python;Ruby;Scala;SQL,"Developer, back-end",106874,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,HTML/CSS;Java;JavaScript,"Developer, full-stack",54964,Employed full-time
+Some college/university study without earning a degree,14,Bash/Shell/PowerShell;Elixir;HTML/CSS;JavaScript;Kotlin;Ruby,"Developer, full-stack",72522,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Go;Java,"Developer, back-end",67178,Employed full-time
+Associate degree,22,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;PHP;SQL,"Developer, full-stack",107637,Employed full-time
+Associate degree,22,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;PHP;SQL,"Developer, game or graphics",107637,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",10,Java;Kotlin,"Developer, mobile",91606,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",16,Bash/Shell/PowerShell;C++;C#;Java;JavaScript;Ruby;SQL,"Developer, front-end",95423,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,Bash/Shell/PowerShell;JavaScript;SQL,"Developer, back-end",99240,Employed full-time
+Associate degree,4,C#;HTML/CSS;JavaScript;SQL,"Developer, desktop or enterprise applications",30535,Employed full-time
+Associate degree,4,C#;HTML/CSS;JavaScript;SQL,"Developer, front-end",30535,Employed full-time
+Associate degree,5,C#;HTML/CSS;JavaScript;SQL,Database administrator,61071,Employed full-time
+Some college/university study without earning a degree,10,Bash/Shell/PowerShell;SQL;VBA,Database administrator,46566,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",7,Assembly;Bash/Shell/PowerShell;C;C++;Go;HTML/CSS;Java;Python;SQL,Data or business analyst,87789,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",7,Assembly;Bash/Shell/PowerShell;C;C++;Go;HTML/CSS;Java;Python;SQL,Data scientist or machine learning specialist,87789,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",7,Assembly;Bash/Shell/PowerShell;C;C++;Go;HTML/CSS;Java;Python;SQL,"Developer, desktop or enterprise applications",87789,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",5,C;C#;HTML/CSS;JavaScript;Python;SQL,"Developer, full-stack",64888,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",9,C++;C#;HTML/CSS;JavaScript;PHP;SQL;Other(s):,"Developer, desktop or enterprise applications",45803,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,C#;HTML/CSS;JavaScript;PHP;SQL,"Developer, full-stack",38933,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Java;Kotlin;Python,"Developer, mobile",53437,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Bash/Shell/PowerShell;HTML/CSS;JavaScript;Python;Ruby;SQL,"Developer, front-end",62598,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Bash/Shell/PowerShell;HTML/CSS;JavaScript;Python;Ruby;SQL,System administrator,62598,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,Bash/Shell/PowerShell;C#;Java;Scala,"Developer, mobile",114508,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",14,HTML/CSS;Java;JavaScript,"Developer, full-stack",125959,Employed full-time
+Some college/university study without earning a degree,1,HTML/CSS;Java;JavaScript;SQL,"Developer, desktop or enterprise applications",36642,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",7,Bash/Shell/PowerShell;C;Erlang;F#;Go;Rust,Engineering manager,152677,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",12,HTML/CSS;JavaScript;PHP,NA,106874,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,HTML/CSS;JavaScript;SQL;TypeScript,"Developer, back-end",22896,Employed full-time
+NA,4,C;C++;C#;Dart;HTML/CSS;Java;JavaScript;PHP;SQL;TypeScript,Designer,32444,Employed full-time
+NA,4,C;C++;C#;Dart;HTML/CSS;Java;JavaScript;PHP;SQL;TypeScript,"Developer, full-stack",32444,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",1,C#;Go;HTML/CSS;Java;JavaScript;PHP;Python;SQL,"Developer, full-stack",34352,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",7,Bash/Shell/PowerShell;HTML/CSS;JavaScript;Python;SQL,"Developer, back-end",53819,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",20,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;Python;SQL,Database administrator,83972,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",20,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;Python;SQL,Designer,83972,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",20,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;Python;SQL,"Developer, desktop or enterprise applications",83972,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",20,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;Python;SQL,DevOps specialist,83972,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",20,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;Python;SQL,System administrator,83972,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",10,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;PHP;Python;SQL;TypeScript,NA,76339,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",20,Go;HTML/CSS;Java;JavaScript;Python;SQL;TypeScript,Engineering manager,187029,Employed full-time
+Some college/university study without earning a degree,20,Bash/Shell/PowerShell;C;C++;HTML/CSS;Python;SQL,Data scientist or machine learning specialist,47330,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Bash/Shell/PowerShell;Go;HTML/CSS;JavaScript;PHP;SQL;TypeScript,"Developer, back-end",45803,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Bash/Shell/PowerShell;Go;HTML/CSS;JavaScript;PHP;Python;Scala;SQL,"Developer, back-end",95423,Employed full-time
+Some college/university study without earning a degree,16,Bash/Shell/PowerShell;Go;HTML/CSS;JavaScript;PHP;Python;SQL;TypeScript,"Developer, back-end",203824,Employed full-time
+Some college/university study without earning a degree,16,Bash/Shell/PowerShell;Go;HTML/CSS;JavaScript;PHP;Python;SQL;TypeScript,"Developer, full-stack",203824,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",23,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;SQL,"Developer, front-end",141226,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;SQL,"Developer, back-end",66033,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",4,C#;HTML/CSS;Java;JavaScript;Python;SQL,"Developer, QA or test",45803,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",33,Other(s):,"Developer, full-stack",142753,Employed full-time
+"Professional degree (JD, MD, etc.)",19,PHP;SQL;Other(s):,Database administrator,68705,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",3,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;Python;SQL;TypeScript,"Developer, desktop or enterprise applications",58017,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,C++;C#;JavaScript;TypeScript,"Developer, game or graphics",72522,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",15,Bash/Shell/PowerShell;HTML/CSS;JavaScript,"Developer, back-end",99240,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",37,Bash/Shell/PowerShell;Clojure;Dart;Elixir;Go;HTML/CSS;Java;JavaScript;Kotlin;Python;SQL;TypeScript;Other(s):,"Developer, full-stack",172,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,HTML/CSS;Java;JavaScript;Kotlin;PHP;Python;SQL;Swift,"Developer, mobile",72522,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,Elixir;HTML/CSS;JavaScript;Ruby;TypeScript,"Developer, back-end",122142,Employed full-time
+Associate degree,14,C#;JavaScript;SQL,Designer,57254,Employed full-time
+Associate degree,14,C#;JavaScript;SQL,"Developer, full-stack",57254,Employed full-time
+Associate degree,29,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;PHP;Python;SQL;Swift,Data or business analyst,125000,Employed full-time
+Associate degree,29,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;PHP;Python;SQL;Swift,Database administrator,125000,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",4,C#;HTML/CSS;JavaScript,"Developer, game or graphics",68705,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",4,C#;HTML/CSS;JavaScript,Scientist,68705,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,Go;HTML/CSS;JavaScript;Python;SQL;TypeScript,"Developer, full-stack",49620,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,C;C++;C#;Go;HTML/CSS;Java;JavaScript;Objective-C;PHP;Python;R;SQL,"Developer, full-stack",68705,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",15,HTML/CSS;JavaScript;PHP,"Developer, back-end",106874,Employed full-time
+Associate degree,9,HTML/CSS;JavaScript;PHP;Python;SQL,"Developer, mobile",48857,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",35,C;C++;C#;HTML/CSS;Java;JavaScript;Python;SQL,"Developer, embedded applications or devices",90000,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",35,C;C++;C#;HTML/CSS;Java;JavaScript;Python;SQL,"Developer, front-end",90000,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",21,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;SQL,"Developer, front-end",68705,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",21,Bash/Shell/PowerShell;Go;JavaScript;Ruby;TypeScript,"Developer, full-stack",45803,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",3,Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;Python;Scala;SQL;TypeScript,"Developer, full-stack",80155,Employed full-time
+NA,17,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;PHP;SQL,Database administrator,53361,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",21,Bash/Shell/PowerShell;Python;SQL;Swift,"Developer, mobile",90079,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,HTML/CSS;JavaScript;PHP,Database administrator,38169,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,HTML/CSS;JavaScript;PHP,"Developer, front-end",38169,Employed full-time
+Associate degree,8,C#;JavaScript;TypeScript,"Developer, full-stack",61071,Employed full-time
+Associate degree,3,Bash/Shell/PowerShell,"Engineer, data",77102,Employed full-time
+Associate degree,3,Bash/Shell/PowerShell,"Engineer, site reliability",77102,Employed full-time
+Associate degree,2,HTML/CSS;JavaScript;PHP,"Developer, full-stack",34352,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",20,Bash/Shell/PowerShell;Java;SQL;Other(s):,DevOps specialist,99240,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",20,C#;Java;JavaScript;Swift;Other(s):,"Developer, mobile",68705,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,Bash/Shell/PowerShell;C++;Go;HTML/CSS;JavaScript;PHP;Python;Ruby;SQL;TypeScript,"Developer, desktop or enterprise applications",145043,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,Bash/Shell/PowerShell;C++;Go;HTML/CSS;JavaScript;PHP;Python;Ruby;SQL;TypeScript,"Developer, full-stack",145043,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,Bash/Shell/PowerShell;C++;Go;HTML/CSS;JavaScript;PHP;Python;Ruby;SQL;TypeScript,"Developer, game or graphics",145043,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",14,Bash/Shell/PowerShell;JavaScript;Python;SQL,"Developer, back-end",99240,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Bash/Shell/PowerShell;HTML/CSS;Python;R;VBA,"Developer, back-end",35879,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Bash/Shell/PowerShell;HTML/CSS;Python;R;VBA,"Developer, desktop or enterprise applications",35879,Employed full-time
+Some college/university study without earning a degree,5,C#;HTML/CSS;JavaScript;SQL;TypeScript,"Developer, front-end",54964,Employed full-time
+Some college/university study without earning a degree,5,C#;HTML/CSS;JavaScript;SQL;TypeScript,"Developer, QA or test",54964,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",7,HTML/CSS;JavaScript;PHP;Python;SQL,"Developer, front-end",38551,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",8,C;F#;HTML/CSS;JavaScript;Python;TypeScript;Other(s):,"Developer, back-end",61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,C++;C#;JavaScript;Python;SQL,"Developer, full-stack",40459,Employed full-time
+Associate degree,22,Go;Objective-C;Python;SQL,"Developer, desktop or enterprise applications",198480,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;PHP;SQL,"Developer, front-end",50388,Employed full-time
+"Other doctoral degree (Ph.D, Ed.D., etc.)",2,Assembly;Bash/Shell/PowerShell;C;C++;Python;R;Rust,"Developer, desktop or enterprise applications",106874,Employed full-time
+"Other doctoral degree (Ph.D, Ed.D., etc.)",2,Assembly;Bash/Shell/PowerShell;C;C++;Python;R;Rust,Scientist,106874,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",7,C++;C#;HTML/CSS;JavaScript;Ruby;TypeScript;Other(s):,"Developer, desktop or enterprise applications",53437,Employed full-time
+NA,3,Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;PHP;SQL;TypeScript,Database administrator,38169,Employed full-time
+NA,3,Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;PHP;SQL;TypeScript,"Developer, front-end",38169,Employed full-time
+NA,3,Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;PHP;SQL;TypeScript,"Developer, full-stack",38169,Employed full-time
+I never completed any formal education,30,Assembly;Bash/Shell/PowerShell;C;C++;HTML/CSS;Java;JavaScript;PHP;Python;Ruby;Scala;SQL,"Developer, back-end",122142,Employed full-time
+I never completed any formal education,30,Assembly;Bash/Shell/PowerShell;C;C++;HTML/CSS;Java;JavaScript;PHP;Python;Ruby;Scala;SQL,DevOps specialist,122142,Employed full-time
+I never completed any formal education,30,Assembly;Bash/Shell/PowerShell;C;C++;HTML/CSS;Java;JavaScript;PHP;Python;Ruby;Scala;SQL,System administrator,122142,Employed full-time
+Some college/university study without earning a degree,3,C#;Java;JavaScript;TypeScript,"Developer, back-end",34352,Employed full-time
+Some college/university study without earning a degree,3,C#;Java;JavaScript;TypeScript,"Developer, front-end",34352,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,Java,"Developer, back-end",76339,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",32,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;SQL;Other(s):,Data or business analyst,114508,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",32,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;SQL;Other(s):,"Developer, desktop or enterprise applications",114508,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",32,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;SQL;Other(s):,"Developer, full-stack",114508,Employed full-time
+Some college/university study without earning a degree,9,C#;Java;JavaScript;Objective-C;Ruby;SQL;Swift,"Developer, front-end",64888,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",18,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;Python;Ruby;SQL,"Developer, back-end",100080,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",18,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;Python;Ruby;SQL,"Developer, QA or test",100080,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",16,HTML/CSS;JavaScript;TypeScript,"Developer, front-end",76339,Employed full-time
+Some college/university study without earning a degree,11,C#;HTML/CSS;Java;JavaScript;SQL;VBA,"Developer, back-end",70231,Employed full-time
+Some college/university study without earning a degree,24,Bash/Shell/PowerShell;HTML/CSS;JavaScript;Ruby;SQL;TypeScript,"Developer, QA or test",83972,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,HTML/CSS;JavaScript;TypeScript,"Developer, full-stack",64888,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Bash/Shell/PowerShell;HTML/CSS;JavaScript;Objective-C;PHP;Swift,"Developer, back-end",91606,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",23,C;C++;C#;HTML/CSS;JavaScript;SQL,"Developer, desktop or enterprise applications",80155,Employed full-time
+Some college/university study without earning a degree,15,HTML/CSS;JavaScript;PHP;SQL,Engineering manager,87789,Employed full-time
+Some college/university study without earning a degree,20,Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;PHP;SQL,Engineering manager,183212,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Java;SQL;Swift,Designer,100767,Employed full-time
+Associate degree,5,JavaScript;Kotlin;PHP;TypeScript,"Developer, front-end",49620,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",4,Bash/Shell/PowerShell;C#;JavaScript,"Developer, back-end",83972,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",3,C#;HTML/CSS;JavaScript;SQL;TypeScript,Database administrator,72140,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Bash/Shell/PowerShell;C++;C#;JavaScript;Python,"Developer, desktop or enterprise applications",47330,Employed full-time
+Associate degree,18,C#;HTML/CSS;JavaScript;Python;SQL,"Developer, back-end",72522,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",25,Bash/Shell/PowerShell;Elixir;Go;JavaScript;Ruby;SQL,Engineering manager,103057,Employed full-time
+NA,2,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;Python;SQL;VBA,"Developer, back-end",53772,Employed full-time
+Associate degree,2,HTML/CSS;JavaScript;Python;SQL,NA,38933,Employed full-time
+Some college/university study without earning a degree,7,Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;SQL;Other(s):,"Developer, back-end",61071,Employed full-time
+Some college/university study without earning a degree,7,Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;SQL;Other(s):,"Developer, front-end",61071,Employed full-time
+Some college/university study without earning a degree,7,Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;SQL;Other(s):,"Developer, full-stack",61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Bash/Shell/PowerShell;C++;C#;F#;Go;HTML/CSS;Java;JavaScript;PHP;SQL,"Developer, back-end",61071,Employed full-time
+Associate degree,6,HTML/CSS;Java;JavaScript;TypeScript,"Developer, full-stack",57254,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",10,C#;HTML/CSS;Java;JavaScript,"Developer, back-end",56300,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",9,Assembly;Bash/Shell/PowerShell;C;C#;HTML/CSS;Python;Ruby,"Developer, embedded applications or devices",64888,Employed full-time
+"Other doctoral degree (Ph.D, Ed.D., etc.)",5,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;TypeScript,"Developer, full-stack",76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",22,Bash/Shell/PowerShell;HTML/CSS;JavaScript;Ruby;SQL,"Developer, back-end",70231,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",2,HTML/CSS;JavaScript,"Developer, front-end",45803,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",8,Bash/Shell/PowerShell;C#;Go;Ruby,Scientist,114508,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",4,C#;HTML/CSS;Java;PHP;SQL;Swift;VBA,"Developer, back-end",49620,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",4,C#;HTML/CSS;Java;PHP;SQL;Swift;VBA,"Developer, desktop or enterprise applications",49620,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",28,Bash/Shell/PowerShell;Java;JavaScript;Scala,"Developer, back-end",118325,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;Python;SQL,Data or business analyst,47712,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;Python;SQL,"Developer, back-end",47712,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;Python;SQL,"Developer, front-end",47712,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;Python;SQL,"Developer, desktop or enterprise applications",45803,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",9,Bash/Shell/PowerShell;Python;Ruby,DevOps specialist,80155,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",7,NA,"Developer, back-end",34368,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,C#;Java;JavaScript;Kotlin;Python;SQL,DevOps specialist,64888,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",9,Bash/Shell/PowerShell;C++;Elixir;Go;HTML/CSS;Java;JavaScript;Kotlin;Python;Ruby;SQL,Academic researcher,122142,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",9,Bash/Shell/PowerShell;C++;Elixir;Go;HTML/CSS;Java;JavaScript;Kotlin;Python;Ruby;SQL,Database administrator,122142,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",9,Bash/Shell/PowerShell;C++;Elixir;Go;HTML/CSS;Java;JavaScript;Kotlin;Python;Ruby;SQL,"Developer, back-end",122142,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",9,Bash/Shell/PowerShell;C++;Elixir;Go;HTML/CSS;Java;JavaScript;Kotlin;Python;Ruby;SQL,Senior executive/VP,122142,Employed full-time
+Some college/university study without earning a degree,21,Bash/Shell/PowerShell;C++;Elixir;Go;HTML/CSS;JavaScript;Kotlin;Python;SQL;TypeScript,Database administrator,137409,Employed full-time
+Some college/university study without earning a degree,18,C#;PHP;Swift,"Developer, front-end",71758,Employed full-time
+Some college/university study without earning a degree,18,C#;PHP;Swift,"Developer, full-stack",71758,Employed full-time
+Associate degree,10,Bash/Shell/PowerShell;JavaScript;PHP;SQL;TypeScript,"Developer, back-end",53437,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,HTML/CSS;SQL;Other(s):,Data or business analyst,51147,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Bash/Shell/PowerShell;HTML/CSS;JavaScript;Python,"Developer, game or graphics",57254,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Bash/Shell/PowerShell;C;C++;Python;SQL,Database administrator,72522,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Bash/Shell/PowerShell;C;C++;Python;SQL,"Developer, embedded applications or devices",72522,Employed full-time
+NA,14,C#;HTML/CSS;Java;JavaScript;SQL,"Developer, full-stack",63361,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",20,Go;HTML/CSS;Java;JavaScript;PHP,Database administrator,137409,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,C++;C#;HTML/CSS;JavaScript,"Developer, front-end",83972,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,C++;C#;HTML/CSS;JavaScript,"Developer, full-stack",83972,Employed full-time
+"Professional degree (JD, MD, etc.)",7,JavaScript;PHP,"Developer, full-stack",22750,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,HTML/CSS;Python;Scala;TypeScript,"Developer, back-end",78858,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,HTML/CSS;Python;Scala;TypeScript,"Developer, full-stack",78858,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,HTML/CSS;Java;JavaScript,Database administrator,41986,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,HTML/CSS;Java;JavaScript,"Developer, back-end",41986,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,HTML/CSS;Java;JavaScript,"Developer, full-stack",41986,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;PHP;SQL,System administrator,11451,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,C#;HTML/CSS;JavaScript;PHP;SQL;TypeScript,"Developer, front-end",50383,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,C#;HTML/CSS;Java;JavaScript;SQL,"Developer, back-end",72522,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",30,C#;HTML/CSS;JavaScript;TypeScript,"Developer, front-end",76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",15,Bash/Shell/PowerShell;C;C++;C#;Python,"Developer, desktop or enterprise applications",77865,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",15,Bash/Shell/PowerShell;C;C++;C#;Python,"Developer, QA or test",77865,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",15,Bash/Shell/PowerShell;C;C++;C#;Python,Engineering manager,77865,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Bash/Shell/PowerShell;Dart;HTML/CSS;Java;JavaScript;Python;SQL,"Developer, full-stack",57254,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;Python;Swift,"Developer, front-end",41986,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;Python;Swift,DevOps specialist,41986,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,Bash/Shell/PowerShell;C#;JavaScript;Python,Data scientist or machine learning specialist,72522,Employed full-time
+Some college/university study without earning a degree,20,Bash/Shell/PowerShell;C++;C#;HTML/CSS;SQL,"Developer, full-stack",156494,Employed full-time
+Some college/university study without earning a degree,20,Bash/Shell/PowerShell;C++;C#;HTML/CSS;SQL,Educator,156494,Employed full-time
+NA,2,C#;HTML/CSS;JavaScript;SQL;VBA,"Developer, full-stack",49620,Employed full-time
+"Other doctoral degree (Ph.D, Ed.D., etc.)",5,Python,Scientist,61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",30,HTML/CSS;JavaScript,"Developer, back-end",76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,Bash/Shell/PowerShell;HTML/CSS;JavaScript;SQL;TypeScript,Database administrator,72522,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,Bash/Shell/PowerShell;HTML/CSS;JavaScript;SQL;TypeScript,"Developer, front-end",72522,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",15,Assembly;C;C++;Python;Other(s):,"Developer, desktop or enterprise applications",76339,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",15,Assembly;C;C++;Python;Other(s):,System administrator,76339,Employed full-time
+Associate degree,15,C;C++;C#;Python;SQL;Other(s):,"Developer, game or graphics",64888,Employed full-time
+Associate degree,15,C#;HTML/CSS;JavaScript;SQL;TypeScript,"Developer, back-end",74812,Employed full-time
+Associate degree,15,C#;HTML/CSS;JavaScript;SQL;TypeScript,"Developer, desktop or enterprise applications",74812,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",19,C#;HTML/CSS;Java;SQL;VBA,"Developer, desktop or enterprise applications",76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,Bash/Shell/PowerShell;Go;HTML/CSS;JavaScript;PHP;SQL,"Developer, full-stack",67178,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",1,Bash/Shell/PowerShell;C++;C#;HTML/CSS;JavaScript;PHP;SQL;TypeScript,"Developer, full-stack",46948,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",22,Bash/Shell/PowerShell;C;Python,"Developer, desktop or enterprise applications",80155,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",22,Bash/Shell/PowerShell;C;Python,"Developer, front-end",80155,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",22,Bash/Shell/PowerShell;C;Python,"Developer, QA or test",80155,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",13,Bash/Shell/PowerShell;C++;Objective-C;Python;TypeScript,System administrator,68705,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,C#;Java,"Developer, mobile",49620,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",18,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;Python;SQL,Educator,95423,Employed full-time
+Some college/university study without earning a degree,6,HTML/CSS;JavaScript;PHP;Python;SQL;TypeScript,"Developer, front-end",41986,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",17,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;Python;Other(s):,Designer,85499,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",17,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;Python;Other(s):,"Developer, front-end",85499,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;Python;R;SQL;VBA,DevOps specialist,51910,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",1,Bash/Shell/PowerShell;C;C++;Go;HTML/CSS;Java;JavaScript;Python;SQL,"Developer, full-stack",45803,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",18,HTML/CSS;JavaScript;PHP;SQL;Other(s):,"Developer, front-end",54964,Employed full-time
+"Professional degree (JD, MD, etc.)",16,C#;HTML/CSS;JavaScript;SQL;VBA,"Developer, back-end",45803,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",8,Bash/Shell/PowerShell;Python;Scala;SQL,"Developer, back-end",64888,Employed full-time
+NA,2,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript,Designer,34352,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,Clojure;HTML/CSS,"Developer, front-end",53437,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",5,HTML/CSS;Java;Python;R;Other(s):,Data scientist or machine learning specialist,61834,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",5,HTML/CSS;Java;Python;R;Other(s):,"Engineer, data",61834,Employed full-time
+Some college/university study without earning a degree,20,Bash/Shell/PowerShell;C;C++;HTML/CSS;JavaScript;PHP;Python;TypeScript,"Developer, full-stack",80155,Employed full-time
+Some college/university study without earning a degree,20,Bash/Shell/PowerShell;C;C++;HTML/CSS;JavaScript;PHP;Python;TypeScript,"Developer, game or graphics",80155,Employed full-time
+Some college/university study without earning a degree,20,Bash/Shell/PowerShell;C;C++;HTML/CSS;JavaScript;PHP;Python;TypeScript,DevOps specialist,80155,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",18,Bash/Shell/PowerShell;C#;Go;HTML/CSS;Java;JavaScript;PHP;Python;SQL,Engineering manager,152677,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",8,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;PHP;Python;Ruby,"Developer, back-end",64124,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",8,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;PHP;Python;Ruby,"Developer, full-stack",64124,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",8,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;PHP;Python;Ruby,DevOps specialist,64124,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",10,Bash/Shell/PowerShell;Go;HTML/CSS;SQL,"Developer, back-end",105347,Employed full-time
+"Other doctoral degree (Ph.D, Ed.D., etc.)",1,Python;R;Scala;SQL,Data scientist or machine learning specialist,70613,Employed full-time
+"Other doctoral degree (Ph.D, Ed.D., etc.)",1,Python;R;Scala;SQL,"Developer, back-end",70613,Employed full-time
+Some college/university study without earning a degree,2,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;Kotlin;PHP;Python;R;SQL;Swift,"Developer, full-stack",34352,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",5,HTML/CSS;Python;SQL;TypeScript,"Developer, full-stack",57254,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",12,C#;HTML/CSS;PHP;Python;VBA,"Developer, full-stack",88000,Employed full-time
+Associate degree,12,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;SQL,"Developer, full-stack",67178,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",14,C++;Python,"Developer, desktop or enterprise applications",80155,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",24,C#;SQL,Data or business analyst,67178,Employed full-time
+Some college/university study without earning a degree,11,Bash/Shell/PowerShell;C#;Java;Python;SQL;Other(s):,"Developer, desktop or enterprise applications",43513,Employed full-time
+Some college/university study without earning a degree,11,Bash/Shell/PowerShell;C#;Java;Python;SQL;Other(s):,System administrator,43513,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,C#;HTML/CSS;Python;SQL;TypeScript,"Developer, full-stack",53437,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",22,C++;C#;Go;HTML/CSS;Rust;TypeScript,"Developer, back-end",95423,Employed full-time
+"Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)",22,C++;C#;Go;HTML/CSS;Rust;TypeScript,System administrator,95423,Employed full-time
+I never completed any formal education,13,HTML/CSS;JavaScript,Data scientist or machine learning specialist,80155,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",4,HTML/CSS;Java,"Developer, full-stack",91608,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",9,C#;Java;JavaScript,"Developer, desktop or enterprise applications",99240,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",15,Java;Kotlin,"Developer, back-end",99240,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",15,Java;Kotlin,Engineering manager,99240,Employed full-time
+"Other doctoral degree (Ph.D, Ed.D., etc.)",10,Bash/Shell/PowerShell;R,Academic researcher,80155,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,NA,"Developer, front-end",72522,Employed full-time
+"Professional degree (JD, MD, etc.)",9,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;SQL,Database administrator,43513,Employed full-time
+NA,13,Bash/Shell/PowerShell;C;C++;HTML/CSS;Java;JavaScript;PHP;Python;SQL;TypeScript;VBA,"Developer, back-end",45803,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,HTML/CSS;Java;JavaScript;Objective-C;PHP;Python;SQL;VBA,"Developer, front-end",40459,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",31,Bash/Shell/PowerShell;JavaScript;Python;Ruby;SQL,NA,68705,Employed full-time
+Some college/university study without earning a degree,31,Bash/Shell/PowerShell;C;C++;C#;SQL,"Developer, front-end",72522,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",8,HTML/CSS;JavaScript;PHP,Product manager,74048,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",22,Bash/Shell/PowerShell;Java;JavaScript;Objective-C;SQL;Swift;TypeScript,Designer,160000,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",22,Bash/Shell/PowerShell;Java;JavaScript;Objective-C;SQL;Swift;TypeScript,"Developer, back-end",160000,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",8,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;Objective-C;SQL;Swift,Student,45803,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",11,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;PHP;Python;SQL,"Developer, full-stack",62598,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,HTML/CSS;JavaScript;PHP;SQL;VBA,"Developer, back-end",34352,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Bash/Shell/PowerShell;C#;HTML/CSS;Java;JavaScript;PHP,"Developer, game or graphics",53437,Employed full-time
+Associate degree,18,Assembly;Bash/Shell/PowerShell;C;Dart;Go;HTML/CSS;Java;JavaScript;Python;Ruby;SQL,"Developer, back-end",308408,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,Go;HTML/CSS;JavaScript;PHP;Python;Scala;SQL,"Developer, full-stack",57254,Employed full-time
+Associate degree,18,Bash/Shell/PowerShell;C;C++;Go;Java;JavaScript;PHP;Python,Engineering manager,145043,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",1,Bash/Shell/PowerShell;HTML/CSS;JavaScript;Objective-C;Python;SQL;Swift;TypeScript,"Engineer, data",54964,Employed full-time
+Associate degree,13,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;SQL,"Developer, full-stack",73285,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Bash/Shell/PowerShell;Go;Python;SQL,"Developer, back-end",118019,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Bash/Shell/PowerShell;Go;Python;SQL,DevOps specialist,118019,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Bash/Shell/PowerShell;Go;Python;SQL,"Engineer, data",118019,Employed full-time
+Some college/university study without earning a degree,22,HTML/CSS;JavaScript,"Developer, front-end",68705,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",11,Bash/Shell/PowerShell;C;C++;C#;HTML/CSS;JavaScript;Python;SQL,"Developer, full-stack",70995,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",11,Bash/Shell/PowerShell;C;C++;C#;HTML/CSS;JavaScript;Python;SQL,Scientist,70995,Employed full-time
+Associate degree,5,C#;HTML/CSS;JavaScript;PHP,"Developer, back-end",41986,Employed full-time
+Some college/university study without earning a degree,10,HTML/CSS;Java;JavaScript;PHP;SQL,"Developer, full-stack",61071,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",5,Bash/Shell/PowerShell;Python;R,Data scientist or machine learning specialist,64888,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",11,Go;HTML/CSS;JavaScript;Python;Ruby;SQL,Data scientist or machine learning specialist,92,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",11,Go;HTML/CSS;JavaScript;Python;Ruby;SQL,"Developer, back-end",92,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",25,Bash/Shell/PowerShell;C;C++;HTML/CSS;Java;JavaScript;PHP;Python;Ruby;SQL;TypeScript;VBA,Database administrator,99240,Employed full-time
+"Master’s degree (MA, MS, M.Eng., MBA, etc.)",25,Bash/Shell/PowerShell;C;C++;HTML/CSS;Java;JavaScript;PHP;Python;Ruby;SQL;TypeScript;VBA,"Developer, front-end",99240,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",12,Bash/Shell/PowerShell;HTML/CSS;JavaScript;Python;SQL;TypeScript,"Developer, full-stack",99240,Employed full-time
+Associate degree,14,Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;Python;SQL,"Developer, front-end",61071,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",7,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;Python;SQL,"Developer, game or graphics",96187,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",7,Bash/Shell/PowerShell;HTML/CSS;JavaScript;PHP;Python;SQL,System administrator,96187,Employed full-time
+Some college/university study without earning a degree,8,HTML/CSS;Java;JavaScript;PHP;Python;SQL,Database administrator,76339,Employed full-time
+Some college/university study without earning a degree,8,HTML/CSS;Java;JavaScript;PHP;Python;SQL,"Developer, back-end",76339,Employed full-time
+Some college/university study without earning a degree,8,HTML/CSS;Java;JavaScript;PHP;Python;SQL,DevOps specialist,76339,Employed full-time
+Some college/university study without earning a degree,8,HTML/CSS;Java;JavaScript;PHP;Python;SQL,System administrator,76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",30,Assembly;Bash/Shell/PowerShell;C;C++;HTML/CSS;Java;JavaScript,"Developer, back-end",76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",6,Go;JavaScript;Python;TypeScript,"Developer, full-stack",72522,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",33,C#;HTML/CSS;SQL,"Developer, back-end",62598,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Bash/Shell/PowerShell;C;C++;SQL,"Developer, desktop or enterprise applications",53437,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",2,Bash/Shell/PowerShell;C;C++;SQL,"Developer, game or graphics",53437,Employed full-time
+Some college/university study without earning a degree,3,HTML/CSS;JavaScript;PHP;SQL,"Developer, back-end",66796,Employed full-time
+Some college/university study without earning a degree,3,HTML/CSS;JavaScript;PHP;SQL,"Developer, desktop or enterprise applications",66796,Employed full-time
+Some college/university study without earning a degree,30,Bash/Shell/PowerShell;C;C++;Erlang;HTML/CSS;JavaScript;PHP;Ruby;Rust;SQL;Swift,Database administrator,45803,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",12,C#;HTML/CSS;JavaScript;Python;SQL;TypeScript,"Developer, full-stack",76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",12,C#;HTML/CSS;JavaScript;Python;SQL;TypeScript,"Developer, QA or test",76339,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",12,Bash/Shell/PowerShell;HTML/CSS;Java;JavaScript;TypeScript,"Developer, back-end",68705,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",10,Java;JavaScript;SQL;Other(s):,Marketing or sales professional,68705,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",13,Elixir,"Developer, back-end",51910,Employed full-time
+"Bachelor’s degree (BA, BS, B.Eng., etc.)",3,HTML/CSS;JavaScript;TypeScript,"Developer, front-end",45803,Employed full-time

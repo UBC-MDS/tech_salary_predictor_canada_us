@@ -2,4 +2,4 @@
 **.ipynb_checkpoints
 **.Rproj
 **.Rproj.user/
-**/data/raw/
+**/data/raw/*.csv
