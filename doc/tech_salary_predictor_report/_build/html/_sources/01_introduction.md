@@ -1,2 +1,0 @@
-# Introduction
-Graduates and seasoned tech employees may have a question about how much they should get paid from their employers for the reason that salary is never transparent information. Lack of enough information, graduates may feel lost and insecure and job seekers may be at disadvantage when having salary discussion with HR. Hence, we come up with this idea to build up a model to predict the pay that technicians can expect based on several explicit factors including education level, previous experience, location etc.
