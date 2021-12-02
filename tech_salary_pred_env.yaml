@@ -32,3 +32,4 @@ dependencies:
   - vega-lite-cli
   - jsonschema==3.2
   - jupyter-book
+  - myst-nb
