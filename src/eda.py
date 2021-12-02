@@ -95,7 +95,7 @@ def main(train, out_dir):
     save(edu_plot,out_dir + 'edu_plot.png')
     save(role_plot,out_dir + 'role_plot.png')
     save(language_plot,out_dir + 'language_plot.png')
-    save(code_years_plot ,out_dir + 'code_years_plot .png')
+    save(code_years_plot,out_dir + 'code_years_plot.png')
     save(salary_density_plot,out_dir + 'salary_density_plot.png')
 
 

@@ -1,0 +1,34 @@
+name: tech_salary_pred_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - conda
+  - python=3.9
+  - python.app
+  - pandas
+  - jupyterlab-lsp
+  - jupyterlab-spellchecker
+  - jupytext
+  - jupyterlab
+  - memory_profiler
+  - jupyter-lsp-python
+  - jupyterlab-git
+  - pyppeteer=0.2.2
+  - scipy
+  - matplotlib
+  - nb_conda_kernels
+  - ipywidgets
+  - altair
+  - panel
+  - pandas-profiling
+  - imbalanced-learn
+  - gh
+  - python-chromedriver-binary
+  - altair_saver
+  - jupyter
+  - docopt
+  - vega-cli
+  - vega-lite-cli
+  - jsonschema==3.2
+  - jupyter-book
