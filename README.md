@@ -65,7 +65,21 @@ Suggested way to download data:
 4.  Run the following command at the terminal from the root directory of
     this project:
 
-<!-- -->
+#### Option 1 - Using makefile
+
+To replicate the analysis, clone this GitHub repository, install the
+dependencies listed above, and run the following command at the command
+line/terminal from the root directory of this project:
+
+    make all
+
+To reset the repo to a clean state, with no intermediate or results
+files, run the following command at the command line/terminal from the
+root directory of this project:
+
+    make clean
+
+#### Option 2 - Executing the scripts individually
 
     # create conda environment
     conda env create -f tech_salary_pred_env.yaml
