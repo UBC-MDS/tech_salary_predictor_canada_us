@@ -40,7 +40,7 @@ python src/eda.py --train=data/processed/training.csv --out_dir=results/
 python src/salary_prediction_model.py --train=data/processed/training.csv --out_dir=results --test=data/processed/test.csv
 
 # render report
-jupyter-book build doc/tech_salary_predictor_report/
+jupyter-book build docs
 ```
 
 ### Report
