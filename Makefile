@@ -2,7 +2,7 @@
 # author: Sanchit Singh
 # date: 2021-12-01
 
-all: docs/report.html
+all: docs/_build/report.html
 
 # download data
 data/raw/survey_results_public.csv: src/download_data.py
@@ -33,19 +33,11 @@ results/alpha-tuning.png: src/salary_prediction_model.py data/processed/training
 	python src/salary_prediction_model.py --train=data/processed/training.csv --out_dir=results --test=data/processed/test.csv
 
 # render report
-docs/report.html: docs/report.ipynb docs/references.bib results/best_model_pipe.joblib results/test_result.joblib results/alpha-tuning.png results/edu_plot.png results/role_plot.png results/language_plot.png results/code_years_plot.png results/salary_density_plot.png
+docs/_build/report.html: docs/report.ipynb docs/references.bib results/best_model_pipe.joblib results/test_result.joblib results/alpha-tuning.png results/edu_plot.png results/role_plot.png results/language_plot.png results/code_years_plot.png results/salary_density_plot.png
 	jupyter-book build docs
 
 clean: 
-	rm -rf data
-	rm -rf results
-	rm -rf doc/breast_cancer_predict_report.md doc/breast_cancer_predict_report.html
-
-
-
-
-
-
-
-# write the report
-Rscript -e "rmarkdown::render('doc/count_report.Rmd')"
+	rm -f data/raw/*
+	rm -f data/processed/*
+	rm -f results/*
+	rm -rf docs/_build
