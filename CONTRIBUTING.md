@@ -1,6 +1,6 @@
-# Contributing to the [Project Name] project
+# Contributing to the Tech Salary Predictor project
 
-This outlines how to propose a change to the [Project Name] project. 
+This outlines how to propose a change to the  Tech Salary Predictor project. 
 
 ### Fixing typos
 
