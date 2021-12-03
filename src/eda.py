@@ -32,13 +32,13 @@ def main(train, out_dir):
     train_df = train_df.query('ConvertedComp < 200000')
     replace_dict = {'Bachelor’s degree (BA, BS, B.Eng., etc.)':'Bachelor',
             'Master’s degree (MA, MS, M.Eng., MBA, etc.)':'Master',
-            'Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)':'Secondary_school'}
-    edu_df = train_df[train_df["EdLevel"].astype(str).str.contains('Bachelor|Master|Secondary')].replace(replace_dict)
-
+            'Other doctoral degree (Ph.D, Ed.D., etc.)':'PH.D.'}
+    edu_df = train_df[train_df["EdLevel"].astype(str).str.contains('Bachelor|Master|doctoral')].replace(replace_dict)
+    
 
     edu_plot = alt.Chart(edu_df).mark_boxplot().encode(
-        alt.Y('EdLevel', title='Education level'), 
-        alt.X('ConvertedComp', title='Annual Compensation(USD)'),
+        y = alt.Y('EdLevel:N', title='Education level'), 
+        x = alt.X('ConvertedComp:Q', title='Annual Compensation(USD)'),
         color='EdLevel',
         )
     
@@ -52,16 +52,25 @@ def main(train, out_dir):
         color='DevType:N',
         )
 
-    # visualize the annual compensation comparision by different programming languages
-    tech = ['C#;HTML/CSS;JavaScript;SQL', 'C#;HTML/CSS;JavaScript;SQL;TypeScript', 'HTML/CSS;JavaScript', 'HTML/CSS;JavaScript;PHP;SQL', 'Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;SQL']
+    # visualize the annual compensation comparision versus different coding years group by programming languages
+    tech = ['C#;HTML/CSS;JavaScript;SQL', 'HTML/CSS;JavaScript', 'HTML/CSS;JavaScript;PHP;SQL', 'Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;SQL']
     tech_df = train_df.query('LanguageWorkedWith == @tech')
     lang_replace_dict = {'C#;HTML/CSS;JavaScript;SQL':'C,SQL,HTML,Java',
-            'C#;HTML/CSS;JavaScript;SQL;TypeScript':'TypeScript,C,SQL,HTML,Java',
             'HTML/CSS;JavaScript':'HTML,Java',
             'HTML/CSS;JavaScript;PHP;SQL':'HTML,Java,PHP,SQL',
             'Bash/Shell/PowerShell;C#;HTML/CSS;JavaScript;SQL':'Bash,C,SQL,HTML,Java',
                }
     tech_df = tech_df.replace(lang_replace_dict)
+
+    points = alt.Chart(tech_df).mark_point(opacity=0.3).encode(
+        alt.Y('ConvertedComp', title='Annual Compensation(USD)'), 
+        alt.X('YearsCodePro', title='Number of professional coding years'),
+        color='LanguageWorkedWith:N',
+        )
+    language_codeyears_plot = points +  points.transform_loess(
+    'YearsCodePro', 'ConvertedComp', groupby=['LanguageWorkedWith'], bandwidth=0.8).mark_line(size=3)
+
+    # visualize the annual compensation comparision between different programming languages
     language_plot = alt.Chart(tech_df).mark_boxplot().encode(
         alt.Y('LanguageWorkedWith:N', title='Languages worked with'), 
         alt.X('ConvertedComp:Q', title='Annual Compensation(USD)'),
@@ -97,6 +106,7 @@ def main(train, out_dir):
     save(language_plot,out_dir + 'language_plot.png')
     save(code_years_plot,out_dir + 'code_years_plot.png')
     save(salary_density_plot,out_dir + 'salary_density_plot.png')
+    save(language_codeyears_plot,out_dir + 'language_codeyears_plot.png')
 
 
 
