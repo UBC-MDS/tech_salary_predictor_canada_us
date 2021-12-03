@@ -19,11 +19,15 @@ The data set used in this project is from the [Stack Overflow Annual Developer S
 ### Usage
 
 ### Dependencies
+The R dependencies are listed below:
+
 - R version 3.6.1 and R packages:
   - tidyverse==1.3.1
   - caret==6.0.90
   - docopt==0.7.1
   - testthat=3.0.4
+
+The Python dependencies can be found in the tech_salary_pred_env.yaml file. However, you don't have to manually install these dependencies. You need to install conda (v4.10.3) and then follow the installation instructions described below.
 
 Suggested way to download data:
 
@@ -33,6 +37,10 @@ Suggested way to download data:
    https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2019.zip
 4. Run the following command at the terminal from the root directory of this project:
 ```
+# create conda environment
+conda env create -f tech_salary_pred_env.yaml
+conda activate tech_salary_pred_env
+
 # download data
 python src/download_data.py --url=https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2019.zip --out_dir=data/raw
 
