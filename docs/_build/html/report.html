@@ -53,6 +53,7 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Salary predictor for tech employees in Canada" href="index.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -85,12 +86,25 @@
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
         <ul class="nav bd-sidenav">
- <li class="toctree-l1 current">
-  <a class="reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="index.html">
+   Salary predictor for tech employees in Canada
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Salary predictor for tech employees in Canada based on survey data
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Salary predictor for tech employees in Canada based on survey data
   </a>
  </li>
 </ul>
+
     </div>
 </nav> <!-- To handle the deprecated key -->
 
@@ -212,8 +226,8 @@
   </ul>
  </li>
  <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#results">
-   Results
+  <a class="reference internal nav-link" href="#results-and-discussion">
+   Results and Discussion
   </a>
  </li>
  <li class="toc-h1 nav-item toc-entry">
@@ -242,18 +256,18 @@
 <h2>Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="data">
 <h3>Data<a class="headerlink" href="#data" title="Permalink to this headline">¶</a></h3>
-<p>The data set used in this project is sourced from the survey, <a class="reference external" href="https://insights.stackoverflow.com/survey">Stack Overflow Annual Developer Survey</a>, which is conducted annually with nearly 80000 responses from different backgrounds. Based on the survey results <span id="id1">[<a class="reference internal" href="tech_salary_predictor_report/report.html#id6">Ove21</a>]</span>, much useful features could be extracted such as education level, location, the language used, job type, all of which are potentially associated with the annual compensation.</p>
+<p>The data set used in this project is sourced from the survey, <a class="reference external" href="https://insights.stackoverflow.com/survey">Stack Overflow Annual Developer Survey</a>, which is conducted annually with nearly 80000 responses from different backgrounds. Based on the survey results <span id="id1">[<a class="reference internal" href="#id6">Ove21</a>]</span>, much useful features could be extracted such as education level, location, the language used, job type, all of which are potentially associated with the annual compensation.</p>
 </div>
 <div class="section" id="exploratory-data-analysis">
 <h3>Exploratory Data Analysis<a class="headerlink" href="#exploratory-data-analysis" title="Permalink to this headline">¶</a></h3>
-<p>After performing EDA on the training data set, there several points worth mention. The distribution of the response variable, salary, is positive skewed with a fat tail, as shown in Fig. 1 <span id="id2">[<a class="reference internal" href="tech_salary_predictor_report/report.html#id8">VGH+18</a>]</span>. This attribute is undesirable, which makes the model less robust. So, extremely high salary (top 8%) in our training data set will be defined as outliers which are removed in the preprocessing step.<br></p>
+<p>After performing EDA on the training data set, there several points worth mention. The distribution of the response variable, salary, is positive skewed with a fat tail, as shown in Fig. 1 <span id="id2">[<a class="reference internal" href="#id8">VGH+18</a>]</span>. This attribute is undesirable, which makes the model less robust. So, extremely high salary (top 8%) in our training data set will be defined as outliers which are removed in the preprocessing step.<br></p>
 <div class="figure align-default" id="salary-density">
 <a class="reference internal image-reference" href="_images/salary_density_plot.png"><img alt="_images/salary_density_plot.png" src="_images/salary_density_plot.png" style="height: 400px;" /></a>
 <p class="caption"><span class="caption-number">Fig. 1 </span><span class="caption-text">Density plot of salary</span><a class="headerlink" href="#salary-density" title="Permalink to this image">¶</a></p>
 </div>
 <p>Among all the features investigated, it can be found that the salary is strongly correlated to the number of professional coding years. Fig.2 clearly shows that there is a linear relation between the number of professional coding years and the salary.</p>
 <div class="figure align-default" id="code-years-plot">
-<a class="reference internal image-reference" href="../results/code_years_plot.png"><img alt="../results/code_years_plot.png" src="../results/code_years_plot.png" style="height: 400px;" /></a>
+<a class="reference internal image-reference" href="_images/code_years_plot.png"><img alt="_images/code_years_plot.png" src="_images/code_years_plot.png" style="height: 400px;" /></a>
 <p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">Number of coding years Vs. salary</span><a class="headerlink" href="#code-years-plot" title="Permalink to this image">¶</a></p>
 </div>
 <p>Figures below present how other 3 features we selected have significant effects on the income level.</p>
@@ -278,12 +292,12 @@
     Y_{salary} = w^T X + b
 \]</div>
 <p><em>where w is the weight vector, X is the feature vector, b is the error term, <span class="math notranslate nohighlight">\(Y_{salary}\)</span> is predicted variable.</em> <br></p>
-<p>Within the training data set, randomized hyperparameter searching <span id="id3">[<a class="reference internal" href="tech_salary_predictor_report/report.html#id7">PVG+11</a>]</span> was also carried out based on the scoring matrix, <span class="math notranslate nohighlight">\(R^2\)</span>.</p>
+<p>Within the training data set, randomized hyperparameter searching <span id="id3">[<a class="reference internal" href="#id7">PVG+11</a>]</span> was also carried out based on the scoring matrix, <span class="math notranslate nohighlight">\(R^2\)</span>.</p>
 </div>
 </div>
 </div>
-<div class="tex2jax_ignore mathjax_ignore section" id="results">
-<h1>Results<a class="headerlink" href="#results" title="Permalink to this headline">¶</a></h1>
+<div class="tex2jax_ignore mathjax_ignore section" id="results-and-discussion">
+<h1>Results and Discussion<a class="headerlink" href="#results-and-discussion" title="Permalink to this headline">¶</a></h1>
 <div class="cell tag_hide-cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">joblib</span> <span class="kn">import</span> <span class="n">dump</span><span class="p">,</span> <span class="n">load</span>
@@ -315,13 +329,14 @@
 <span class="n">df_diag</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;true_y&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="nb">max</span><span class="p">(</span><span class="n">df_result</span><span class="o">.</span><span class="n">true_y</span><span class="p">)</span><span class="o">+</span><span class="mi">500</span><span class="p">],</span>
                              <span class="s2">&quot;predicted_y&quot;</span><span class="p">:[</span><span class="mi">0</span><span class="p">,</span> <span class="nb">max</span><span class="p">(</span><span class="n">df_result</span><span class="o">.</span><span class="n">true_y</span><span class="p">)</span><span class="o">+</span><span class="mi">500</span><span class="p">]})</span>
 
-<span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">df_result</span><span class="p">)</span><span class="o">.</span><span class="n">mark_point</span><span class="p">(</span><span class="n">opacity</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span>
+<span class="n">plt1</span> <span class="o">=</span> <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">df_result</span><span class="p">)</span><span class="o">.</span><span class="n">mark_point</span><span class="p">(</span><span class="n">opacity</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span>
     <span class="n">alt</span><span class="o">.</span><span class="n">X</span><span class="p">(</span><span class="s2">&quot;predicted_y&quot;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;Predicted salary&quot;</span><span class="p">),</span>
     <span class="n">alt</span><span class="o">.</span><span class="n">Y</span><span class="p">(</span><span class="s2">&quot;true_y&quot;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;True salary&quot;</span><span class="p">)</span>
 <span class="p">)</span> <span class="o">+</span> <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">df_diag</span><span class="p">)</span><span class="o">.</span><span class="n">mark_line</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;red&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span>
     <span class="n">alt</span><span class="o">.</span><span class="n">X</span><span class="p">(</span><span class="s2">&quot;predicted_y&quot;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;Predicted salary&quot;</span><span class="p">),</span>
     <span class="n">alt</span><span class="o">.</span><span class="n">Y</span><span class="p">(</span><span class="s2">&quot;true_y&quot;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;True salary&quot;</span><span class="p">)</span>
 <span class="p">)</span>
+<span class="n">plt1</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s2">&quot;../results/test_data_result.png&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
@@ -335,13 +350,6 @@
 <div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0.718
 </pre></div>
 </div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>&lt;VegaLite 4 object&gt;
-
-If you see this message, it means the renderer has not been properly enabled
-for the frontend that you are using. For more information, see
-https://altair-viz.github.io/user_guide/troubleshooting.html
-</pre></div>
-</div>
 </div>
 </div>
 <p>The hyperparameter tunning result shows that the model is at the best performance when alpha = <span class="pasted-text">0.091</span> with a training <span class="math notranslate nohighlight">\(R^2\)</span>  of <span class="pasted-text">0.725</span> as shown in the figure below.</p>
@@ -349,7 +357,14 @@ https://altair-viz.github.io/user_guide/troubleshooting.html
 <a class="reference internal image-reference" href="_images/alpha-tuning.png"><img alt="_images/alpha-tuning.png" src="_images/alpha-tuning.png" style="height: 400px;" /></a>
 <p class="caption"><span class="caption-number">Fig. 6 </span><span class="caption-text">Hyperparameter searching</span><a class="headerlink" href="#alpha-tuning" title="Permalink to this image">¶</a></p>
 </div>
-<p>Applying the fitted model to the test data set, we get  a testing <span class="math notranslate nohighlight">\(R^2\)</span> of <span class="pasted-text">0.718</span>.</p>
+<p>Applying the fitted model to the test data set, we get  a testing <span class="math notranslate nohighlight">\(R^2\)</span> of <span class="pasted-text">0.718</span>.<br></p>
+<p>After identifying the most important features, we built multiple linear regression model with the annual salary as our response variable and the following predictors: years of coding experience, programming languages used, education level, and role. Since our target is a continuous variable, regression made sense here.<br></p>
+<p>We carried out hyper-parameter tuning via cross validation with <code class="docutils literal notranslate"><span class="pre">RandomizedSearchCV</span></code>. This allowed us to find optimal parameters which improved our validation score from 67% to 72%. We tested the final model our test day (20% of the survey data) and the model performed well on the test data with an accuracy of 71%. As you can see in Fig 7, the model is slightly under predicting or over-predicting, but the fit seems to be good. This is a decent score that indicates that our model generalizes enough and should perform well on unseen examples.</p>
+<div class="figure align-default" id="test-data-result">
+<a class="reference internal image-reference" href="_images/test_data_result.png"><img alt="_images/test_data_result.png" src="_images/test_data_result.png" style="height: 400px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 7 </span><span class="caption-text">Predicted salary VS. observed salary</span><a class="headerlink" href="#test-data-result" title="Permalink to this image">¶</a></p>
+</div>
+<p>In the future, we plan to do two important changes; exploring other explanatory variables that might gives us better score, and including United States in our model. In order to identify best features that contribute to the prediction, we will include all the sensible columns in the original survey, and perform model and feature selection. We hope that this will help us discover more features that important for the annual compensation prediction of tech employees.</p>
 </div>
 <div class="tex2jax_ignore mathjax_ignore section" id="reference">
 <h1>Reference<a class="headerlink" href="#reference" title="Permalink to this headline">¶</a></h1>
@@ -391,7 +406,14 @@ https://altair-viz.github.io/user_guide/troubleshooting.html
               
         
             <!-- Previous / next buttons -->
-<div class='prev-next-area'>
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="index.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Salary predictor for tech employees in Canada</p>
+        </div>
+    </a>
 </div>
         
         </div>

@@ -64,7 +64,7 @@
 # 
 # Within the training data set, randomized hyperparameter searching {cite:p}`scikit-learn` was also carried out based on the scoring matrix, $R^2$.
 
-# # Results
+# # Results and Discussion
 
 # In[1]:
 
@@ -98,13 +98,14 @@ df_result.head(5)
 df_diag = pd.DataFrame(data={"true_y": [0, max(df_result.true_y)+500],
                              "predicted_y":[0, max(df_result.true_y)+500]})
 
-alt.Chart(df_result).mark_point(opacity=0.5).encode(
+plt1 = alt.Chart(df_result).mark_point(opacity=0.5).encode(
     alt.X("predicted_y", title="Predicted salary"),
     alt.Y("true_y", title="True salary")
 ) + alt.Chart(df_diag).mark_line(color='red').encode(
     alt.X("predicted_y", title="Predicted salary"),
     alt.Y("true_y", title="True salary")
 )
+plt1.save("../results/test_data_result.png")
 
 
 # The hyperparameter tunning result shows that the model is at the best performance when alpha = {glue:text}`alpha_coef` with a training $R^2$  of {glue:text}`R2` as shown in the figure below.
@@ -116,7 +117,20 @@ alt.Chart(df_result).mark_point(opacity=0.5).encode(
 # ---
 # Hyperparameter searching
 # ```
-# Applying the fitted model to the test data set, we get  a testing $R^2$ of {glue:text}`R2_test`.
+# Applying the fitted model to the test data set, we get  a testing $R^2$ of {glue:text}`R2_test`.<br>
+
+# After identifying the most important features, we built multiple linear regression model with the annual salary as our response variable and the following predictors: years of coding experience, programming languages used, education level, and role. Since our target is a continuous variable, regression made sense here.<br>
+# 
+# We carried out hyper-parameter tuning via cross validation with `RandomizedSearchCV`. This allowed us to find optimal parameters which improved our validation score from 67% to 72%. We tested the final model our test day (20% of the survey data) and the model performed well on the test data with an accuracy of 71%. As you can see in Fig 7, the model is slightly under predicting or over-predicting, but the fit seems to be good. This is a decent score that indicates that our model generalizes enough and should perform well on unseen examples.
+# 
+# ```{figure} ../results/test_data_result.png
+# ---
+# height: 400px
+# name: test_data_result
+# ---
+# Predicted salary VS. observed salary
+# ```
+# In the future, we plan to do two important changes; exploring other explanatory variables that might gives us better score, and including United States in our model. In order to identify best features that contribute to the prediction, we will include all the sensible columns in the original survey, and perform model and feature selection. We hope that this will help us discover more features that important for the annual compensation prediction of tech employees.
 
 # # Reference
 # 
