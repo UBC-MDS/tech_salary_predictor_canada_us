@@ -143,7 +143,8 @@ performance of our prediction, we will plot the regression line on the
 scattered data points to infer whether the relationship between features
 and response is linear or not.
 
-The research question is: \> To predict the expected salary of a tech
+The research question is: 
+\> To predict the expected salary of a tech
 employee in Canada given their number of years of experience, education
 level, programming languages used, and role
 
