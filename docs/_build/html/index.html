@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project propsal &#8212; Milestone Project</title>
+    <title>Project proposal &#8212; Milestone Project</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -86,7 +86,7 @@
         <ul class="nav bd-sidenav">
  <li class="toctree-l1 current">
   <a class="reference internal" href="#">
-   Project propsal
+   Project proposal
   </a>
  </li>
 </ul>
@@ -137,9 +137,9 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/index.md"><button type="button"
+        <a class="dropdown-buttons" href="_sources/index.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
+                data-placement="left">.ipynb</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
             onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
@@ -156,6 +156,23 @@
             class="fas fa-expand"></i></button></a>
 
             <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/index.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
 
         </div>
 
@@ -234,8 +251,8 @@
         
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="project-propsal">
-<h1>Project propsal<a class="headerlink" href="#project-propsal" title="Permalink to this headline">¶</a></h1>
+  <div class="tex2jax_ignore mathjax_ignore section" id="project-proposal">
+<h1>Project proposal<a class="headerlink" href="#project-proposal" title="Permalink to this headline">¶</a></h1>
 <p>Demo of a data analysis project for DSCI 522 (Data Science workflows); a course in the Master of Data Science program at the University of British Columbia.</p>
 <div class="section" id="about">
 <h2>About<a class="headerlink" href="#about" title="Permalink to this headline">¶</a></h2>
@@ -301,24 +318,25 @@
 </div>
 <div class="section" id="report">
 <h2>Report<a class="headerlink" href="#report" title="Permalink to this headline">¶</a></h2>
-<p>The final report can be found <a class="reference external" href="https://github.com/UBC-MDS/tech_salary_predictor_canada_us/tree/main/docs/index.html">here</a></p>
+<p>The final report can be found <a class="reference external" href="https://ubc-mds.github.io/tech_salary_predictor_canada_us/report.html">here</a></p>
 <div class="section" id="exploratory-data-analysis">
 <h3>Exploratory data analysis<a class="headerlink" href="#exploratory-data-analysis" title="Permalink to this headline">¶</a></h3>
 <p>After carrying out EDA, we realize that the following features might help us predict the salary of tech workers: years of experience, education level, programming languages used, and their role (full-stack developer, front-end developer, etc.)</p>
-<p>Based on the data corresponding to the five features in the survey, we can see that the most frequently used languages in developers’ work are JavaScript, HTML/CSS, SQL, Python, and Bash/Shell. And the five most frequent coding experience years of those developers who took the survey are 4, 5, 6, 8, 10 years respectively.</p>
+<p>Based on the data corresponding to the four features in the survey, we created plots to visualize how the four features impact on the annual compensation of developers. As we can see from the plots, a large professional coding years and certain programming language skills(Bash,C,SQL,HTML,Java) would have positive influence on the average annual compensation. Then we dig a little deeper by visualizing the combination of these two features in a heatmap, which shows the average annual compensation given the number of professional coding years and combination of programming language skills.</p>
 </div>
 <div class="section" id="modelling">
 <h3>Modelling<a class="headerlink" href="#modelling" title="Permalink to this headline">¶</a></h3>
 <p>We built a multiple linear regression model to see the relationship between these features and the annual compensation.
 To simplify our analysis, we focused on Canada. We initially thought of building the model on Canada data. However, we learned from our EDA that there is pay disparity and currency conversion involved. In the future, we plan to include USA in the model and handle those discrepancies.</p>
 <p>Additionally, the regression model can also provide other important information such as the weight of each feature or how much each of those features we picked contributes to the overall predicted annual compensation.</p>
+<p>To evaluate our model and selected features, we plan to use R squared score as the score metric and see how well the tuned model can generalize on the test data. For the purpose of visualizing the performance of our prediction, we will plot the regression line on the scattered data points to infer whether the relationship between features and response is linear or not.</p>
 <p>The research question is:</p>
 <blockquote>
 <div><p>To predict the expected salary of a tech employee in Canada given their number of years of experience, education level, programming languages used, and role</p>
 </div></blockquote>
 <p>This topic is a predictive question, also extending to following sub-questions:</p>
 <ol class="simple">
-<li><p>Which features have significantly statistical effect on the response (inference)?</p></li>
+<li><p>Which features have significantly statistical effect on the response (inference)</p></li>
 <li><p>Whether the model is robust (model estimation, a predictive problem)</p></li>
 <li><p>The confidence interval of predictions (predictive)</p></li>
 </ol>
