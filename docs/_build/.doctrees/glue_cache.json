@@ -12,18 +12,6 @@
         "text/plain": "0.725"
       }
     },
-    "R2_test": {
-      "output_type": "display_data",
-      "metadata": {
-        "scrapbook": {
-          "name": "R2_test",
-          "mime_prefix": ""
-        }
-      },
-      "data": {
-        "text/plain": "0.718"
-      }
-    },
     "alpha_coef": {
       "output_type": "display_data",
       "metadata": {
@@ -34,6 +22,18 @@
       },
       "data": {
         "text/plain": "0.091"
+      }
+    },
+    "R2_test": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "R2_test",
+          "mime_prefix": ""
+        }
+      },
+      "data": {
+        "text/plain": "0.718"
       }
     }
   }

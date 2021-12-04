@@ -89,11 +89,14 @@ The final report can be found [here](https://github.com/UBC-MDS/tech_salary_pred
 
 After carrying out EDA, we realize that the following features might help us predict the salary of tech workers: years of experience, education level, programming languages used, and their role (full-stack developer, front-end developer, etc.)
 
+
 Based on the data corresponding to the four features in the survey, we created plots to visualize how the four features impact on the annual compensation of developers. As we can see from the plots, a large professional coding years and certain programming language skills(Bash,C,SQL,HTML,Java) would have positive influence on the average annual compensation. Then we dig a little deeper by visualizing the combination of these two features in a heatmap, which shows the average annual compensation given the number of professional coding years and combination of programming language skills.
+
 
 ### Modelling
 
 We built a multiple linear regression model to see the relationship between these features and the annual compensation.
+
 To simplify our analysis, we focused on Canada. We initially thought of building the model on Canada and USA data. However, we learned from our EDA that there is pay disparity and currency conversion involved. In the future, we plan to include USA in the model and handle those discrepancies.
 
 Additionally, the regression model can also provide other important information such as the weight of each feature or how much each of those features we picked contributes to the overall predicted annual compensation.

@@ -1,4 +1,3 @@
-
 # Salary predictor for tech employees in Canada
 
 ### Authors
@@ -129,6 +128,7 @@ years and combination of programming language skills.
 We built a multiple linear regression model to see the relationship
 between these features and the annual compensation. To simplify our
 analysis, we focused on Canada. We initially thought of building the
+
 model on Canada and USA data. However, we learned from our EDA that
 there is pay disparity and currency conversion involved. In the future,
 we plan to include USA in the model and handle those discrepancies.
