@@ -62,13 +62,11 @@ def main(train, out_dir):
                }
     tech_df = tech_df.replace(lang_replace_dict)
 
-    points = alt.Chart(tech_df).mark_point(opacity=0.3).encode(
-        alt.Y('ConvertedComp', title='Annual Compensation(USD)'), 
-        alt.X('YearsCodePro', title='Number of professional coding years'),
-        color='LanguageWorkedWith:N',
+    language_codeyears_plot = alt.Chart(tech_df).mark_rect().encode(
+        alt.Y('LanguageWorkedWith:N', title='Languages worked with'), 
+        alt.X('YearsCodePro:N', title='Number of professional coding years'),
+        alt.Color('mean(ConvertedComp)', title='Average annual compensation')
         )
-    language_codeyears_plot = points +  points.transform_loess(
-    'YearsCodePro', 'ConvertedComp', groupby=['LanguageWorkedWith'], bandwidth=0.8).mark_line(size=3)
 
     # visualize the annual compensation comparision between different programming languages
     language_plot = alt.Chart(tech_df).mark_boxplot().encode(
