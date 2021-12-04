@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Salary predictor for tech employees in Canada based on survey data &#8212; Milestone Project</title>
+    <title>Project proposal &#8212; Milestone Project</title>
     
   <link href="_static/css/theme.css" rel="stylesheet">
   <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -42,8 +42,6 @@
     <script src="_static/copybutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
     <script>
         const thebe_selector = ".thebe"
@@ -53,7 +51,7 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Project proposal" href="proposal.html" />
+    <link rel="next" title="Salary predictor for tech employees in Canada based on survey data" href="report.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -88,14 +86,14 @@
         <ul class="nav bd-sidenav">
  <li class="toctree-l1 current">
   <a class="reference internal" href="#">
-   Salary predictor for tech employees in Canada based on survey data
+   Project proposal
   </a>
  </li>
 </ul>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="proposal.html">
-   Project proposal
+  <a class="reference internal" href="report.html">
+   Salary predictor for tech employees in Canada based on survey data
   </a>
  </li>
 </ul>
@@ -202,53 +200,60 @@
             </div>
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#">
-   Salary predictor for tech employees in Canada based on survey data
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#about">
+   About
   </a>
-  <ul class="visible nav section-nav flex-column">
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#summary">
-     Summary
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#introduction">
-     Introduction
-    </a>
-   </li>
-   <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#methods">
-     Methods
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#data">
+   Data
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#usage">
+   Usage
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#dependencies">
+     Dependencies
     </a>
     <ul class="nav section-nav flex-column">
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#data">
-       Data
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#option-1-using-makefile">
+       Option 1 - Using makefile
       </a>
      </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#exploratory-data-analysis">
-       Exploratory Data Analysis
-      </a>
-     </li>
-     <li class="toc-h3 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#model">
-       Model
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#option-2-executing-the-scripts-individually">
+       Option 2 - Executing the scripts individually
       </a>
      </li>
     </ul>
    </li>
   </ul>
  </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#results-and-discussion">
-   Results and Discussion
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#report">
+   Report
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#exploratory-data-analysis">
+     Exploratory data analysis
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#modelling">
+     Modelling
+    </a>
+   </li>
+  </ul>
  </li>
- <li class="toc-h1 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#reference">
-   Reference
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#license">
+   LICENSE
   </a>
  </li>
 </ul>
@@ -262,219 +267,100 @@
         
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="salary-predictor-for-tech-employees-in-canada-based-on-survey-data">
-<h1>Salary predictor for tech employees in Canada based on survey data<a class="headerlink" href="#salary-predictor-for-tech-employees-in-canada-based-on-survey-data" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="summary">
-<h2>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">¶</a></h2>
-<p>Here we attempt to build the model to predict the income of tech employees in Canada by using a multi-linear regression model based on the following features: years of coding experience, programming languages used, education level, and role. After the hyperparameter tuning process, <span class="math notranslate nohighlight">\(R^2\)</span> of the training data set increases from 0.67 to 0.72, and the model is also tested on the testing data set with <span class="math notranslate nohighlight">\(R^2 = 0.71\)</span>, which is consistent with the training result. Besides, there are 3 points that we want to explore further in the future: to find other explanatory variables that might give us a better score, to include the United States in our model, to identify the best features that contribute to the prediction.</p>
-</div>
-<div class="section" id="introduction">
-<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+  <div class="tex2jax_ignore mathjax_ignore section" id="project-proposal">
+<h1>Project proposal<a class="headerlink" href="#project-proposal" title="Permalink to this headline">¶</a></h1>
+<p>Demo of a data analysis project for DSCI 522 (Data Science workflows); a course in the Master of Data Science program at the University of British Columbia.</p>
+<div class="section" id="about">
+<h2>About<a class="headerlink" href="#about" title="Permalink to this headline">¶</a></h2>
 <p>The aim of this project is to allow tech employees in Canada to get a reasonable estimation of how much they will potentially earn given their skill set and years of experience. Fresh graduates and seasoned employees would benefit from an analysis tool that allows them to predict their earning potential. While the Human Resources (HR) department of companies has access to this market information, tech employees are mostly clueless about what their market value is. Therefore, a salary predictor tool could assist them in the negotiation process.</p>
+<p>Using the <a class="reference external" href="https://insights.stackoverflow.com/survey">Stack Overflow Annual Developer Survey</a> data, we did Exploratory Data analysis (EDA) and came up with some features that may help predict the expected yearly compensation of tech employees. We describe the data, selected features, and the modeling process which you should be able to reproduce following the usage steps.</p>
 </div>
-<div class="section" id="methods">
-<h2>Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="data">
-<h3>Data<a class="headerlink" href="#data" title="Permalink to this headline">¶</a></h3>
-<p>The data set used in this project is from the <a class="reference external" href="https://insights.stackoverflow.com/survey">Stack Overflow Annual Developer Survey</a>, which is conducted annually. The survey data set has nearly 80,000 responses. There are several useful features that could be extracted from this survey such as education level, location, the language used, job type, all of which are potentially associated with annual compensation <span id="id1">[<a class="reference internal" href="#id5">con21</a>]</span>.</p>
+<h2>Data<a class="headerlink" href="#data" title="Permalink to this headline">¶</a></h2>
+<p>The data set used in this project is from the <a class="reference external" href="https://insights.stackoverflow.com/survey">Stack Overflow Annual Developer Survey</a>, which is conducted annually. The survey data set has nearly 80,000 responses. There are several useful features that could be extracted from this survey such as education level, location, the language used, job type, all of which are potentially associated with annual compensation.</p>
 </div>
+<div class="section" id="usage">
+<h2>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="dependencies">
+<h3>Dependencies<a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>R version 3.6.1 and R packages:</p>
+<ul>
+<li><p>tidyverse==1.3.1</p></li>
+<li><p>caret==6.0.90</p></li>
+<li><p>docopt==0.7.1</p></li>
+<li><p>testthat=3.0.4</p></li>
+</ul>
+</li>
+</ul>
+<p>The Python dependencies can be found in the tech_salary_pred_env.yaml file. However, you don’t have to manually install these dependencies. You need to install conda (v4.10.3) and then follow the installation instructions described below.</p>
+<p>Suggested way to download data:</p>
+<ol class="simple">
+<li><p>Clone this Github repository</p></li>
+<li><p>Go to <a class="reference external" href="https://insights.stackoverflow.com/survey">Stack Overflow Annual Developer Survey</a></p></li>
+<li><p>Copy the link of the csv file, taking 2019 result as an example:
+<a class="reference external" href="https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2019.zip">https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2019.zip</a></p></li>
+<li><p>Run the following command at the terminal from the root directory of this project:</p></li>
+</ol>
+<div class="section" id="option-1-using-makefile">
+<h4>Option 1 - Using makefile<a class="headerlink" href="#option-1-using-makefile" title="Permalink to this headline">¶</a></h4>
+<p>To replicate the analysis, clone this GitHub repository, install the dependencies listed above, and run the following command at the command line / terminal from the root directory of this project: <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">all</span></code></p>
+<p>To reset the repo to a clean state, with no intermediate or results files, run the following command at the command line/terminal from the root directory of this project: <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">clean</span></code></p>
+</div>
+<div class="section" id="option-2-executing-the-scripts-individually">
+<h4>Option 2 - Executing the scripts individually<a class="headerlink" href="#option-2-executing-the-scripts-individually" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># create conda environment</span>
+<span class="n">conda</span> <span class="n">env</span> <span class="n">create</span> <span class="o">-</span><span class="n">f</span> <span class="n">tech_salary_pred_env</span><span class="o">.</span><span class="n">yaml</span>
+<span class="n">conda</span> <span class="n">activate</span> <span class="n">tech_salary_pred_env</span>
+
+<span class="c1"># download data</span>
+<span class="n">python</span> <span class="n">src</span><span class="o">/</span><span class="n">download_data</span><span class="o">.</span><span class="n">py</span> <span class="o">--</span><span class="n">url</span><span class="o">=</span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">info</span><span class="o">.</span><span class="n">stackoverflowsolutions</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">rs</span><span class="o">/</span><span class="mi">719</span><span class="o">-</span><span class="n">EMH</span><span class="o">-</span><span class="mi">566</span><span class="o">/</span><span class="n">images</span><span class="o">/</span><span class="n">stack</span><span class="o">-</span><span class="n">overflow</span><span class="o">-</span><span class="n">developer</span><span class="o">-</span><span class="n">survey</span><span class="o">-</span><span class="mf">2019.</span><span class="n">zip</span> <span class="o">--</span><span class="n">out_dir</span><span class="o">=</span><span class="n">data</span><span class="o">/</span><span class="n">raw</span>
+
+<span class="c1"># pre-process data</span>
+<span class="n">Rscript</span> <span class="n">src</span><span class="o">/</span><span class="n">preprocessing</span><span class="o">.</span><span class="n">R</span> <span class="o">--</span><span class="nb">input</span><span class="o">=</span><span class="n">data</span><span class="o">/</span><span class="n">raw</span><span class="o">/</span><span class="n">survey_results_public</span><span class="o">.</span><span class="n">csv</span> <span class="o">--</span><span class="n">out_dir</span><span class="o">=</span><span class="n">data</span><span class="o">/</span><span class="n">processed</span>
+
+<span class="c1"># run eda report</span>
+<span class="n">python</span> <span class="n">src</span><span class="o">/</span><span class="n">eda</span><span class="o">.</span><span class="n">py</span> <span class="o">--</span><span class="n">train</span><span class="o">=</span><span class="n">data</span><span class="o">/</span><span class="n">processed</span><span class="o">/</span><span class="n">training</span><span class="o">.</span><span class="n">csv</span> <span class="o">--</span><span class="n">out_dir</span><span class="o">=</span><span class="n">results</span><span class="o">/</span>
+
+<span class="c1"># modelling</span>
+<span class="n">python</span> <span class="n">src</span><span class="o">/</span><span class="n">salary_prediction_model</span><span class="o">.</span><span class="n">py</span> <span class="o">--</span><span class="n">train</span><span class="o">=</span><span class="n">data</span><span class="o">/</span><span class="n">processed</span><span class="o">/</span><span class="n">training</span><span class="o">.</span><span class="n">csv</span> <span class="o">--</span><span class="n">out_dir</span><span class="o">=</span><span class="n">results</span> <span class="o">--</span><span class="n">test</span><span class="o">=</span><span class="n">data</span><span class="o">/</span><span class="n">processed</span><span class="o">/</span><span class="n">test</span><span class="o">.</span><span class="n">csv</span>
+
+<span class="c1"># render report</span>
+<span class="n">jupyter</span><span class="o">-</span><span class="n">book</span> <span class="n">build</span> <span class="n">docs</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="report">
+<h2>Report<a class="headerlink" href="#report" title="Permalink to this headline">¶</a></h2>
+<p>The final report can be found <a class="reference external" href="https://ubc-mds.github.io/tech_salary_predictor_canada_us/">here</a></p>
 <div class="section" id="exploratory-data-analysis">
-<h3>Exploratory Data Analysis<a class="headerlink" href="#exploratory-data-analysis" title="Permalink to this headline">¶</a></h3>
-<p>After performing EDA on the training data set,  there are several points worth mentioning. The distribution of the response variable, salary, is positively skewed with a fat tail, as shown in Fig. 1 <span id="id2">[<a class="reference internal" href="#id7">VGH+18</a>]</span>. This attribute is undesirable, which makes the model less robust. So, extremely high salaries (top 8%) in our training data set will be defined as outliers that are removed in the preprocessing step.<br></p>
-<div class="figure align-default" id="salary-density">
-<a class="reference internal image-reference" href="_images/salary_density_plot.png"><img alt="_images/salary_density_plot.png" src="_images/salary_density_plot.png" style="height: 400px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 1 </span><span class="caption-text">Density plot of salary</span><a class="headerlink" href="#salary-density" title="Permalink to this image">¶</a></p>
+<h3>Exploratory data analysis<a class="headerlink" href="#exploratory-data-analysis" title="Permalink to this headline">¶</a></h3>
+<p>After carrying out EDA, we realize that the following features might help us predict the salary of tech workers: years of experience, education level, programming languages used, and their role (full-stack developer, front-end developer, etc.)</p>
+<p>Based on the data corresponding to the five features in the survey, we can see that the most frequently used languages in developers’ work are JavaScript, HTML/CSS, SQL, Python, and Bash/Shell. And the five most frequent coding experience years of those developers who took the survey are 4, 5, 6, 8, 10 years respectively.</p>
 </div>
-<p>Among all the features investigated, it can be found that the salary is strongly correlated to the number of professional coding years. Fig.2 clearly shows that there is a linear relationship between the number of professional coding years and the salary. Figure.3 displays both effects of professional coding years and languages mastered on the salary.</p>
-<div class="figure align-default" id="code-years-plot">
-<a class="reference internal image-reference" href="_images/code_years_plot.png"><img alt="_images/code_years_plot.png" src="_images/code_years_plot.png" style="height: 400px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">Number of coding years is strongly correlated to salary.</span><a class="headerlink" href="#code-years-plot" title="Permalink to this image">¶</a></p>
-</div>
-<div class="figure align-default" id="language-code-years-plot">
-<a class="reference internal image-reference" href="_images/language_codeyears_plot.png"><img alt="_images/language_codeyears_plot.png" src="_images/language_codeyears_plot.png" style="height: 150px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 3 </span><span class="caption-text">The more languages mastered and the more years in professional experience, the higher salary expected.</span><a class="headerlink" href="#language-code-years-plot" title="Permalink to this image">¶</a></p>
-</div>
-<p>Figures below present how other 3 features we selected have significant effects on the income level.</p>
-<div class="figure align-default" id="edu-plot">
-<a class="reference internal image-reference" href="_images/edu_plot.png"><img alt="_images/edu_plot.png" src="_images/edu_plot.png" style="height: 150px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 4 </span><span class="caption-text">Education levels is positively related to salary.</span><a class="headerlink" href="#edu-plot" title="Permalink to this image">¶</a></p>
-</div>
-<div class="figure align-default" id="lang-plot">
-<a class="reference internal image-reference" href="_images/language_plot.png"><img alt="_images/language_plot.png" src="_images/language_plot.png" style="height: 150px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 5 </span><span class="caption-text">Programming languages is associated with salary</span><a class="headerlink" href="#lang-plot" title="Permalink to this image">¶</a></p>
-</div>
-<div class="figure align-default" id="role-plot">
-<a class="reference internal image-reference" href="_images/role_plot.png"><img alt="_images/role_plot.png" src="_images/role_plot.png" style="height: 150px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 6 </span><span class="caption-text">Roles are related to salary</span><a class="headerlink" href="#role-plot" title="Permalink to this image">¶</a></p>
+<div class="section" id="modelling">
+<h3>Modelling<a class="headerlink" href="#modelling" title="Permalink to this headline">¶</a></h3>
+<p>We built a multiple linear regression model to see the relationship between these features and the annual compensation.
+To simplify our analysis, we focused on Canada. We initially thought of building the model on Canada data. However, we learned from our EDA that there is pay disparity and currency conversion involved. In the future, we plan to include USA in the model and handle those discrepancies.</p>
+<p>Additionally, the regression model can also provide other important information such as the weight of each feature or how much each of those features we picked contributes to the overall predicted annual compensation.</p>
+<p>The research question is:</p>
+<blockquote>
+<div><p>To predict the expected salary of a tech employee in Canada given their number of years of experience, education level, programming languages used, and role</p>
+</div></blockquote>
+<p>This topic is a predictive question, also extending to following sub-questions:</p>
+<ol class="simple">
+<li><p>Which features have significantly statistical effect on the response (inference)?</p></li>
+<li><p>Whether the model is robust (model estimation, a predictive problem)</p></li>
+<li><p>The confidence interval of predictions (predictive)</p></li>
+</ol>
 </div>
 </div>
-<div class="section" id="model">
-<h3>Model<a class="headerlink" href="#model" title="Permalink to this headline">¶</a></h3>
-<p>In light of EDA and recommendations from Stack Overflow, 4 features are extracted that are duration for being a profession, education level, programming language worked with and job position. Then, the regression equation can be obtained:<br></p>
-<div class="math notranslate nohighlight">
-\[ 
-    Y_{salary} = w^T X + b
-\]</div>
-<p><em>where w is the weight vector, X is the feature vector, b is the error term, <span class="math notranslate nohighlight">\(Y_{salary}\)</span> is predicted variable.</em> <br></p>
-<p>Within the training data set, randomized hyperparameter searching was also carried out based on the scoring matrix, <span class="math notranslate nohighlight">\(R^2\)</span>.</p>
+<div class="section" id="license">
+<h2>LICENSE<a class="headerlink" href="#license" title="Permalink to this headline">¶</a></h2>
+<p>This database - The Public 2019 Stack Overflow Developer Survey Results - is made available under the Open Database License (ODbL): <a class="reference external" href="http://opendatacommons.org/licenses/odbl/1.0/">http://opendatacommons.org/licenses/odbl/1.0/</a>. Any rights in individual contents of the database are licensed under the Database Contents License: <a class="reference external" href="http://opendatacommons.org/licenses/dbcl/1.0/">http://opendatacommons.org/licenses/dbcl/1.0/</a></p>
 </div>
-</div>
-</div>
-<div class="tex2jax_ignore mathjax_ignore section" id="results-and-discussion">
-<h1>Results and Discussion<a class="headerlink" href="#results-and-discussion" title="Permalink to this headline">¶</a></h1>
-<div class="cell tag_hide-cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">joblib</span> <span class="kn">import</span> <span class="n">dump</span><span class="p">,</span> <span class="n">load</span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="kn">from</span> <span class="nn">myst_nb</span> <span class="kn">import</span> <span class="n">glue</span>
-<span class="kn">import</span> <span class="nn">altair</span> <span class="k">as</span> <span class="nn">alt</span>
-<span class="kn">from</span> <span class="nn">altair_saver</span> <span class="kn">import</span> <span class="n">save</span>
-<span class="n">alt</span><span class="o">.</span><span class="n">data_transformers</span><span class="o">.</span><span class="n">enable</span><span class="p">(</span><span class="s1">&#39;data_server&#39;</span><span class="p">)</span>
-<span class="n">alt</span><span class="o">.</span><span class="n">renderers</span><span class="o">.</span><span class="n">enable</span><span class="p">(</span><span class="s1">&#39;mimetype&#39;</span><span class="p">)</span>
-
-
-<span class="n">pipe_loaded</span> <span class="o">=</span> <span class="n">load</span><span class="p">(</span><span class="s1">&#39;../results/best_model_pipe.joblib&#39;</span><span class="p">)</span>
-<span class="n">alpha</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">pipe_loaded</span><span class="o">.</span><span class="n">best_params_</span><span class="p">[</span><span class="s1">&#39;ridge__alpha&#39;</span><span class="p">],</span> <span class="mi">3</span><span class="p">)</span>
-<span class="n">rsquare</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">pipe_loaded</span><span class="o">.</span><span class="n">best_score_</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
-<span class="n">glue</span><span class="p">(</span><span class="s2">&quot;alpha_coef&quot;</span><span class="p">,</span> <span class="n">alpha</span><span class="p">);</span>
-<span class="n">glue</span><span class="p">(</span><span class="s2">&quot;R2&quot;</span><span class="p">,</span> <span class="n">rsquare</span><span class="p">);</span>
-
-<span class="n">test_result_loaded</span> <span class="o">=</span> <span class="n">load</span><span class="p">(</span><span class="s1">&#39;../results/test_result.joblib&#39;</span><span class="p">)</span>
-<span class="n">rsquare_test</span> <span class="o">=</span> <span class="nb">round</span><span class="p">(</span><span class="n">test_result_loaded</span><span class="p">[</span><span class="s2">&quot;r_sq_test&quot;</span><span class="p">],</span> <span class="mi">3</span><span class="p">)</span>
-<span class="n">glue</span><span class="p">(</span><span class="s2">&quot;R2_test&quot;</span><span class="p">,</span> <span class="n">rsquare_test</span><span class="p">);</span>
-
-<span class="n">test_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;../data/processed/test.csv&quot;</span><span class="p">)</span>
-<span class="n">y_test</span> <span class="o">=</span> <span class="n">test_df</span><span class="o">.</span><span class="n">ConvertedComp</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
-<span class="n">y_predict</span> <span class="o">=</span> <span class="n">test_result_loaded</span><span class="p">[</span><span class="s2">&quot;predict_y&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
-<span class="n">result</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;true_y&quot;</span><span class="p">:</span> <span class="n">y_test</span><span class="p">,</span> <span class="s2">&quot;predicted_y&quot;</span><span class="p">:</span> <span class="n">y_predict</span><span class="p">}</span>
-<span class="n">df_result</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">result</span><span class="p">)</span>
-<span class="n">df_result</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
-
-<span class="n">df_diag</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;true_y&quot;</span><span class="p">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="nb">max</span><span class="p">(</span><span class="n">df_result</span><span class="o">.</span><span class="n">true_y</span><span class="p">)</span><span class="o">+</span><span class="mi">500</span><span class="p">],</span>
-                             <span class="s2">&quot;predicted_y&quot;</span><span class="p">:[</span><span class="mi">0</span><span class="p">,</span> <span class="nb">max</span><span class="p">(</span><span class="n">df_result</span><span class="o">.</span><span class="n">true_y</span><span class="p">)</span><span class="o">+</span><span class="mi">500</span><span class="p">]})</span>
-
-<span class="n">plt1</span> <span class="o">=</span> <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">df_result</span><span class="p">)</span><span class="o">.</span><span class="n">mark_point</span><span class="p">(</span><span class="n">opacity</span><span class="o">=</span><span class="mf">0.5</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span>
-    <span class="n">alt</span><span class="o">.</span><span class="n">X</span><span class="p">(</span><span class="s2">&quot;predicted_y&quot;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;Predicted salary&quot;</span><span class="p">),</span>
-    <span class="n">alt</span><span class="o">.</span><span class="n">Y</span><span class="p">(</span><span class="s2">&quot;true_y&quot;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;True salary&quot;</span><span class="p">)</span>
-<span class="p">)</span> <span class="o">+</span> <span class="n">alt</span><span class="o">.</span><span class="n">Chart</span><span class="p">(</span><span class="n">df_diag</span><span class="p">)</span><span class="o">.</span><span class="n">mark_line</span><span class="p">(</span><span class="n">color</span><span class="o">=</span><span class="s1">&#39;red&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span>
-    <span class="n">alt</span><span class="o">.</span><span class="n">X</span><span class="p">(</span><span class="s2">&quot;predicted_y&quot;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;Predicted salary&quot;</span><span class="p">),</span>
-    <span class="n">alt</span><span class="o">.</span><span class="n">Y</span><span class="p">(</span><span class="s2">&quot;true_y&quot;</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;True salary&quot;</span><span class="p">)</span>
-<span class="p">)</span>
-<span class="n">plt1</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s2">&quot;../results/test_data_result.png&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0.091
-</pre></div>
-</div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0.725
-</pre></div>
-</div>
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>0.718
-</pre></div>
-</div>
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">FileNotFoundError</span><span class="g g-Whitespace">                         </span>Traceback (most recent call last)
-<span class="o">/</span><span class="n">var</span><span class="o">/</span><span class="n">folders</span><span class="o">/</span><span class="mi">3</span><span class="n">b</span><span class="o">/</span><span class="n">llcs545d5z3dgwycy7l6ccyw0000gn</span><span class="o">/</span><span class="n">T</span><span class="o">/</span><span class="n">ipykernel_41578</span><span class="o">/</span><span class="mf">3739387404.</span><span class="n">py</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
-<span class="g g-Whitespace">     </span><span class="mi">18</span> <span class="n">glue</span><span class="p">(</span><span class="s2">&quot;R2_test&quot;</span><span class="p">,</span> <span class="n">rsquare_test</span><span class="p">);</span>
-<span class="g g-Whitespace">     </span><span class="mi">19</span> 
-<span class="ne">---&gt; </span><span class="mi">20</span> <span class="n">test_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;../data/processed/test.csv&quot;</span><span class="p">)</span>
-<span class="g g-Whitespace">     </span><span class="mi">21</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">test_df</span><span class="o">.</span><span class="n">ConvertedComp</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
-<span class="g g-Whitespace">     </span><span class="mi">22</span> <span class="n">y_predict</span> <span class="o">=</span> <span class="n">test_result_loaded</span><span class="p">[</span><span class="s2">&quot;predict_y&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">tolist</span><span class="p">()</span>
-
-<span class="nn">~/opt/anaconda3/envs/573/lib/python3.9/site-packages/pandas/util/_decorators.py</span> in <span class="ni">wrapper</span><span class="nt">(*args, **kwargs)</span>
-<span class="g g-Whitespace">    </span><span class="mi">309</span>                     <span class="n">stacklevel</span><span class="o">=</span><span class="n">stacklevel</span><span class="p">,</span>
-<span class="g g-Whitespace">    </span><span class="mi">310</span>                 <span class="p">)</span>
-<span class="ne">--&gt; </span><span class="mi">311</span>             <span class="k">return</span> <span class="n">func</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">312</span> 
-<span class="g g-Whitespace">    </span><span class="mi">313</span>         <span class="k">return</span> <span class="n">wrapper</span>
-
-<span class="nn">~/opt/anaconda3/envs/573/lib/python3.9/site-packages/pandas/io/parsers/readers.py</span> in <span class="ni">read_csv</span><span class="nt">(filepath_or_buffer, sep, delimiter, header, names, index_col, usecols, squeeze, prefix, mangle_dupe_cols, dtype, engine, converters, true_values, false_values, skipinitialspace, skiprows, skipfooter, nrows, na_values, keep_default_na, na_filter, verbose, skip_blank_lines, parse_dates, infer_datetime_format, keep_date_col, date_parser, dayfirst, cache_dates, iterator, chunksize, compression, thousands, decimal, lineterminator, quotechar, quoting, doublequote, escapechar, comment, encoding, encoding_errors, dialect, error_bad_lines, warn_bad_lines, on_bad_lines, delim_whitespace, low_memory, memory_map, float_precision, storage_options)</span>
-<span class="g g-Whitespace">    </span><span class="mi">584</span>     <span class="n">kwds</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">kwds_defaults</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">585</span> 
-<span class="ne">--&gt; </span><span class="mi">586</span>     <span class="k">return</span> <span class="n">_read</span><span class="p">(</span><span class="n">filepath_or_buffer</span><span class="p">,</span> <span class="n">kwds</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">587</span> 
-<span class="g g-Whitespace">    </span><span class="mi">588</span> 
-
-<span class="nn">~/opt/anaconda3/envs/573/lib/python3.9/site-packages/pandas/io/parsers/readers.py</span> in <span class="ni">_read</span><span class="nt">(filepath_or_buffer, kwds)</span>
-<span class="g g-Whitespace">    </span><span class="mi">480</span> 
-<span class="g g-Whitespace">    </span><span class="mi">481</span>     <span class="c1"># Create the parser.</span>
-<span class="ne">--&gt; </span><span class="mi">482</span>     <span class="n">parser</span> <span class="o">=</span> <span class="n">TextFileReader</span><span class="p">(</span><span class="n">filepath_or_buffer</span><span class="p">,</span> <span class="o">**</span><span class="n">kwds</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">483</span> 
-<span class="g g-Whitespace">    </span><span class="mi">484</span>     <span class="k">if</span> <span class="n">chunksize</span> <span class="ow">or</span> <span class="n">iterator</span><span class="p">:</span>
-
-<span class="nn">~/opt/anaconda3/envs/573/lib/python3.9/site-packages/pandas/io/parsers/readers.py</span> in <span class="ni">__init__</span><span class="nt">(self, f, engine, **kwds)</span>
-<span class="g g-Whitespace">    </span><span class="mi">809</span>             <span class="bp">self</span><span class="o">.</span><span class="n">options</span><span class="p">[</span><span class="s2">&quot;has_index_names&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">kwds</span><span class="p">[</span><span class="s2">&quot;has_index_names&quot;</span><span class="p">]</span>
-<span class="g g-Whitespace">    </span><span class="mi">810</span> 
-<span class="ne">--&gt; </span><span class="mi">811</span>         <span class="bp">self</span><span class="o">.</span><span class="n">_engine</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_make_engine</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">engine</span><span class="p">)</span>
-<span class="g g-Whitespace">    </span><span class="mi">812</span> 
-<span class="g g-Whitespace">    </span><span class="mi">813</span>     <span class="k">def</span> <span class="nf">close</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-
-<span class="nn">~/opt/anaconda3/envs/573/lib/python3.9/site-packages/pandas/io/parsers/readers.py</span> in <span class="ni">_make_engine</span><span class="nt">(self, engine)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1038</span>             <span class="p">)</span>
-<span class="g g-Whitespace">   </span><span class="mi">1039</span>         <span class="c1"># error: Too many arguments for &quot;ParserBase&quot;</span>
-<span class="ne">-&gt; </span><span class="mi">1040</span>         <span class="k">return</span> <span class="n">mapping</span><span class="p">[</span><span class="n">engine</span><span class="p">](</span><span class="bp">self</span><span class="o">.</span><span class="n">f</span><span class="p">,</span> <span class="o">**</span><span class="bp">self</span><span class="o">.</span><span class="n">options</span><span class="p">)</span>  <span class="c1"># type: ignore[call-arg]</span>
-<span class="g g-Whitespace">   </span><span class="mi">1041</span> 
-<span class="g g-Whitespace">   </span><span class="mi">1042</span>     <span class="k">def</span> <span class="nf">_failover_to_python</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-
-<span class="nn">~/opt/anaconda3/envs/573/lib/python3.9/site-packages/pandas/io/parsers/c_parser_wrapper.py</span> in <span class="ni">__init__</span><span class="nt">(self, src, **kwds)</span>
-<span class="g g-Whitespace">     </span><span class="mi">49</span> 
-<span class="g g-Whitespace">     </span><span class="mi">50</span>         <span class="c1"># open handles</span>
-<span class="ne">---&gt; </span><span class="mi">51</span>         <span class="bp">self</span><span class="o">.</span><span class="n">_open_handles</span><span class="p">(</span><span class="n">src</span><span class="p">,</span> <span class="n">kwds</span><span class="p">)</span>
-<span class="g g-Whitespace">     </span><span class="mi">52</span>         <span class="k">assert</span> <span class="bp">self</span><span class="o">.</span><span class="n">handles</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span>
-<span class="g g-Whitespace">     </span><span class="mi">53</span> 
-
-<span class="nn">~/opt/anaconda3/envs/573/lib/python3.9/site-packages/pandas/io/parsers/base_parser.py</span> in <span class="ni">_open_handles</span><span class="nt">(self, src, kwds)</span>
-<span class="g g-Whitespace">    </span><span class="mi">220</span>         <span class="n">Let</span> <span class="n">the</span> <span class="n">readers</span> <span class="nb">open</span> <span class="n">IOHandles</span> <span class="n">after</span> <span class="n">they</span> <span class="n">are</span> <span class="n">done</span> <span class="k">with</span> <span class="n">their</span> <span class="n">potential</span> <span class="n">raises</span><span class="o">.</span>
-<span class="g g-Whitespace">    </span><span class="mi">221</span>         <span class="s2">&quot;&quot;&quot;</span>
-<span class="ne">--&gt; </span><span class="mi">222</span><span class="s2">         self.handles = get_handle(</span>
-<span class="g g-Whitespace">    </span><span class="mi">223</span><span class="s2">             src,</span>
-<span class="g g-Whitespace">    </span><span class="mi">224</span><span class="s2">             &quot;r&quot;,</span>
-
-<span class="nn">~/opt/anaconda3/envs/573/lib/python3.9/site-packages/pandas/io/common.py</span> in <span class="ni">get_handle</span><span class="nt">(path_or_buf, mode, encoding, compression, memory_map, is_text, errors, storage_options)</span>
-<span class="g g-Whitespace">    </span><span class="mi">700</span><span class="s2">         if ioargs.encoding and &quot;b&quot; not in ioargs.mode:</span>
-<span class="g g-Whitespace">    </span><span class="mi">701</span><span class="s2">             # Encoding</span>
-<span class="ne">--&gt; </span><span class="mi">702</span><span class="s2">             handle = open(</span>
-<span class="g g-Whitespace">    </span><span class="mi">703</span><span class="s2">                 handle,</span>
-<span class="g g-Whitespace">    </span><span class="mi">704</span><span class="s2">                 ioargs.mode,</span>
-
-<span class="ne">FileNotFoundError</span>: [Errno 2] No such file or directory: &#39;../data/processed/test.csv&#39;
-</pre></div>
-</div>
-</div>
-</div>
-<p>The hyperparameter tuning result shows that the model is at the best performance when alpha = <span class="pasted-text">0.091</span> with a training <span class="math notranslate nohighlight">\(R^2\)</span>  of <span class="pasted-text">0.725</span> as shown in the figure below.</p>
-<div class="figure align-default" id="alpha-tuning">
-<a class="reference internal image-reference" href="_images/alpha-tuning.png"><img alt="_images/alpha-tuning.png" src="_images/alpha-tuning.png" style="height: 400px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 7 </span><span class="caption-text">Hyperparameter searching</span><a class="headerlink" href="#alpha-tuning" title="Permalink to this image">¶</a></p>
-</div>
-<p>Applying the fitted model to the test data set, we get  a testing <span class="math notranslate nohighlight">\(R^2\)</span> of <span class="pasted-text">0.718</span>.<br></p>
-<p>After identifying the most important features, we built multiple linear regression models with the annual salary as our response variable and the following predictors: years of coding experience, programming languages used, education level, and role. Since our target is a continuous variable, regression made sense here.<br></p>
-<p>We carried out hyper-parameter tuning via cross validation with <code class="docutils literal notranslate"><span class="pre">RandomizedSearchCV</span></code>. This allowed us to find optimal parameters which improved our validation score from 67% to 72%. We tested the final model on our test data (20% of the survey data) and the model performed well on the test data with an accuracy of 71%. As you can see in Fig 7, the model is slightly under predicting or over-predicting, but the fit seems to be good. This is a decent score that indicates that our model generalizes enough and should perform well on unseen examples.</p>
-<div class="figure align-default" id="test-data-result">
-<a class="reference internal image-reference" href="_images/test_data_result.png"><img alt="_images/test_data_result.png" src="_images/test_data_result.png" style="height: 400px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 8 </span><span class="caption-text">Predicted salary VS. observed salary: the fitted model can fairly predict the salary.</span><a class="headerlink" href="#test-data-result" title="Permalink to this image">¶</a></p>
-</div>
-<p>In the future, we plan to do two important changes; exploring other explanatory variables that might give us a better score, and including the United States in our model. In order to identify the best features that contribute to the prediction, we will include all the sensible columns in the original survey, and perform model and feature selection. We hope that this will help us discover more features that are important for the annual compensation prediction of tech employees.</p>
-</div>
-<div class="tex2jax_ignore mathjax_ignore section" id="reference">
-<h1>Reference<a class="headerlink" href="#reference" title="Permalink to this headline">¶</a></h1>
-<p id="id3"><dl class="citation">
-<dt class="label" id="id5"><span class="brackets"><a class="fn-backref" href="#id1">con21</a></span></dt>
-<dd><p>Stack Overflow contributors. 2021 developer survey. 2021. URL: <a class="reference external" href="https://insights.stackoverflow.com/survey/2021">https://insights.stackoverflow.com/survey/2021</a> (visited on 2021-11-27).</p>
-</dd>
-<dt class="label" id="id7"><span class="brackets"><a class="fn-backref" href="#id2">VGH+18</a></span></dt>
-<dd><p>Jacob VanderPlas, Brian Granger, Jeffrey Heer, Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Eitan Lees, Ilia Timofeev, Ben Welsh, and Scott Sievert. Altair: interactive statistical visualizations for python. <em>Journal of open source software</em>, 3(32):1057, 2018.</p>
-</dd>
-<dt class="label" id="id4"><span class="brackets">Com20</span></dt>
-<dd><p>Executable Books Community. <em>Jupyter Book</em>. February 2020. URL: <a class="reference external" href="https://doi.org/10.5281/zenodo.4539666">https://doi.org/10.5281/zenodo.4539666</a>, <a class="reference external" href="https://doi.org/10.5281/zenodo.4539666">doi:10.5281/zenodo.4539666</a>.</p>
-</dd>
-<dt class="label" id="id6"><span class="brackets">PVG+11</span></dt>
-<dd><p>F. Pedregosa, G. Varoquaux, A. Gramfort, V. Michel, B. Thirion, O. Grisel, M. Blondel, P. Prettenhofer, R. Weiss, V. Dubourg, J. Vanderplas, A. Passos, D. Cournapeau, M. Brucher, M. Perrot, and E. Duchesnay. Scikit-learn: machine learning in Python. <em>Journal of Machine Learning Research</em>, 12:2825–2830, 2011.</p>
-</dd>
-</dl>
-</p>
 <div class="toctree-wrapper compound">
 </div>
 </div>
@@ -504,10 +390,10 @@
         
             <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='right-next' id="next-link" href="proposal.html" title="next page">
+    <a class='right-next' id="next-link" href="report.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Project proposal</p>
+        <p class="prev-next-title">Salary predictor for tech employees in Canada based on survey data</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
