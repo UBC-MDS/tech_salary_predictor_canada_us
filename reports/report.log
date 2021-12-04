@@ -36,7 +36,7 @@ test_result_loaded = load('../results/test_result.joblib')
 rsquare_test = round(test_result_loaded["r_sq_test"], 3)
 glue("R2_test", rsquare_test);
 
-test_df = pd.read_csv("../../data/processed/test.csv")
+test_df = pd.read_csv("../data/processed/test.csv")
 y_test = test_df.ConvertedComp.tolist()
 y_predict = test_result_loaded["predict_y"].tolist()
 result = {"true_y": y_test, "predicted_y": y_predict}
@@ -46,23 +46,24 @@ df_result.head(5)
 df_diag = pd.DataFrame(data={"true_y": [0, max(df_result.true_y)+500],
                              "predicted_y":[0, max(df_result.true_y)+500]})
 
-alt.Chart(df_result).mark_point(opacity=0.5).encode(
+plt1 = alt.Chart(df_result).mark_point(opacity=0.5).encode(
     alt.X("predicted_y", title="Predicted salary"),
     alt.Y("true_y", title="True salary")
 ) + alt.Chart(df_diag).mark_line(color='red').encode(
     alt.X("predicted_y", title="Predicted salary"),
     alt.Y("true_y", title="True salary")
 )
+plt1.save("../results/test_data_result.png")
 ------------------
 
 [0;31m---------------------------------------------------------------------------[0m
 [0;31mFileNotFoundError[0m                         Traceback (most recent call last)
-[0;32m/var/folders/3b/llcs545d5z3dgwycy7l6ccyw0000gn/T/ipykernel_20949/1612146983.py[0m in [0;36m<module>[0;34m[0m
-[1;32m      8[0m [0;34m[0m[0m
-[1;32m      9[0m [0;34m[0m[0m
-[0;32m---> 10[0;31m [0mpipe_loaded[0m [0;34m=[0m [0mload[0m[0;34m([0m[0;34m'../results/best_model_pipe.joblib'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[0m[1;32m     11[0m [0malpha[0m [0;34m=[0m [0mround[0m[0;34m([0m[0mpipe_loaded[0m[0;34m.[0m[0mbest_params_[0m[0;34m[[0m[0;34m'ridge__alpha'[0m[0;34m][0m[0;34m,[0m [0;36m3[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
-[1;32m     12[0m [0mrsquare[0m [0;34m=[0m [0mround[0m[0;34m([0m[0mpipe_loaded[0m[0;34m.[0m[0mbest_score_[0m[0;34m,[0m [0;36m3[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0;32m/var/folders/3b/llcs545d5z3dgwycy7l6ccyw0000gn/T/ipykernel_40821/3739387404.py[0m in [0;36m<module>[0;34m[0m
+[1;32m     14[0m [0mglue[0m[0;34m([0m[0;34m"R2"[0m[0;34m,[0m [0mrsquare[0m[0;34m)[0m[0;34m;[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     15[0m [0;34m[0m[0m
+[0;32m---> 16[0;31m [0mtest_result_loaded[0m [0;34m=[0m [0mload[0m[0;34m([0m[0;34m'../results/test_result.joblib'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     17[0m [0mrsquare_test[0m [0;34m=[0m [0mround[0m[0;34m([0m[0mtest_result_loaded[0m[0;34m[[0m[0;34m"r_sq_test"[0m[0;34m][0m[0;34m,[0m [0;36m3[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     18[0m [0mglue[0m[0;34m([0m[0;34m"R2_test"[0m[0;34m,[0m [0mrsquare_test[0m[0;34m)[0m[0;34m;[0m[0;34m[0m[0;34m[0m[0m
 
 [0;32m~/opt/anaconda3/envs/573/lib/python3.9/site-packages/joblib/numpy_pickle.py[0m in [0;36mload[0;34m(filename, mmap_mode)[0m
 [1;32m    577[0m             [0mobj[0m [0;34m=[0m [0m_unpickle[0m[0;34m([0m[0mfobj[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
@@ -71,6 +72,6 @@ alt.Chart(df_result).mark_point(opacity=0.5).encode(
 [0m[1;32m    580[0m             [0;32mwith[0m [0m_read_fileobject[0m[0;34m([0m[0mf[0m[0;34m,[0m [0mfilename[0m[0;34m,[0m [0mmmap_mode[0m[0;34m)[0m [0;32mas[0m [0mfobj[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
 [1;32m    581[0m                 [0;32mif[0m [0misinstance[0m[0;34m([0m[0mfobj[0m[0;34m,[0m [0mstr[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
 
-[0;31mFileNotFoundError[0m: [Errno 2] No such file or directory: '../results/best_model_pipe.joblib'
-FileNotFoundError: [Errno 2] No such file or directory: '../results/best_model_pipe.joblib'
+[0;31mFileNotFoundError[0m: [Errno 2] No such file or directory: '../results/test_result.joblib'
+FileNotFoundError: [Errno 2] No such file or directory: '../results/test_result.joblib'
 
