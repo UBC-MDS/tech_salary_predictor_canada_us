@@ -1,4 +1,3 @@
-
 # Salary predictor for tech employees in Canada
 
 ### Authors
@@ -52,7 +51,7 @@ The R dependencies are listed below:
     -   docopt==0.7.1
     -   testthat=3.0.4
 
-The Python dependencies can be found in the tech_salary_pred_env.yaml
+The Python dependencies can be found in the tech\_salary\_pred\_env.yaml
 file. However, you don’t have to manually install these dependencies.
 You need to install conda (v4.10.3) and then follow the installation
 instructions described below.
@@ -145,7 +144,7 @@ performance of our prediction, we will plot the regression line on the
 scattered data points to infer whether the relationship between features
 and response is linear or not.
 
-The research question is: \> To predict the expected salary of a tech
+The research question is: &gt; To predict the expected salary of a tech
 employee in Canada given their number of years of experience, education
 level, programming languages used, and role
 
@@ -165,13 +164,5 @@ Contents License: <http://opendatacommons.org/licenses/dbcl/1.0/>
 
 # References
 
-<div id="refs" class="references csl-bib-body hanging-indent">
-
-<div id="ref-stack_overflow_survey" class="csl-entry">
-
 Overflow, Stack. 2021. “2021 Developer Survey.” 2021.
 <https://insights.stackoverflow.com/survey/2021>.
-
-</div>
-
-</div>
