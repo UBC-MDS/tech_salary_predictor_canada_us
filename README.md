@@ -1,4 +1,3 @@
-
 # Salary predictor for tech employees in Canada
 
 ### Authors
@@ -8,9 +7,9 @@
 -   Khalid Abdilahi
 -   Vera Cui
 
-Demo of a data analysis project for DSCI 522 (Data Science workflows); a
-course in the Master of Data Science program at the University of
-British Columbia. ### About
+Demo of a data analysis project for DSCI 522 (Data Science workflows); a course in the Master of Data Science program at the University of British Columbia.
+
+### About
 
 The aim of this project is to allow tech employees in Canada to get a
 reasonable estimation of how much they will potentially earn given their
@@ -112,18 +111,23 @@ help us predict the salary of tech workers: years of experience,
 education level, programming languages used, and their role (full-stack
 developer, front-end developer, etc.)
 
-Based on the data corresponding to the five features in the survey, we
-can see that the most frequently used languages in developers’ work are
-JavaScript, HTML/CSS, SQL, Python, and Bash/Shell. And the five most
-frequent coding experience years of those developers who took the survey
-are 4, 5, 6, 8, 10 years respectively.
+Based on the data corresponding to the four features in the survey, we
+created plots to visualize how the four features impact on the annual
+compensation of developers. As we can see from the plots, a large
+professional coding years and certain programming language
+skills(Bash,C,SQL,HTML,Java) would have positive influence on the
+average annual compensation. Then we dig a little deeper by visualizing
+the combination of these two features in a heatmap, which shows the
+average annual compensation given the number of professional coding
+years and combination of programming language skills.
 
 ### Modelling
 
 We built a multiple linear regression model to see the relationship
 between these features and the annual compensation. To simplify our
 analysis, we focused on Canada. We initially thought of building the
-model on Canada data. However, we learned from our EDA that
+
+model on Canada and USA data. However, we learned from our EDA that
 there is pay disparity and currency conversion involved. In the future,
 we plan to include USA in the model and handle those discrepancies.
 
@@ -132,7 +136,15 @@ information such as the weight of each feature or how much each of those
 features we picked contributes to the overall predicted annual
 compensation.
 
-The research question is: \> To predict the expected salary of a tech
+To evaluate our model and selected features, we plan to use R squared
+score as the score metric and see how well the tuned model can
+generalize on the test data. For the purpose of visualizing the
+performance of our prediction, we will plot the regression line on the
+scattered data points to infer whether the relationship between features
+and response is linear or not.
+
+The research question is: 
+\> To predict the expected salary of a tech
 employee in Canada given their number of years of experience, education
 level, programming languages used, and role
 
