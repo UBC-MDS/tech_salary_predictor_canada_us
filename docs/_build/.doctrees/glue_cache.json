@@ -1,15 +1,15 @@
 {
   "report": {
-    "R2": {
+    "R2_test": {
       "output_type": "display_data",
       "metadata": {
         "scrapbook": {
-          "name": "R2",
+          "name": "R2_test",
           "mime_prefix": ""
         }
       },
       "data": {
-        "text/plain": "0.725"
+        "text/plain": "0.718"
       }
     },
     "alpha_coef": {
@@ -24,16 +24,16 @@
         "text/plain": "0.091"
       }
     },
-    "R2_test": {
+    "R2": {
       "output_type": "display_data",
       "metadata": {
         "scrapbook": {
-          "name": "R2_test",
+          "name": "R2",
           "mime_prefix": ""
         }
       },
       "data": {
-        "text/plain": "0.718"
+        "text/plain": "0.725"
       }
     }
   }
