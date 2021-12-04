@@ -1,6 +1,8 @@
-# Project proposal
+# Project propsal
 
-## Aim
+Demo of a data analysis project for DSCI 522 (Data Science workflows); a course in the Master of Data Science program at the University of British Columbia. 
+
+## About
 
 The aim of this project is to allow tech employees in Canada to get a reasonable estimation of how much they will potentially earn given their skill set and years of experience. Fresh graduates and seasoned employees would benefit from an analysis tool that allows them to predict their earning potential. While the Human Resources (HR) department of companies has access to this market information, tech employees are mostly clueless about what their market value is. Therefore, a salary predictor tool could assist them in the negotiation process.
 
@@ -60,7 +62,7 @@ jupyter-book build docs
 ```
 
 ## Report
-The final report can be found [here](https://ubc-mds.github.io/tech_salary_predictor_canada_us/)
+The final report can be found [here](https://github.com/UBC-MDS/tech_salary_predictor_canada_us/tree/main/docs/index.html)
 
 ### Exploratory data analysis
 
