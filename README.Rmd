@@ -88,12 +88,12 @@ The final report can be found [here](https://github.com/UBC-MDS/tech_salary_pred
 
 After carrying out EDA, we realize that the following features might help us predict the salary of tech workers: years of experience, education level, programming languages used, and their role (full-stack developer, front-end developer, etc.)
 
-Based on the data corresponding to the five features in the survey, we can see that the most frequently used languages in developers' work are JavaScript, HTML/CSS, SQL, Python, and Bash/Shell. And the five most frequent coding experience years of those developers who took the survey are 10,5,6,8,4 years respectively.  
+Based on the data corresponding to the five features in the survey, we can see that the most frequently used languages in developers' work are JavaScript, HTML/CSS, SQL, Python, and Bash/Shell. And the five most frequent coding experience years of those developers who took the survey are 4, 5, 6, 8, 10 years respectively.  
 
 ### Modelling
 
 We built a multiple linear regression model to see the relationship between these features and the annual compensation.
-To simplify our analysis, we focused on Canada. We initially thought of building the model on Canada and USA data. However, we learned from our EDA that there is pay disparity and currency conversion involved. In the future, we plan to include USA in the model and handle those discrepancies.
+To simplify our analysis, we focused on Canada. We initially thought of building the model on Canada data. However, we learned from our EDA that there is pay disparity and currency conversion involved. In the future, we plan to include USA in the model and handle those discrepancies.
 
 Additionally, the regression model can also provide other important information such as the weight of each feature or how much each of those features we picked contributes to the overall predicted annual compensation.
 

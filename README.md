@@ -116,14 +116,14 @@ Based on the data corresponding to the five features in the survey, we
 can see that the most frequently used languages in developers’ work are
 JavaScript, HTML/CSS, SQL, Python, and Bash/Shell. And the five most
 frequent coding experience years of those developers who took the survey
-are 10,5,6,8,4 years respectively.
+are 4, 5, 6, 8, 10 years respectively.
 
 ### Modelling
 
 We built a multiple linear regression model to see the relationship
 between these features and the annual compensation. To simplify our
 analysis, we focused on Canada. We initially thought of building the
-model on Canada and USA data. However, we learned from our EDA that
+model on Canada data. However, we learned from our EDA that
 there is pay disparity and currency conversion involved. In the future,
 we plan to include USA in the model and handle those discrepancies.
 
