@@ -150,22 +150,6 @@
 
             <!-- Source interaction buttons -->
 
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
-        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
-    <div class="dropdown-buttons sourcebuttons">
-        <a class="repository-button"
-            href="https://github.com/suuuuperNOVA/index.html"><button type="button" class="btn btn-secondary topbarbtn"
-                data-toggle="tooltip" data-placement="left" title="Source repository"><i
-                    class="fab fa-github"></i>repository</button></a>
-        <a class="issues-button"
-            href="https://github.com/suuuuperNOVA/index.html/issues/new?title=Issue%20on%20page%20%2Freport.html&body=Your%20issue%20content%20here."><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        
-    </div>
-</div>
-
             <!-- Full screen (wrap in <a> to have style consistency -->
 
 <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
@@ -180,7 +164,7 @@
         aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
     <div class="dropdown-buttons">
         
-        <a class="binder-button" href="https://mybinder.org/v2/gh/suuuuperNOVA/index.html/gh-pages?urlpath=tree/docs/report.ipynb"><button type="button"
+        <a class="binder-button" href="https://mybinder.org/v2/gh/executablebooks/jupyter-book/master?urlpath=tree/report.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
                 data-placement="left"><img class="binder-button-logo"
                     src="_static/images/logo_binder.svg"
@@ -207,6 +191,11 @@
    Salary predictor for tech employees in Canada based on survey data
   </a>
   <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#summary">
+     Summary
+    </a>
+   </li>
    <li class="toc-h2 nav-item toc-entry">
     <a class="reference internal nav-link" href="#introduction">
      Introduction
@@ -259,40 +248,48 @@
                 
   <div class="tex2jax_ignore mathjax_ignore section" id="salary-predictor-for-tech-employees-in-canada-based-on-survey-data">
 <h1>Salary predictor for tech employees in Canada based on survey data<a class="headerlink" href="#salary-predictor-for-tech-employees-in-canada-based-on-survey-data" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="summary">
+<h2>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">¶</a></h2>
+<p>Here we attempt to build the model to predict the income of tech employees in Canada by using a multi-linear regression model based on the following features: years of coding experience, programming languages used, education level, and role. After the hyperparameter tuning process, <span class="math notranslate nohighlight">\(R^2\)</span> of the training data set increases from 0.67 to 0.72, and the model is also tested on the testing data set with <span class="math notranslate nohighlight">\(R^2 = 0.71\)</span>, which is consistent with the training result. Besides, there are 3 points that we want to explore further in the future: to find other explanatory variables that might give us a better score, to include the United States in our model, to identify the best features that contribute to the prediction.</p>
+</div>
 <div class="section" id="introduction">
 <h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
-<p>Graduates and seasoned tech employees may have a question about how much they should get paid from their employers for the reason that salary is never transparent information. Lack of enough information, graduates may feel lost and insecure and job seekers may be at disadvantage when having salary discussion with HR. Hence, we come up with this idea to build up a model to predict the pay that technicians can expect based on several explicit factors including education level, previous experience, location etc.</p>
+<p>The aim of this project is to allow tech employees in Canada to get a reasonable estimation of how much they will potentially earn given their skill set and years of experience. Fresh graduates and seasoned employees would benefit from an analysis tool that allows them to predict their earning potential. While the Human Resources (HR) department of companies has access to this market information, tech employees are mostly clueless about what their market value is. Therefore, a salary predictor tool could assist them in the negotiation process.</p>
 </div>
 <div class="section" id="methods">
 <h2>Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="data">
 <h3>Data<a class="headerlink" href="#data" title="Permalink to this headline">¶</a></h3>
-<p>The data set used in this project is sourced from the survey, <a class="reference external" href="https://insights.stackoverflow.com/survey">Stack Overflow Annual Developer Survey</a>, which is conducted annually with nearly 80000 responses from different backgrounds. Based on the survey results <span id="id1">[<a class="reference internal" href="#id6">Ove21</a>]</span>, much useful features could be extracted such as education level, location, the language used, job type, all of which are potentially associated with the annual compensation.</p>
+<p>The data set used in this project is from the <a class="reference external" href="https://insights.stackoverflow.com/survey">Stack Overflow Annual Developer Survey</a>, which is conducted annually. The survey data set has nearly 80,000 responses. There are several useful features that could be extracted from this survey such as education level, location, the language used, job type, all of which are potentially associated with annual compensation <span id="id1">[<a class="reference internal" href="#id5">con21</a>]</span>.</p>
 </div>
 <div class="section" id="exploratory-data-analysis">
 <h3>Exploratory Data Analysis<a class="headerlink" href="#exploratory-data-analysis" title="Permalink to this headline">¶</a></h3>
-<p>After performing EDA on the training data set, there several points worth mention. The distribution of the response variable, salary, is positive skewed with a fat tail, as shown in Fig. 1 <span id="id2">[<a class="reference internal" href="#id8">VGH+18</a>]</span>. This attribute is undesirable, which makes the model less robust. So, extremely high salary (top 8%) in our training data set will be defined as outliers which are removed in the preprocessing step.<br></p>
+<p>After performing EDA on the training data set,  there are several points worth mentioning. The distribution of the response variable, salary, is positively skewed with a fat tail, as shown in Fig. 1 <span id="id2">[<a class="reference internal" href="#id7">VGH+18</a>]</span>. This attribute is undesirable, which makes the model less robust. So, extremely high salaries (top 8%) in our training data set will be defined as outliers that are removed in the preprocessing step.<br></p>
 <div class="figure align-default" id="salary-density">
 <a class="reference internal image-reference" href="_images/salary_density_plot.png"><img alt="_images/salary_density_plot.png" src="_images/salary_density_plot.png" style="height: 400px;" /></a>
 <p class="caption"><span class="caption-number">Fig. 1 </span><span class="caption-text">Density plot of salary</span><a class="headerlink" href="#salary-density" title="Permalink to this image">¶</a></p>
 </div>
-<p>Among all the features investigated, it can be found that the salary is strongly correlated to the number of professional coding years. Fig.2 clearly shows that there is a linear relation between the number of professional coding years and the salary.</p>
+<p>Among all the features investigated, it can be found that the salary is strongly correlated to the number of professional coding years. Fig.2 clearly shows that there is a linear relationship between the number of professional coding years and the salary. Figure.3 displays both effects of professional coding years and languages mastered on the salary.</p>
 <div class="figure align-default" id="code-years-plot">
 <a class="reference internal image-reference" href="_images/code_years_plot.png"><img alt="_images/code_years_plot.png" src="_images/code_years_plot.png" style="height: 400px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">Number of coding years Vs. salary</span><a class="headerlink" href="#code-years-plot" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 2 </span><span class="caption-text">Number of coding years is strongly correlated to salary.</span><a class="headerlink" href="#code-years-plot" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-default" id="language-code-years-plot">
+<a class="reference internal image-reference" href="_images/language_codeyears_plot.png"><img alt="_images/language_codeyears_plot.png" src="_images/language_codeyears_plot.png" style="height: 150px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 3 </span><span class="caption-text">The more languages mastered and the more years in professional experience, the higher salary expected.</span><a class="headerlink" href="#language-code-years-plot" title="Permalink to this image">¶</a></p>
 </div>
 <p>Figures below present how other 3 features we selected have significant effects on the income level.</p>
 <div class="figure align-default" id="edu-plot">
 <a class="reference internal image-reference" href="_images/edu_plot.png"><img alt="_images/edu_plot.png" src="_images/edu_plot.png" style="height: 150px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 3 </span><span class="caption-text">Education levels related to salary</span><a class="headerlink" href="#edu-plot" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 4 </span><span class="caption-text">Education levels is positively related to salary.</span><a class="headerlink" href="#edu-plot" title="Permalink to this image">¶</a></p>
 </div>
 <div class="figure align-default" id="lang-plot">
 <a class="reference internal image-reference" href="_images/language_plot.png"><img alt="_images/language_plot.png" src="_images/language_plot.png" style="height: 150px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 4 </span><span class="caption-text">Programming languages related to salary</span><a class="headerlink" href="#lang-plot" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 5 </span><span class="caption-text">Programming languages is associated with salary</span><a class="headerlink" href="#lang-plot" title="Permalink to this image">¶</a></p>
 </div>
 <div class="figure align-default" id="role-plot">
 <a class="reference internal image-reference" href="_images/role_plot.png"><img alt="_images/role_plot.png" src="_images/role_plot.png" style="height: 150px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 5 </span><span class="caption-text">Roles related to salary</span><a class="headerlink" href="#role-plot" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 6 </span><span class="caption-text">Roles are related to salary</span><a class="headerlink" href="#role-plot" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 <div class="section" id="model">
@@ -303,7 +300,7 @@
     Y_{salary} = w^T X + b
 \]</div>
 <p><em>where w is the weight vector, X is the feature vector, b is the error term, <span class="math notranslate nohighlight">\(Y_{salary}\)</span> is predicted variable.</em> <br></p>
-<p>Within the training data set, randomized hyperparameter searching <span id="id3">[<a class="reference internal" href="#id7">PVG+11</a>]</span> was also carried out based on the scoring matrix, <span class="math notranslate nohighlight">\(R^2\)</span>.</p>
+<p>Within the training data set, randomized hyperparameter searching was also carried out based on the scoring matrix, <span class="math notranslate nohighlight">\(R^2\)</span>.</p>
 </div>
 </div>
 </div>
@@ -363,31 +360,34 @@
 </div>
 </div>
 </div>
-<p>The hyperparameter tunning result shows that the model is at the best performance when alpha = <span class="pasted-text">0.091</span> with a training <span class="math notranslate nohighlight">\(R^2\)</span>  of <span class="pasted-text">0.725</span> as shown in the figure below.</p>
+<p>The hyperparameter tuning result shows that the model is at the best performance when alpha = <span class="pasted-text">0.091</span> with a training <span class="math notranslate nohighlight">\(R^2\)</span>  of <span class="pasted-text">0.725</span> as shown in the figure below.</p>
 <div class="figure align-default" id="alpha-tuning">
 <a class="reference internal image-reference" href="_images/alpha-tuning.png"><img alt="_images/alpha-tuning.png" src="_images/alpha-tuning.png" style="height: 400px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 6 </span><span class="caption-text">Hyperparameter searching</span><a class="headerlink" href="#alpha-tuning" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 7 </span><span class="caption-text">Hyperparameter searching</span><a class="headerlink" href="#alpha-tuning" title="Permalink to this image">¶</a></p>
 </div>
 <p>Applying the fitted model to the test data set, we get  a testing <span class="math notranslate nohighlight">\(R^2\)</span> of <span class="pasted-text">0.718</span>.<br></p>
-<p>After identifying the most important features, we built multiple linear regression model with the annual salary as our response variable and the following predictors: years of coding experience, programming languages used, education level, and role. Since our target is a continuous variable, regression made sense here.<br></p>
-<p>We carried out hyper-parameter tuning via cross validation with <code class="docutils literal notranslate"><span class="pre">RandomizedSearchCV</span></code>. This allowed us to find optimal parameters which improved our validation score from 67% to 72%. We tested the final model our test day (20% of the survey data) and the model performed well on the test data with an accuracy of 71%. As you can see in Fig 7, the model is slightly under predicting or over-predicting, but the fit seems to be good. This is a decent score that indicates that our model generalizes enough and should perform well on unseen examples.</p>
+<p>After identifying the most important features, we built multiple linear regression models with the annual salary as our response variable and the following predictors: years of coding experience, programming languages used, education level, and role. Since our target is a continuous variable, regression made sense here.<br></p>
+<p>We carried out hyper-parameter tuning via cross validation with <code class="docutils literal notranslate"><span class="pre">RandomizedSearchCV</span></code>. This allowed us to find optimal parameters which improved our validation score from 67% to 72%. We tested the final model on our test data (20% of the survey data) and the model performed well on the test data with an accuracy of 71%. As you can see in Fig 7, the model is slightly under predicting or over-predicting, but the fit seems to be good. This is a decent score that indicates that our model generalizes enough and should perform well on unseen examples.</p>
 <div class="figure align-default" id="test-data-result">
 <a class="reference internal image-reference" href="_images/test_data_result.png"><img alt="_images/test_data_result.png" src="_images/test_data_result.png" style="height: 400px;" /></a>
-<p class="caption"><span class="caption-number">Fig. 7 </span><span class="caption-text">Predicted salary VS. observed salary</span><a class="headerlink" href="#test-data-result" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-number">Fig. 8 </span><span class="caption-text">Predicted salary VS. observed salary: the fitted model can fairly predict the salary.</span><a class="headerlink" href="#test-data-result" title="Permalink to this image">¶</a></p>
 </div>
-<p>In the future, we plan to do two important changes; exploring other explanatory variables that might gives us better score, and including United States in our model. In order to identify best features that contribute to the prediction, we will include all the sensible columns in the original survey, and perform model and feature selection. We hope that this will help us discover more features that important for the annual compensation prediction of tech employees.</p>
+<p>In the future, we plan to do two important changes; exploring other explanatory variables that might give us a better score, and including the United States in our model. In order to identify the best features that contribute to the prediction, we will include all the sensible columns in the original survey, and perform model and feature selection. We hope that this will help us discover more features that are important for the annual compensation prediction of tech employees.</p>
 </div>
 <div class="tex2jax_ignore mathjax_ignore section" id="reference">
 <h1>Reference<a class="headerlink" href="#reference" title="Permalink to this headline">¶</a></h1>
-<p id="id4"><dl class="citation">
-<dt class="label" id="id6"><span class="brackets"><a class="fn-backref" href="#id1">Ove21</a></span></dt>
-<dd><p>Stack Overflow. 2021 developer survey. 2021. URL: <a class="reference external" href="https://insights.stackoverflow.com/survey/2021">https://insights.stackoverflow.com/survey/2021</a> (visited on 2021-11-27).</p>
+<p id="id3"><dl class="citation">
+<dt class="label" id="id5"><span class="brackets"><a class="fn-backref" href="#id1">con21</a></span></dt>
+<dd><p>Stack Overflow contributors. 2021 developer survey. 2021. URL: <a class="reference external" href="https://insights.stackoverflow.com/survey/2021">https://insights.stackoverflow.com/survey/2021</a> (visited on 2021-11-27).</p>
 </dd>
-<dt class="label" id="id7"><span class="brackets"><a class="fn-backref" href="#id3">PVG+11</a></span></dt>
-<dd><p>F. Pedregosa, G. Varoquaux, A. Gramfort, V. Michel, B. Thirion, O. Grisel, M. Blondel, P. Prettenhofer, R. Weiss, V. Dubourg, J. Vanderplas, A. Passos, D. Cournapeau, M. Brucher, M. Perrot, and E. Duchesnay. Scikit-learn: machine learning in Python. <em>Journal of Machine Learning Research</em>, 12:2825–2830, 2011.</p>
-</dd>
-<dt class="label" id="id8"><span class="brackets"><a class="fn-backref" href="#id2">VGH+18</a></span></dt>
+<dt class="label" id="id7"><span class="brackets"><a class="fn-backref" href="#id2">VGH+18</a></span></dt>
 <dd><p>Jacob VanderPlas, Brian Granger, Jeffrey Heer, Dominik Moritz, Kanit Wongsuphasawat, Arvind Satyanarayan, Eitan Lees, Ilia Timofeev, Ben Welsh, and Scott Sievert. Altair: interactive statistical visualizations for python. <em>Journal of open source software</em>, 3(32):1057, 2018.</p>
+</dd>
+<dt class="label" id="id4"><span class="brackets">Com20</span></dt>
+<dd><p>Executable Books Community. <em>Jupyter Book</em>. February 2020. URL: <a class="reference external" href="https://doi.org/10.5281/zenodo.4539666">https://doi.org/10.5281/zenodo.4539666</a>, <a class="reference external" href="https://doi.org/10.5281/zenodo.4539666">doi:10.5281/zenodo.4539666</a>.</p>
+</dd>
+<dt class="label" id="id6"><span class="brackets">PVG+11</span></dt>
+<dd><p>F. Pedregosa, G. Varoquaux, A. Gramfort, V. Michel, B. Thirion, O. Grisel, M. Blondel, P. Prettenhofer, R. Weiss, V. Dubourg, J. Vanderplas, A. Passos, D. Cournapeau, M. Brucher, M. Perrot, and E. Duchesnay. Scikit-learn: machine learning in Python. <em>Journal of Machine Learning Research</em>, 12:2825–2830, 2011.</p>
 </dd>
 </dl>
 </p>
