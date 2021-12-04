@@ -60,7 +60,7 @@ jupyter-book build docs
 ```
 
 ## Report
-The final report can be found [here](https://github.com/UBC-MDS/tech_salary_predictor_canada_us/tree/main/docs/index.html)
+The final report can be found [here](https://ubc-mds.github.io/tech_salary_predictor_canada_us/)
 
 ### Exploratory data analysis
 
