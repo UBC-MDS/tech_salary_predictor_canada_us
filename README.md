@@ -25,11 +25,12 @@ Therefore, a salary predictor tool could assist them in the negotiation
 process.
 
 Using the [Stack Overflow Annual Developer
-Survey](https://insights.stackoverflow.com/survey) (Silge 2021) data, we
-did Exploratory Data analysis (EDA) and came up with some features that
-we think help predict the expected yearly compensation of tech
-employees. We describe the data, selected features, and the modeling
-process which you should be able to reproduce following the usage steps.
+Survey](https://insights.stackoverflow.com/survey) (contributors 2021)
+data, we did Exploratory Data analysis (EDA) and came up with some
+features that we think help predict the expected yearly compensation of
+tech employees. We describe the data, selected features, and the
+modeling process which you should be able to reproduce following the
+usage steps.
 
 ### Data
 
@@ -42,9 +43,11 @@ potentially associated with annual compensation.
 
 ### Usage
 
-![](out.png)
+![The dependency diagram of the Makefile](out.png)
 
 ### Dependencies
+
+-   GNU make 4.2.1
 
 The R dependencies are listed below:
 
@@ -59,17 +62,27 @@ file. However, you don’t have to manually install these dependencies.
 You need to install conda (v4.10.3) and then follow the installation
 instructions described below.
 
-Suggested way to download data:
+There are two suggested ways to run this analysis:
 
-1.  Clone this Github repository
-2.  Go to [Stack Overflow Annual Developer
-    Survey](https://insights.stackoverflow.com/survey)
-3.  Copy the link of the csv file, taking 2019 result as an example:
-    <https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2019.zip>
-4.  Run the following command at the terminal from the root directory of
-    this project:
+#### 1. Using Docker
 
-#### Option 1 - Using makefile
+*note - the instructions in this section also depends on running this in
+a unix shell (e.g., terminal or Git Bash)*
+
+To run this analysis using Docker, clone/download this repository, use
+the command line to navigate to the root of this project on your
+computer, and then type the following (filling in PATH_ON_YOUR_COMPUTER
+with the absolute path to the root of this project on your computer).
+
+    docker run --rm -v PATH_ON_YOUR_COMPUTER:/home/tech_salary_predictor_canada_us ssingh90/tech_salary_predictor_canada_us make -C '/home/tech_salary_predictor_canada_us' all
+
+To reset the repo to a clean state, with no intermediate or results
+files, run the following command at the command line/terminal from the
+root directory of this project:
+
+    docker run --rm -v PATH_ON_YOUR_COMPUTER:/home/tech_salary_predictor_canada_us ssingh90/tech_salary_predictor_canada_us make -C '/home/tech_salary_predictor_canada_us' clean
+
+#### 2. Without using Docker
 
 To replicate the analysis, clone this GitHub repository, install the
 dependencies listed above, and run the following command at the command
@@ -82,27 +95,6 @@ files, run the following command at the command line/terminal from the
 root directory of this project:
 
     make clean
-
-#### Option 2 - Executing the scripts individually
-
-    # create conda environment
-    conda env create -f tech_salary_pred_env.yaml
-    conda activate tech_salary_pred_env
-
-    # download data
-    python src/download_data.py --url=https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2019.zip --out_dir=data/raw
-
-    # pre-process data
-    Rscript src/preprocessing.R --input=data/raw/survey_results_public.csv --out_dir=data/processed
-
-    # run eda report
-    python src/eda.py --train=data/processed/training.csv --out_dir=results/
-
-    # modelling
-    python src/salary_prediction_model.py --train=data/processed/training.csv --out_dir=results --test=data/processed/test.csv
-
-    # render report
-    jupyter-book build docs
 
 ### Report
 
@@ -177,7 +169,7 @@ Contents License: <http://opendatacommons.org/licenses/dbcl/1.0/>
 
 <div id="ref-stack_overflow_survey" class="csl-entry">
 
-Silge, Julia. 2021. “2021 Developer Survey.” 2021.
+contributors, Stack Overflow. 2021. “2021 Developer Survey.” 2021.
 <https://insights.stackoverflow.com/survey/2021>.
 
 </div>
