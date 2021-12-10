@@ -12,18 +12,6 @@
         "text/plain": "0.718"
       }
     },
-    "alpha_coef": {
-      "output_type": "display_data",
-      "metadata": {
-        "scrapbook": {
-          "name": "alpha_coef",
-          "mime_prefix": ""
-        }
-      },
-      "data": {
-        "text/plain": "0.091"
-      }
-    },
     "R2": {
       "output_type": "display_data",
       "metadata": {
@@ -34,6 +22,18 @@
       },
       "data": {
         "text/plain": "0.725"
+      }
+    },
+    "alpha_coef": {
+      "output_type": "display_data",
+      "metadata": {
+        "scrapbook": {
+          "name": "alpha_coef",
+          "mime_prefix": ""
+        }
+      },
+      "data": {
+        "text/plain": "0.091"
       }
     }
   }
