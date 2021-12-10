@@ -2,4 +2,6 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: report
+root: index
+chapters:
+  - file: report
