@@ -1,3 +1,5 @@
+# author: Sanchit Singh
+
 name: Publish Dockerfile on DockerHub
 on: 
   push: 
