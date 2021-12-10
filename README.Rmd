@@ -25,6 +25,9 @@ The data set used in this project is from the [Stack Overflow Annual Developer S
 
 ### Usage
 
+![make2graph](out.png)
+
+
 ### Dependencies
 The R dependencies are listed below:
 
