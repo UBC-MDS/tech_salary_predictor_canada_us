@@ -42,7 +42,45 @@ potentially associated with annual compensation.
 
 ### Usage
 
+![The dependency diagram of the Makefile](out.png)
+
 ### Dependencies
+
+-   GNU make 4.2.1
+
+The Python dependencies can be found in the tech_salary_pred_env.yaml
+file. However, you don’t have to manually install these dependencies.
+You need to install conda (v4.10.3) and then follow the installation
+instructions described below.
+
+There are two suggested ways to run this analysis:
+
+#### 1. Using Docker
+
+*note - the instructions in this section also depends on running this in
+a unix shell (e.g., terminal or Git Bash)*
+
+To run this analysis using Docker, clone/download this repository, use
+the command line to navigate to the root of this project on your
+computer, and then type the following (filling in PATH_ON_YOUR_COMPUTER
+with the absolute path to the root of this project on your computer).
+
+    docker run --rm -v $PWD:/home/tech_salary_predictor_canada_us ssingh90/tech_salary_predictor_canada_us make -C '/home/tech_salary_predictor_canada_us' all
+
+To reset the repo to a clean state, with no intermediate or results
+files, run the following command at the command line/terminal from the
+root directory of this project:
+
+    docker run --rm -v $PWD:/home/tech_salary_predictor_canada_us ssingh90/tech_salary_predictor_canada_us make -C '/home/tech_salary_predictor_canada_us' clean
+
+#### 2. Without using Docker
+
+Note: You need tech_salary_pred_env.yaml file to do the following steps
+for this option.
+
+To replicate the analysis, clone this GitHub repository, install the
+dependencies listed below, and run the following command at the command
+line/terminal from the root directory of this project:
 
 The R dependencies are listed below:
 
@@ -52,26 +90,11 @@ The R dependencies are listed below:
     -   docopt==0.7.1
     -   testthat=3.0.4
 
-The Python dependencies can be found in the tech_salary_pred_env.yaml
-file. However, you don’t have to manually install these dependencies.
-You need to install conda (v4.10.3) and then follow the installation
-instructions described below.
+<!-- -->
 
-Suggested way to download data:
-
-1.  Clone this Github repository
-2.  Go to [Stack Overflow Annual Developer
-    Survey](https://insights.stackoverflow.com/survey)
-3.  Copy the link of the csv file, taking 2019 result as an example:
-    <https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2019.zip>
-4.  Run the following command at the terminal from the root directory of
-    this project:
-
-#### Option 1 - Using makefile
-
-To replicate the analysis, clone this GitHub repository, install the
-dependencies listed above, and run the following command at the command
-line/terminal from the root directory of this project:
+    # create conda environment
+    conda env create -f tech_salary_pred_env.yaml
+    conda activate tech_salary_pred_env
 
     make all
 
@@ -80,27 +103,6 @@ files, run the following command at the command line/terminal from the
 root directory of this project:
 
     make clean
-
-#### Option 2 - Executing the scripts individually
-
-    # create conda environment
-    conda env create -f tech_salary_pred_env.yaml
-    conda activate tech_salary_pred_env
-
-    # download data
-    python src/download_data.py --url=https://info.stackoverflowsolutions.com/rs/719-EMH-566/images/stack-overflow-developer-survey-2019.zip --out_dir=data/raw
-
-    # pre-process data
-    Rscript src/preprocessing.R --input=data/raw/survey_results_public.csv --out_dir=data/processed
-
-    # run eda report
-    python src/eda.py --train=data/processed/training.csv --out_dir=results/
-
-    # modelling
-    python src/salary_prediction_model.py --train=data/processed/training.csv --out_dir=results --test=data/processed/test.csv
-
-    # render report
-    jupyter-book build docs
 
 ### Report
 
