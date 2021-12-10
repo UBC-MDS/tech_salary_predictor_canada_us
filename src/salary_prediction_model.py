@@ -121,7 +121,6 @@ def build_model(train_df, out_dir, test_df=None):
     cv_df = pd.DataFrame(random_search.cv_results_)[["param_ridge__alpha", 
                                                      "mean_test_score", "mean_train_score"]]
     cv_df.set_index("param_ridge__alpha").plot(logx=True)
-    plt.title('Train score and test score as alpha parameter increases')
     plt.xlabel("Alpha")
     plt.ylabel("Score")
     plt.savefig(f"{out_dir}/alpha-tuning.png")
