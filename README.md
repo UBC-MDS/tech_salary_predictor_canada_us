@@ -25,12 +25,11 @@ Therefore, a salary predictor tool could assist them in the negotiation
 process.
 
 Using the [Stack Overflow Annual Developer
-Survey](https://insights.stackoverflow.com/survey) (contributors 2021)
-data, we did Exploratory Data analysis (EDA) and came up with some
-features that we think help predict the expected yearly compensation of
-tech employees. We describe the data, selected features, and the
-modeling process which you should be able to reproduce following the
-usage steps.
+Survey](https://insights.stackoverflow.com/survey) (Silge 2021) data, we
+did Exploratory Data analysis (EDA) and came up with some features that
+we think help predict the expected yearly compensation of tech
+employees. We describe the data, selected features, and the modeling
+process which you should be able to reproduce following the usage steps.
 
 ### Data
 
@@ -169,7 +168,7 @@ Contents License: <http://opendatacommons.org/licenses/dbcl/1.0/>
 
 <div id="ref-stack_overflow_survey" class="csl-entry">
 
-contributors, Stack Overflow. 2021. “2021 Developer Survey.” 2021.
+Silge, Julia. 2021. “2021 Developer Survey.” 2021.
 <https://insights.stackoverflow.com/survey/2021>.
 
 </div>
