@@ -1,0 +1,76 @@
+Traceback (most recent call last):
+  File "/Users/supernova/opt/anaconda3/envs/573/lib/python3.9/site-packages/jupyter_cache/executors/utils.py", line 51, in single_nb_execution
+    executenb(
+  File "/Users/supernova/opt/anaconda3/envs/573/lib/python3.9/site-packages/nbclient/client.py", line 1093, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+  File "/Users/supernova/opt/anaconda3/envs/573/lib/python3.9/site-packages/nbclient/util.py", line 84, in wrapped
+    return just_run(coro(*args, **kwargs))
+  File "/Users/supernova/opt/anaconda3/envs/573/lib/python3.9/site-packages/nbclient/util.py", line 62, in just_run
+    return loop.run_until_complete(coro)
+  File "/Users/supernova/opt/anaconda3/envs/573/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/supernova/opt/anaconda3/envs/573/lib/python3.9/site-packages/nbclient/client.py", line 559, in async_execute
+    await self.async_execute_cell(
+  File "/Users/supernova/opt/anaconda3/envs/573/lib/python3.9/site-packages/nbclient/client.py", line 854, in async_execute_cell
+    self._check_raise_for_error(cell, exec_reply)
+  File "/Users/supernova/opt/anaconda3/envs/573/lib/python3.9/site-packages/nbclient/client.py", line 756, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+from joblib import dump, load
+import pandas as pd
+from myst_nb import glue
+import altair as alt
+from altair_saver import save
+alt.data_transformers.enable('data_server')
+alt.renderers.enable('mimetype')
+
+
+pipe_loaded = load('../results/best_model_pipe.joblib')
+alpha = round(pipe_loaded.best_params_['ridge__alpha'], 3)
+rsquare = round(pipe_loaded.best_score_, 3)
+glue("alpha_coef", alpha);
+glue("R2", rsquare);
+
+test_result_loaded = load('../results/test_result.joblib')
+rsquare_test = round(test_result_loaded["r_sq_test"], 3)
+glue("R2_test", rsquare_test);
+
+test_df = pd.read_csv("../../data/processed/test.csv")
+y_test = test_df.ConvertedComp.tolist()
+y_predict = test_result_loaded["predict_y"].tolist()
+result = {"true_y": y_test, "predicted_y": y_predict}
+df_result = pd.DataFrame(data=result)
+df_result.head(5)
+
+df_diag = pd.DataFrame(data={"true_y": [0, max(df_result.true_y)+500],
+                             "predicted_y":[0, max(df_result.true_y)+500]})
+
+alt.Chart(df_result).mark_point(opacity=0.5).encode(
+    alt.X("predicted_y", title="Predicted salary"),
+    alt.Y("true_y", title="True salary")
+) + alt.Chart(df_diag).mark_line(color='red').encode(
+    alt.X("predicted_y", title="Predicted salary"),
+    alt.Y("true_y", title="True salary")
+)
+------------------
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mFileNotFoundError[0m                         Traceback (most recent call last)
+[0;32m/var/folders/3b/llcs545d5z3dgwycy7l6ccyw0000gn/T/ipykernel_20949/1612146983.py[0m in [0;36m<module>[0;34m[0m
+[1;32m      8[0m [0;34m[0m[0m
+[1;32m      9[0m [0;34m[0m[0m
+[0;32m---> 10[0;31m [0mpipe_loaded[0m [0;34m=[0m [0mload[0m[0;34m([0m[0;34m'../results/best_model_pipe.joblib'[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m     11[0m [0malpha[0m [0;34m=[0m [0mround[0m[0;34m([0m[0mpipe_loaded[0m[0;34m.[0m[0mbest_params_[0m[0;34m[[0m[0;34m'ridge__alpha'[0m[0;34m][0m[0;34m,[0m [0;36m3[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m     12[0m [0mrsquare[0m [0;34m=[0m [0mround[0m[0;34m([0m[0mpipe_loaded[0m[0;34m.[0m[0mbest_score_[0m[0;34m,[0m [0;36m3[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+
+[0;32m~/opt/anaconda3/envs/573/lib/python3.9/site-packages/joblib/numpy_pickle.py[0m in [0;36mload[0;34m(filename, mmap_mode)[0m
+[1;32m    577[0m             [0mobj[0m [0;34m=[0m [0m_unpickle[0m[0;34m([0m[0mfobj[0m[0;34m)[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    578[0m     [0;32melse[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0;32m--> 579[0;31m         [0;32mwith[0m [0mopen[0m[0;34m([0m[0mfilename[0m[0;34m,[0m [0;34m'rb'[0m[0;34m)[0m [0;32mas[0m [0mf[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[1;32m    580[0m             [0;32mwith[0m [0m_read_fileobject[0m[0;34m([0m[0mf[0m[0;34m,[0m [0mfilename[0m[0;34m,[0m [0mmmap_mode[0m[0;34m)[0m [0;32mas[0m [0mfobj[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[1;32m    581[0m                 [0;32mif[0m [0misinstance[0m[0;34m([0m[0mfobj[0m[0;34m,[0m [0mstr[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+
+[0;31mFileNotFoundError[0m: [Errno 2] No such file or directory: '../results/best_model_pipe.joblib'
+FileNotFoundError: [Errno 2] No such file or directory: '../results/best_model_pipe.joblib'
+
