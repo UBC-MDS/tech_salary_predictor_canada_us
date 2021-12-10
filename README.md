@@ -48,14 +48,6 @@ potentially associated with annual compensation.
 
 -   GNU make 4.2.1
 
-The R dependencies are listed below:
-
--   R version 3.6.1 and R packages:
-    -   tidyverse==1.3.1
-    -   caret==6.0.90
-    -   docopt==0.7.1
-    -   testthat=3.0.4
-
 The Python dependencies can be found in the tech_salary_pred_env.yaml
 file. However, you don’t have to manually install these dependencies.
 You need to install conda (v4.10.3) and then follow the installation
@@ -84,8 +76,22 @@ root directory of this project:
 #### 2. Without using Docker
 
 To replicate the analysis, clone this GitHub repository, install the
-dependencies listed above, and run the following command at the command
+dependencies listed below, and run the following command at the command
 line/terminal from the root directory of this project:
+
+The R dependencies are listed below:
+
+-   R version 3.6.1 and R packages:
+    -   tidyverse==1.3.1
+    -   caret==6.0.90
+    -   docopt==0.7.1
+    -   testthat=3.0.4
+
+<!-- -->
+
+    # create conda environment
+    conda env create -f tech_salary_pred_env.yaml
+    conda activate tech_salary_pred_env
 
     make all
 
