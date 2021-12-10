@@ -75,6 +75,9 @@ root directory of this project:
 
 #### 2. Without using Docker
 
+Note: You need tech_salary_pred_env.yaml file to do the following steps
+for this option.
+
 To replicate the analysis, clone this GitHub repository, install the
 dependencies listed below, and run the following command at the command
 line/terminal from the root directory of this project:
