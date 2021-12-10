@@ -48,11 +48,6 @@ potentially associated with annual compensation.
 
 -   GNU make 4.2.1
 
-The Python dependencies can be found in the tech_salary_pred_env.yaml
-file. However, you don’t have to manually install these dependencies.
-You need to install conda (v4.10.3) and then follow the installation
-instructions described below.
-
 There are two suggested ways to run this analysis:
 
 #### 1. Using Docker
@@ -75,6 +70,10 @@ root directory of this project:
 
 #### 2. Without using Docker
 
+The Python dependencies can be found in the tech_salary_pred_env.yaml
+file. However, you don’t have to manually install these dependencies.
+You need to install conda (v4.10.3) and then follow the installation
+instructions described below.
 Note: You need tech_salary_pred_env.yaml file to do the following steps
 for this option.
 
