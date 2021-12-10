@@ -64,7 +64,7 @@ def main(train, out_dir):
 
     language_codeyears_plot = alt.Chart(tech_df).mark_rect().encode(
         alt.Y('LanguageWorkedWith:N', title='Languages worked with'), 
-        alt.X('YearsCodePro:N', title='Number of professional coding years'),
+        alt.X('YearsCodePro:N', title='Number of professional coding years', axis=alt.Axis(labelAngle=0)),
         alt.Color('mean(ConvertedComp)', title='Average annual compensation')
         )
 
@@ -94,7 +94,7 @@ def main(train, out_dir):
         'ConvertedComp',
          as_=['ConvertedComp', 'Density'])  # Give the name "density" the KDE columns we just created
         .mark_area(opacity=0.8).encode(
-        x=alt.X('ConvertedComp'),
+        x=alt.X('ConvertedComp', title='Annual Compensation(USD)'),
         y='Density:Q'))
     
     # save all the plots in the out_dir
